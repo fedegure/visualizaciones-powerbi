@@ -1,0 +1,26 @@
+relationship e7cb3b12-3850-451d-ad56-feab48cbb8d7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendarios.Fecha
+	toColumn: LocalDateTable_ef64a1fd-1ada-48ad-a510-b6ebe016b8e7.Date
+
+relationship 1c03e7f3-f84e-c3dc-0d6e-5889bcb159e9
+	fromColumn: Expectativas.Fecha
+	toColumn: Calendarios.Fecha
+
+relationship d6263ca0-3329-590c-be24-6ab5aa699a17
+	fromColumn: Finanzas.Fecha
+	toColumn: Calendarios.Fecha
+
+relationship AutoDetected_1d0c02a0-7a8e-4998-80fb-6d57fe44a489
+	fromColumn: Finanzas.Categoria
+	toColumn: Categoria.Categoria
+
+relationship AutoDetected_2c0767ea-a71c-4308-81ac-690a8e11dba0
+	fromColumn: Expectativas.Categoria
+	toColumn: Categoria.Categoria
+
+relationship 6f063b0e-361f-4184-bf4f-75430e5c994a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Fecha Actualización'.'Ultima Actualización'
+	toColumn: LocalDateTable_b95e4d1f-bdd4-4dd7-898e-29ce72f0c485.Date
+

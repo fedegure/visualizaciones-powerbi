@@ -1,0 +1,44 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup 'Transformar archivo de Calendarios'
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup 'Transformar archivo de Calendarios\Consultas auxiliares'
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup 'Transformar archivo de Calendarios (2)'
+
+	annotation PBI_QueryGroupOrder = 2
+
+queryGroup 'Transformar archivo de Calendarios (2)\Consultas auxiliares'
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation PBI_QueryOrder = ["TablaIngresos","TablaMetas","TablaPresupuesto","TablaGastos","Finanzas","Expectativas","Parámetro1","Transformar archivo de ejemplo","Archivo de ejemplo","Transformar archivo","Calendarios","Parámetro2","Transformar archivo de ejemplo (2)","Archivo de ejemplo (2)","Transformar archivo (2)","Cuotas %","Categoria","Fecha Actualización"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.145.1262.0 (25.07)+10bdeda5ab0db954b2cf824e7a117ad7cee97f88
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DateTableTemplate_6a134941-4a7b-4c6a-b37d-e8ca01dfac7c
+ref table Finanzas
+ref table Expectativas
+ref table Calendarios
+ref table LocalDateTable_ef64a1fd-1ada-48ad-a510-b6ebe016b8e7
+ref table 'Cuotas %'
+ref table Categoria
+ref table 'Fecha Actualización'
+ref table LocalDateTable_b95e4d1f-bdd4-4dd7-898e-29ce72f0c485
+
+ref cultureInfo es-ES
+
