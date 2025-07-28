@@ -1,0 +1,17 @@
+relationship 76975fda-8363-4952-808e-5f06481772f4
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Tabla Empleados'.Nacimiento
+	toColumn: LocalDateTable_674e8dc8-f301-4370-8666-2aa85bd2db77.Date
+
+relationship AutoDetected_62f22bc7-e023-40fe-96db-9de79d27d24f
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Tabla Evaluacion'.'ID Empleado'
+	toColumn: 'Tabla Empleados'.'ID Empleado'
+
+relationship AutoDetected_49635df8-6ed2-4727-8346-22f7ceb5b800
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Tabla Sueldo'.'ID Empleado'
+	toColumn: 'Tabla Empleados'.'ID Empleado'
+

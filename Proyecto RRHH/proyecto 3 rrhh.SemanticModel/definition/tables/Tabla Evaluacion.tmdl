@@ -1,0 +1,58 @@
+table 'Tabla Evaluacion'
+	lineageTag: 2f2c60ae-5602-40b9-a896-ef3c1db084f2
+
+	measure 'Evaluación Prom' =
+			
+			AVERAGE('Tabla Evaluacion'[Evaluación])
+		formatString: 0.0
+		lineageTag: 713b2b49-67b8-458e-a7a2-d82df17ca866
+
+	column 'ID Empleado'
+		dataType: string
+		lineageTag: 15ef8a72-8378-46a2-bdab-37c53baf73c1
+		summarizeBy: none
+		sourceColumn: ID Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Evaluación
+		dataType: double
+		lineageTag: 58c0a364-100c-4d2c-98d0-59cfc76056c8
+		summarizeBy: sum
+		sourceColumn: Evaluación
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Grupo Evaluación' = ```
+			
+			    SWITCH(
+			        true(),
+			          'Tabla Evaluacion'[Evaluación] <= 6, "0-6", 
+			          'Tabla Evaluacion'[Evaluación] <= 7, "6-7", 
+			          'Tabla Evaluacion'[Evaluación] <= 8, "7-8", 
+			          'Tabla Evaluacion'[Evaluación] <= 9, "8-9", 
+			          "9-10"
+			    )
+			```
+		lineageTag: 395c382e-6432-4951-9f27-6766ba34a0e6
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Tabla Evaluacion' = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\Proyecto 3\Datos+Empleados.xlsx"), null, true),
+				    #"Tabla Evaluacion_Sheet" = Origen{[Item="Tabla Evaluacion",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Tabla Evaluacion_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID Empleado", type text}, {"Evaluación", type number}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

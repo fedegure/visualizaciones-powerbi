@@ -1,0 +1,57 @@
+table 'Tabla Sueldo'
+	lineageTag: 093d25ba-799b-4187-a163-e060244903f4
+
+	measure 'Sueldo Prom' =
+			
+			AVERAGE('Tabla Sueldo'[Sueldo])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 959094c1-c55b-4e4a-8be6-720272257d6f
+
+	column 'ID Empleado'
+		dataType: string
+		lineageTag: 897713e4-ab95-44f7-982a-1ecb04527dd0
+		summarizeBy: none
+		sourceColumn: ID Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sueldo
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 28f538ac-fb48-4320-8893-09c5c0320e6c
+		summarizeBy: sum
+		sourceColumn: Sueldo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Grupo Sueldo' = ```
+			
+			SWITCH(
+			    TRUE(),
+			    'Tabla Sueldo'[Sueldo] <= 40000, "0-40m",
+			    'Tabla Sueldo'[Sueldo] <= 60000, "40-60m",
+			    'Tabla Sueldo'[Sueldo] <= 80000, "60-80m",
+			    'Tabla Sueldo'[Sueldo] <= 100000, "80-100m",
+			    "Más 100m" 
+			)
+			```
+		lineageTag: f3c6df3e-5180-47e6-8a73-5c6dd69df30c
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Tabla Sueldo' = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\Proyecto 3\Datos+Empleados.xlsx"), null, true),
+				    #"Tabla Sueldo_Sheet" = Origen{[Item="Tabla Sueldo",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Tabla Sueldo_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID Empleado", type text}, {"Sueldo", Int64.Type}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
