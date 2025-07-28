@@ -1,0 +1,133 @@
+table 'Tabla Empleados'
+	lineageTag: 2b2cc7b1-c3b6-455b-8bac-49191dac0df1
+
+	measure 'Total Empleados' = COUNTROWS('Tabla Empleados')
+		formatString: 0
+		lineageTag: 6697548b-4563-4a2f-bf89-8785fb8202e6
+
+	measure 'Edad Prom' =
+			
+			AVERAGE('Tabla Empleados'[Edad])
+		formatString: 0
+		lineageTag: a2e7038b-ba95-485e-a820-257fc660da5f
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column 'ID Empleado'
+		dataType: string
+		lineageTag: 4252b173-6112-4af7-85fd-4985e66301e0
+		summarizeBy: none
+		sourceColumn: ID Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nombre Empleado'
+		dataType: string
+		lineageTag: bc4cd2a9-7186-4c25-9095-175c4ebca1c4
+		summarizeBy: none
+		sourceColumn: Nombre Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado
+		dataType: string
+		lineageTag: ddf96418-63df-410a-9259-b0bb86a59a2d
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: Estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nacimiento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: cc02532b-91f8-4772-9d98-b53f6bdb3e19
+		summarizeBy: none
+		sourceColumn: Nacimiento
+
+		variation Variación
+			isDefault
+			relationship: 76975fda-8363-4952-808e-5f06481772f4
+			defaultHierarchy: LocalDateTable_674e8dc8-f301-4370-8666-2aa85bd2db77.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Género
+		dataType: string
+		lineageTag: ad98caa2-1bf4-41e5-9c43-896dc34d1d08
+		summarizeBy: none
+		sourceColumn: Género
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: 55eb8720-4eea-499e-8d0a-e714b6df5046
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Posición
+		dataType: string
+		lineageTag: 68619e2b-00c7-49d3-a9ea-26d3186c9050
+		summarizeBy: none
+		sourceColumn: Posición
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nombre Jefe'
+		dataType: string
+		lineageTag: db88ab7b-17c5-4e50-91bf-2cb5fa6af30b
+		summarizeBy: none
+		sourceColumn: Nombre Jefe
+
+		annotation SummarizationSetBy = Automatic
+
+	column Edad = INT(YEARFRAC('Tabla Empleados'[Nacimiento], TODAY()))
+		formatString: 0
+		lineageTag: 6e9f7793-8e40-4bed-960a-f338e6d096ab
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Grupo Edad' = ```
+			
+			SWITCH(
+			    TRUE(),
+			        'Tabla Empleados'[Edad] <=30, "20-30",
+			        'Tabla Empleados'[Edad] <=40, "30-40",
+			        'Tabla Empleados'[Edad] <=50, "40-50",
+			        'Tabla Empleados'[Edad] <=60, "50-60",
+			        'Tabla Empleados'[Edad] <=70, "60-70",
+			        "Más 70"
+			)
+			        
+			```
+		lineageTag: f9a6ed56-7850-4885-ac48-92b2805ce498
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Tabla Empleados' = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\Proyecto 3\Datos+Empleados.xlsx"), null, true),
+				    #"Tabla Empleados_Sheet" = Origen{[Item="Tabla Empleados",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Tabla Empleados_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID Empleado", type text}, {"Nombre Empleado", type text}, {"Estado", type text}, {"Nacimiento", type date}, {"Género", type text}, {"Departamento", type text}, {"Posición", type text}, {"Nombre Jefe", type text}}),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Tipo cambiado","Female","Mujer",Replacer.ReplaceText,{"Género"}),
+				    #"Valor reemplazado1" = Table.ReplaceValue(#"Valor reemplazado","Male","Hombre",Replacer.ReplaceText,{"Género"}),
+				    #"Dividir columna por delimitador" = Table.SplitColumn(#"Valor reemplazado1", "Nombre Empleado", Splitter.SplitTextByDelimiter(", ", QuoteStyle.None), {"Nombre Empleado.1", "Nombre Empleado.2"}),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Dividir columna por delimitador",{{"Nombre Empleado.1", type text}, {"Nombre Empleado.2", type text}}),
+				    #"Columnas combinadas" = Table.CombineColumns(#"Tipo cambiado1",{"Nombre Empleado.2", "Nombre Empleado.1"},Combiner.CombineTextByDelimiter(" ", QuoteStyle.None),"Nombre Empleado")
+				in
+				    #"Columnas combinadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
