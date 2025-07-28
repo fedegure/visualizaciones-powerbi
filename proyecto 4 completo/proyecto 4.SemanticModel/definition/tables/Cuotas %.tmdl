@@ -1,0 +1,38 @@
+table 'Cuotas %'
+	lineageTag: 1068c8d3-a686-42fb-8e1b-03086c1ea933
+
+	measure 'Cuota Ingresos' = [Ingresos] / [Meta]
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: 7fc0e4f6-b411-4dbe-8003-4aab682bef66
+
+	measure 'Cuota Gastos' = [Gastos] / [Presupuesto]
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: 07a2bc3e-1440-44f2-80b2-3b1b32dcd57b
+
+	measure 'Cuota Utilidad' = [Utilidad] / [Ut. Esperada]
+		formatString: #,0\ %;-#,0\ %;#,0\ %
+		lineageTag: dd75fed3-cfe8-4885-841b-a74ffd1c929b
+
+	measure 'Cuota Saldo' = [Saldo] / [Sa. Esperado]
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: 975c8182-c917-47e8-800f-7e189f848505
+
+	column Columna1
+		dataType: string
+		lineageTag: d8b30be2-b68d-4bc8-998e-93561baaa599
+		summarizeBy: none
+		sourceColumn: Columna1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Cuotas %' = m
+		mode: import
+		source =
+				let
+				    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Columna1", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

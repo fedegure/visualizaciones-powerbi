@@ -1,0 +1,89 @@
+table Finanzas
+	lineageTag: 2d8642c6-81c5-4dfe-af6e-d522343d284b
+
+	measure 'Total Finanzas' = SUM( Finanzas[Cantidad] )
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 6552796a-2432-4950-a951-d6a566cce053
+
+	measure Ingresos = CALCULATE( [Total Finanzas] ,  Finanzas[Tipo] = "Ingresos")
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: fda23011-3a5f-473d-9c27-e09aceebb574
+
+	measure Gastos = CALCULATE([Total Finanzas] , Finanzas[Tipo] = "Gastos")
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 47f2aa99-ca7b-4de3-ac3c-104f49887dc9
+
+	measure Utilidad = [Ingresos] - [Gastos]
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 3836484a-c36a-4ebd-9b9b-46bd74d232fc
+
+	measure Saldo = CALCULATE( [Utilidad], FILTER( ALL(Finanzas) , Finanzas[Fecha] <= MAX(Finanzas[Fecha])))
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 1caaf515-632b-477a-a08b-4e759d09422f
+
+	measure 'Sa. Esperado' = CALCULATE( [Ut. Esperada], FILTER( ALL(Expectativas), Expectativas[Fecha] <= MAX(Expectativas[Fecha])))
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 5a0b465a-277b-40f2-91e5-de856fd69304
+
+	column Tipo
+		dataType: string
+		isHidden
+		lineageTag: d38308fb-ec2b-408c-b368-e5505f58fdcd
+		summarizeBy: none
+		sourceColumn: Tipo
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria
+		dataType: string
+		isHidden
+		lineageTag: 20e1319e-f949-4747-ac45-d555593a8771
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha
+		dataType: dateTime
+		isHidden
+		formatString: dd/mm/yy
+		lineageTag: fd2b8b16-407f-45fe-b620-a4e0352ab7f8
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Cantidad
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d505fcc1-c05f-4543-b281-492af5e2bee1
+		summarizeBy: sum
+		sourceColumn: Cantidad
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Finanzas = m
+		mode: import
+		source =
+				let
+				    Origen = Table.Combine({TablaGastos, TablaIngresos})
+				in
+				    Origen
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

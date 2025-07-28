@@ -1,0 +1,163 @@
+expression TablaIngresos =
+		let
+		    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\proyecto 4\Finanzas.xlsx"), null, true),
+		    TablaIngresos_DefinedName = Origen{[Item="TablaIngresos",Kind="DefinedName"]}[Data],
+		    #"Encabezados promovidos" = Table.PromoteHeaders(TablaIngresos_DefinedName, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Categoria", type text}, {"Fecha", type date}, {"Cantidad", Int64.Type}}),
+		    #"Personalizada agregada" = Table.AddColumn(#"Tipo cambiado", "Personalizado", each "Ingresos"),
+		    #"Columnas reordenadas" = Table.ReorderColumns(#"Personalizada agregada",{"Personalizado", "Categoria", "Fecha", "Cantidad"}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Columnas reordenadas",{{"Personalizado", "Tipo"}})
+		in
+		    #"Columnas con nombre cambiado"
+	lineageTag: 3cc77a5c-8b2c-4374-90b5-1fc29e50d102
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression TablaMetas =
+		let
+		    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\proyecto 4\Finanzas.xlsx"), null, true),
+		    TablaMetas_Table = Origen{[Item="TablaMetas",Kind="Table"]}[Data],
+		    #"Tipo cambiado" = Table.TransformColumnTypes(TablaMetas_Table,{{"Fecha", type text}, {"Remuneracion", Int64.Type}, {"Online", Int64.Type}}),
+		    #"Prefijo agregado" = Table.TransformColumns(#"Tipo cambiado", {{"Fecha", each "01/" & _, type text}}),
+		    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Prefijo agregado",{{"Fecha", type date}}),
+		    #"Columna de anulación de dinamización" = Table.UnpivotOtherColumns(#"Tipo cambiado1", {"Fecha"}, "Atributo", "Valor"),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Columna de anulación de dinamización",{{"Atributo", "Categoria"}, {"Valor", "Cantidad"}}),
+		    #"Personalizada agregada" = Table.AddColumn(#"Columnas con nombre cambiado", "Personalizado", each "Meta
+		"),
+		    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Personalizada agregada",{{"Personalizado", "Tipo"}}),
+		    #"Columnas reordenadas" = Table.ReorderColumns(#"Columnas con nombre cambiado1",{"Tipo", "Categoria", "Fecha", "Cantidad"})
+		in
+		    #"Columnas reordenadas"
+	lineageTag: a0ae5106-c703-4679-a557-67e433baa6da
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression TablaPresupuesto =
+		let
+		    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\proyecto 4\Finanzas.xlsx"), null, true),
+		    TablaPresupuesto_Table = Origen{[Item="TablaPresupuesto",Kind="Table"]}[Data],
+		    #"Tipo cambiado" = Table.TransformColumnTypes(TablaPresupuesto_Table,{{"Categoria", type text}, {"01/19", Int64.Type}, {"02/19", Int64.Type}, {"03/19", Int64.Type}, {"04/19", Int64.Type}, {"05/19", Int64.Type}, {"06/19", Int64.Type}, {"07/19", Int64.Type}, {"08/19", Int64.Type}, {"09/19", Int64.Type}, {"10/19", Int64.Type}, {"11/19", Int64.Type}, {"12/19", Int64.Type}, {"01/20", Int64.Type}, {"02/20", Int64.Type}, {"03/20", Int64.Type}, {"04/20", Int64.Type}, {"05/20", Int64.Type}, {"06/20", Int64.Type}, {"07/20", Int64.Type}, {"08/20", Int64.Type}, {"09/20", Int64.Type}, {"10/20", Int64.Type}, {"11/20", Int64.Type}, {"12/20", Int64.Type}}),
+		    #"Columna de anulación de dinamización" = Table.UnpivotOtherColumns(#"Tipo cambiado", {"Categoria"}, "Atributo", "Valor"),
+		    #"Prefijo agregado" = Table.TransformColumns(#"Columna de anulación de dinamización", {{"Atributo", each "01/" & _, type text}}),
+		    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Prefijo agregado",{{"Atributo", type date}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado1",{{"Atributo", "Fecha"}, {"Valor", "Cantidad"}}),
+		    #"Personalizada agregada" = Table.AddColumn(#"Columnas con nombre cambiado", "Tipo", each "Presupuesto"),
+		    #"Columnas reordenadas" = Table.ReorderColumns(#"Personalizada agregada",{"Tipo", "Categoria", "Fecha", "Cantidad"})
+		in
+		    #"Columnas reordenadas"
+	lineageTag: 43110e92-2322-444f-9bf7-e14813ad07e4
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression TablaGastos =
+		let
+		    Origen = Excel.Workbook(File.Contents("C:\Users\Fede\OneDrive\Documentos\Power BI\proyecto 4\Finanzas.xlsx"), null, true),
+		    TablaGastos_Table = Origen{[Item="TablaGastos",Kind="Table"]}[Data],
+		    #"Tipo cambiado" = Table.TransformColumnTypes(TablaGastos_Table,{{"Categoria", type text}, {"Fecha", type date}, {"Cantidad", Int64.Type}}),
+		    #"Personalizada agregada" = Table.AddColumn(#"Tipo cambiado", "Personalizado", each "Gastos"),
+		    #"Columnas reordenadas" = Table.ReorderColumns(#"Personalizada agregada",{"Personalizado", "Categoria", "Fecha", "Cantidad"}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Columnas reordenadas",{{"Personalizado", "Tipo"}})
+		in
+		    #"Columnas con nombre cambiado"
+	lineageTag: 7513cd03-c334-438c-91f4-23e26eab09db
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Transformar archivo de ejemplo' =
+		let
+		    Origen = Excel.Workbook(Parámetro1, null, true),
+		    #"Hoja 1_Sheet" = Origen{[Item="Hoja 1",Kind="Sheet"]}[Data],
+		    #"Encabezados promovidos" = Table.PromoteHeaders(#"Hoja 1_Sheet", [PromoteAllScalars=true])
+		in
+		    #"Encabezados promovidos"
+	lineageTag: 9d5896cc-f920-4513-8498-5915ac247303
+	queryGroup: 'Transformar archivo de Calendarios'
+
+	annotation PBI_ResultType = Table
+
+expression Parámetro1 = #"Archivo de ejemplo" meta [IsParameterQuery=true, BinaryIdentifier=#"Archivo de ejemplo", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: 8ffe39ac-1b60-465f-9e30-325b43970f74
+	queryGroup: 'Transformar archivo de Calendarios\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Archivo de ejemplo' =
+		let
+		    Origen = Folder.Files("C:\Users\Fede\OneDrive\Documentos\Power BI\proyecto 4\Calendarios"),
+		    Navegación1 = Origen{0}[Content]
+		in
+		    Navegación1
+	lineageTag: e3fd40ad-078a-40de-8088-ae25b6e754d2
+	queryGroup: 'Transformar archivo de Calendarios\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformar archivo' =
+		let
+		    Origen = (Parámetro1 as binary) => let
+		    Origen = Excel.Workbook(Parámetro1, null, true),
+		    #"Hoja 1_Sheet" = Origen{[Item="Hoja 1",Kind="Sheet"]}[Data],
+		    #"Encabezados promovidos" = Table.PromoteHeaders(#"Hoja 1_Sheet", [PromoteAllScalars=true])
+		in
+		    #"Encabezados promovidos"
+		in
+		    Origen
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo""}" ]
+	lineageTag: a23b5af5-9b1e-42fc-b6b9-3e1990fe47d2
+	queryGroup: 'Transformar archivo de Calendarios\Consultas auxiliares'
+
+	annotation PBI_ResultType = Function
+
+expression 'Transformar archivo de ejemplo (2)' =
+		let
+		    Origen = Excel.Workbook(Parámetro2, null, true),
+		    #"Hoja 1_Sheet" = Origen{[Item="Hoja 1",Kind="Sheet"]}[Data],
+		    #"Encabezados promovidos" = Table.PromoteHeaders(#"Hoja 1_Sheet", [PromoteAllScalars=true])
+		in
+		    #"Encabezados promovidos"
+	lineageTag: 1dce731f-9d9a-4efa-ada4-b9c183aa0311
+	queryGroup: 'Transformar archivo de Calendarios (2)'
+
+	annotation PBI_ResultType = Table
+
+expression Parámetro2 = #"Archivo de ejemplo (2)" meta [IsParameterQuery=true, BinaryIdentifier=#"Archivo de ejemplo (2)", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: fc971573-a0b6-4f34-90c8-a62f0f298bfa
+	queryGroup: 'Transformar archivo de Calendarios (2)\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Archivo de ejemplo (2)' =
+		let
+		    Origen = Folder.Files("C:\Users\Fede\OneDrive\Documentos\Power BI\proyecto 4\Calendarios"),
+		    Navegación1 = Origen{0}[Content]
+		in
+		    Navegación1
+	lineageTag: 610c5c89-0a47-4a08-99af-e59d5f8249bf
+	queryGroup: 'Transformar archivo de Calendarios (2)\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformar archivo (2)' =
+		let
+		    Origen = (Parámetro2 as binary) => let
+		    Origen = Excel.Workbook(Parámetro2, null, true),
+		    #"Hoja 1_Sheet" = Origen{[Item="Hoja 1",Kind="Sheet"]}[Data],
+		    #"Encabezados promovidos" = Table.PromoteHeaders(#"Hoja 1_Sheet", [PromoteAllScalars=true])
+		in
+		    #"Encabezados promovidos"
+		in
+		    Origen
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo (2)""}" ]
+	lineageTag: f239e932-138c-47b5-9e40-70ba642da05e
+	queryGroup: 'Transformar archivo de Calendarios (2)\Consultas auxiliares'
+
+	annotation PBI_ResultType = Function
+

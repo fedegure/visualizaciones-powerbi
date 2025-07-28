@@ -1,0 +1,29 @@
+table 'Fecha Actualización'
+	lineageTag: e4c7fea1-873a-4477-bb91-4a37a0640771
+
+	column 'Ultima Actualización'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: db94542a-2b7f-40f2-ae5c-224527f41ce0
+		summarizeBy: none
+		sourceColumn: Ultima Actualización
+
+		variation Variación
+			isDefault
+			relationship: 6f063b0e-361f-4184-bf4f-75430e5c994a
+			defaultHierarchy: LocalDateTable_b95e4d1f-bdd4-4dd7-898e-29ce72f0c485.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Fecha Actualización' = m
+		mode: import
+		source =
+				let
+				    Origen = #table(type table[Ultima Actualización=datetime], {{DateTime.LocalNow()}})
+				in
+				    Origen
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

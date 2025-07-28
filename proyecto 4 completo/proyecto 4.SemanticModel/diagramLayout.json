@@ -1,0 +1,99 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 200
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 540.5625
+          },
+          "nodeIndex": "Expectativas",
+          "nodeLineageTag": "2f85018e-9c31-437a-90b3-d29fde785a6d",
+          "size": {
+            "height": 277,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 593.38305001469348,
+            "y": 632.5625
+          },
+          "nodeIndex": "Finanzas",
+          "nodeLineageTag": "2d8642c6-81c5-4dfe-af6e-d522343d284b",
+          "size": {
+            "height": 236,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 37,
+            "y": 90.5625
+          },
+          "nodeIndex": "Calendarios",
+          "nodeLineageTag": "0123905e-fece-495c-b02f-782362c56e15",
+          "size": {
+            "height": 255,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 926.38305001469348,
+            "y": 85.0625
+          },
+          "nodeIndex": "Cuotas %",
+          "nodeLineageTag": "1068c8d3-a686-42fb-8e1b-03086c1ea933",
+          "size": {
+            "height": 242,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 386.38305001469348,
+            "y": 50.8125
+          },
+          "nodeIndex": "Categoria",
+          "nodeLineageTag": "d068f48e-34a3-4d64-b919-fea23b0006fe",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 1210.3830500146935,
+            "y": 373.8125
+          },
+          "nodeIndex": "Fecha Actualización",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

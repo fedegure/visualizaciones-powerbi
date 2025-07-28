@@ -1,0 +1,79 @@
+table Expectativas
+	lineageTag: 2f85018e-9c31-437a-90b3-d29fde785a6d
+
+	measure 'Total Expectativas' = SUM (Expectativas[Cantidad])
+		formatString: 0
+		lineageTag: 9c23ba37-2171-4508-87b2-3dabc2048adb
+
+	measure Meta = CALCULATE([Total Expectativas], Expectativas[Tipo] = "Meta")
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 5fd1c926-4079-479a-b7af-542448a36a14
+
+	measure Presupuesto = CALCULATE([Total Expectativas], Expectativas[Tipo] = "Presupuesto")
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 89c42691-3985-4c9f-8ff9-9c52630f83ae
+
+	measure 'Ut. Esperada' = [Meta] - [Presupuesto]
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 30c22d5c-31aa-469b-aaee-9b36aa79d0ff
+
+	column Tipo
+		dataType: string
+		isHidden
+		lineageTag: f10c4167-3a97-4bdc-855a-cb6149e72751
+		summarizeBy: none
+		sourceColumn: Tipo
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria
+		dataType: string
+		isHidden
+		lineageTag: 5c198f88-1510-45f3-80a1-dce74e6ccbb2
+		summarizeBy: none
+		sourceColumn: Categoria
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: c7f952eb-b5ce-42e1-9644-50ee9f8a48aa
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Cantidad
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4bebf5e8-f0ab-4d7a-9635-adf9411ecc6a
+		summarizeBy: sum
+		sourceColumn: Cantidad
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Expectativas = m
+		mode: import
+		source =
+				let
+				    Origen = Table.Combine({TablaMetas, TablaPresupuesto})
+				in
+				    Origen
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
