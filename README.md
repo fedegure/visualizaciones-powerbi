@@ -130,7 +130,7 @@ Todos los binarios están empaquetados usando PyInstaller, respetando la portabi
 
 \## 🖼️ Vista previa
 
-![Captura de VYTDLP en uso](https://raw.githubusercontent.com/fedegure/VYTDLP/main/preview.png)
+![Preview Visual YTDLP](https://raw.githubusercontent.com/fedegure/VYTDLP/main/preview2.png)
 
 <!-- Subí una imagen al repositorio con este nombre para que se muestre automáticamente -->
 
