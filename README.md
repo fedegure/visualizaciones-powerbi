@@ -1,4 +1,4 @@
-\# 📦 VYTDLP
+\# 📦 Visual YT-DLP
 
 
 
@@ -52,7 +52,7 @@ Pensada para usuarios no técnicos: intuitiva, robusta y sin dependencias extern
 
 
 
-1\. Ejecutar `VYTDLP.exe`  
+1\. Ejecutar `visualyt.exe`  
 
 2\. Pegar el enlace del video  
 
@@ -100,7 +100,7 @@ No se promueve la infracción de derechos de autor, ni se almacenan o distribuye
 
 \## 📁 Estructura del ejecutable
 
-VYTDLP.exe
+visualyt.exe
 ├─ assets/
 │  ├─ yt-dlp.exe
 │  └─ ffmpeg.exe
