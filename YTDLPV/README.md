@@ -1,4 +1,4 @@
-\# 📦 VYTDLP
+\# 📦 Visual YT-DLP
 
 
 
@@ -52,7 +52,7 @@ Pensada para usuarios no técnicos: intuitiva, robusta y sin dependencias extern
 
 
 
-1\. Ejecutar `VYTDLP.exe`  
+1\. Ejecutar `visualyt.exe`  
 
 2\. Pegar el enlace del video  
 
@@ -100,7 +100,7 @@ No se promueve la infracción de derechos de autor, ni se almacenan o distribuye
 
 \## 📁 Estructura del ejecutable
 
-VYTDLP.exe
+visualyt.exe
 ├─ assets/
 │  ├─ yt-dlp.exe
 │  └─ ffmpeg.exe
@@ -130,7 +130,7 @@ Todos los binarios están empaquetados usando PyInstaller, respetando la portabi
 
 \## 🖼️ Vista previa
 
-!\[Captura de VYTDLP en uso](https://github.com/fedegure/VYTDLP/blob/main/preview.png)
+![Captura de VYTDLP en uso](https://raw.githubusercontent.com/fedegure/VYTDLP/main/preview.png)
 
 <!-- Subí una imagen al repositorio con este nombre para que se muestre automáticamente -->
 
