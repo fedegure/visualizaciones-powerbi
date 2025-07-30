@@ -124,25 +124,14 @@ Todos los binarios están empaquetados usando PyInstaller, respetando la portabi
 
 \## ✒️ Autor
 
-
-
 \*\*fedegure\*\*  
 
-Diseñador y desarrollador enfocado en la calidad visual, legalidad clara y robustez técnica.  
-
-Este proyecto busca demostrar que una herramienta técnica puede tener presentación profesional, ética y experiencia impecable.
-
-
-
 ---
-
-
 
 \## 🖼️ Vista previa
 
 
-
-!\[Captura de VYTDLP en uso](preview.png)
+!\[Captura de VYTDLP en uso](https://i.imgur.com/kqPhi5z.png)
 
 
 
