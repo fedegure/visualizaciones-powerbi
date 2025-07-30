@@ -1,0 +1,3 @@
+En caso de no poder cargar base de datos de Access, descargar:
+
+https://www.microsoft.com/en-us/download/details.aspx?id=13255
