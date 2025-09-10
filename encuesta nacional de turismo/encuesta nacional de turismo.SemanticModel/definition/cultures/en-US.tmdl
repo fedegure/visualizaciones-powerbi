@@ -1,0 +1,4820 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "turistasemisivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-emisivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "turistas-emisivo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "turista-emisivo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "turistas emisivo": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "turista emisivo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "turistasemisivo.indice_tiempo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-emisivo",
+			          "ConceptualProperty": "indice_tiempo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "indice tiempo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indice_tiempo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "turistasemisivo.medio_de_transporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-emisivo",
+			          "ConceptualProperty": "medio_de_transporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "medio de transporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medio_de_transporte": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "turistasemisivo.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-emisivo",
+			          "ConceptualProperty": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "turistasemisivo.egreso_de_turista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-emisivo",
+			          "ConceptualProperty": "Egreso de Turistas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "egreso de turista": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "turistasreceptivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-receptivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "turistas-receptivo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "turista-receptivo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "turistas receptivo": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "turista receptivo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "turistasreceptivo.indice_tiempo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-receptivo",
+			          "ConceptualProperty": "indice_tiempo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "indice tiempo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indice_tiempo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "turistasreceptivo.medio_de_transporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-receptivo",
+			          "ConceptualProperty": "medio_de_transporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "medio de transporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medio_de_transporte": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "turistasreceptivo.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-receptivo",
+			          "ConceptualProperty": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "turistasreceptivo.ingreso_de_turista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "turistas-receptivo",
+			          "ConceptualProperty": "Ingreso de Turistas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ingreso de turista": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "saldoturistasserie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "saldo-turistas-serie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "saldo-turistas-serie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "saldo-turista-serie": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "saldo turistas serie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "saldo turista serie": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "saldoturistasserie.indice_tiempo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "saldo-turistas-serie",
+			          "ConceptualProperty": "indice_tiempo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "indice tiempo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indice_tiempo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "saldoturistasserie.medio_de_transporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "saldo-turistas-serie",
+			          "ConceptualProperty": "medio_de_transporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "medio de transporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medio_de_transporte": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "saldoturistasserie.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "saldo-turistas-serie",
+			          "ConceptualProperty": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "saldoturistasserie.balanza": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "saldo-turistas-serie",
+			          "ConceptualProperty": "balanza"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "balanza": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dim period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "MonthName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.month_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "MonthShort"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month short": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthShort": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "short": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mth short": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "small": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "little": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "petite": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "squat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "diminutive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "brief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "quick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "rapid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "fleeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.month_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "MonthYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "DayOfWeek"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DayOfWeek": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.day_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "DayName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DayName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "day nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.is_weekend": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "IsWeekend"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is weekend": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IsWeekend": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "weekend": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.is_holiday": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDate",
+			          "ConceptualProperty": "IsHoliday"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is holiday": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IsHoliday": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "holiday": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "is break": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "is leave": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "is trip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "is outing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "break": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "leave": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "trip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "is vacation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "is sabbatical": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ingreso_de_turista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Ingreso de Turistas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingreso de turista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ingresos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egreso_de_turista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Egreso de Turistas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egreso de turista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Egresos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.BalanzaTuristas_historico_nominal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "BalanzaTuristas Historico Nominal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "BalanzaTuristas historico nominal": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.variacion_interanual_receptivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Variacion Interanual Receptivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion interanual receptivo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.variacion_interanual_emisivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Variacion Interanual Emisivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion interanual emisivo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.variacion_interanual_balanza": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Variacion Interanual Balanza"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion interanual balanza": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.variacion_intermensual_receptivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Variacion Intermensual Receptivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion intermensual receptivo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.variacion_intermensual_emisivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Variacion Intermensual Emisivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion intermensual emisivo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.variacion_intermensual_balanza": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Variacion Intermensual Balanza"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion intermensual balanza": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ComparacionInteranual_receptivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ComparacionInteranual Receptivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ComparacionInteranual receptivo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vs mismo mes año pasado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ComparacionInteranual_emisivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ComparacionInteranual Emisivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ComparacionInteranual emisivo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vs mismo mes año pasado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ComparacionInteranual_balanza": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ComparacionInteranual Balanza"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ComparacionInteranual balanza": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ComparacionInteranual_emisivo_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ComparacionInteranual Emisivo %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ComparacionInteranual emisivo %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comparacioninteranual emisivo percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "comparacioninteranual emisivo pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "+ egreso de turistas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "contra mismo período año previo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ComparacionInteranual_balanza_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ComparacionInteranual Balanza %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ComparacionInteranual balanza %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comparacioninteranual balanza percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "comparacioninteranual balanza pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ComparacionInteranual_receptivo_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ComparacionInteranual Receptivo %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ComparacionInteranual receptivo %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comparacioninteranual receptivo percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "comparacioninteranual receptivo pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "vs mismo mes año pasado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "contra mismo período año previo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egresos_acumulado_hasta_UltimoMes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Egresos Acumulado Hasta UltimoMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos acumulado hasta UltimoMes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egresos_acumulado_anio_EnCurso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Egresos Acumulado Anio EnCurso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos acumulado anio EnCurso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Año en curso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Egresos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ingresos_acumulado_hasta_UltimoMes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Ingresos Acumulado Hasta UltimoMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingresos acumulado hasta UltimoMes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim región": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimRegión": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región.macro_región": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "ConceptualProperty": "MacroRegión"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "macro región": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MacroRegión": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "ConceptualProperty": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "place": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "dim_región.latitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "ConceptualProperty": "Latitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región.longitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "ConceptualProperty": "Longitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región.MacroRegión_jerarquía": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "Hierarchy": "MacroRegión Jerarquía"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MacroRegión jerarquía": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región.MacroRegión_jerarquía.macro_región": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "Hierarchy": "MacroRegión Jerarquía",
+			          "HierarchyLevel": "MacroRegión"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "macro región": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MacroRegión": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_región.MacroRegión_jerarquía.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimRegión",
+			          "Hierarchy": "MacroRegión Jerarquía",
+			          "HierarchyLevel": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "dim_medio_transporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMedioTransporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim medio transporte": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimMedioTransporte": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_medio_transporte.medio_de_transporte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMedioTransporte",
+			          "ConceptualProperty": "Medio de Transporte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medio de transporte": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.UltimaFechaConDatos_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "UltimaFechaConDatos +1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "UltimaFechaConDatos +1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ingresos_acumulado_año_en_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "IngresosAcumuladoAñoEnCurso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingresos acumulado año en curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IngresosAcumuladoAñoEnCurso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Ingresos al país en el año en curso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total Turistas año en curso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total Ingresos año en curso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Ingresos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egresos_acumulado_año_en_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EgresosAcumuladoAñoEnCurso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos acumulado año en curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EgresosAcumuladoAñoEnCurso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Total Turistas año en curso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total Egresos año en curso": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ingresos_ultimo_mes_año_en_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "IngresosUltimoMesAñoEnCurso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingresos ultimo mes año en curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IngresosUltimoMesAñoEnCurso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Total Turistas Último mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total Ingresos Último mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ingreso_VariacionPorcentualUltimoMesInteranual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Ingreso VariacionPorcentualUltimoMesInteranual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingreso VariacionPorcentualUltimoMesInteranual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "contra mismo mes año previo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.filtro_pais_seleccionado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "FiltroPaisSeleccionado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "filtro pais seleccionado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiltroPaisSeleccionado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.filtro_transporte_seleccionado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "FiltroTransporteSeleccionado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "filtro transporte seleccionado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiltroTransporteSeleccionado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egresos_ultimo_mes_año_en_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EgresosUltimoMesAñoEnCurso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos ultimo mes año en curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EgresosUltimoMesAñoEnCurso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Total Turistas Último mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total Egresos Último mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egresos_variacion_porcentual_ultimo_mes_interanual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EgresosVariacionPorcentualUltimoMesInteranual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos variacion porcentual ultimo mes interanual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EgresosVariacionPorcentualUltimoMesInteranual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "contra mismo mes año previo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.EgresosAcumuladoAnioAnterior_hasta_este_mes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EgresosAcumuladoAnioAnterior hasta este mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "EgresosAcumuladoAnioAnterior hasta este mes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Año previo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.egresos_ultimo_mes_anio_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "EgresosUltimoMesAnioAnterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos ultimo mes anio anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EgresosUltimoMesAnioAnterior": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ingresos_ultimo_mes_anio_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "IngresosUltimoMesAnioAnterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ingresos ultimo mes anio anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IngresosUltimoMesAnioAnterior": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.IngresosAcumuladoAnioAnterior_hasta_este_mes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "IngresosAcumuladoAnioAnterior hasta este mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "IngresosAcumuladoAnioAnterior hasta este mes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.BalanzaTuristas_historico_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "BalanzaTuristas Historico %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "BalanzaTuristas historico %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "balanzaturista historico percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "balanzaturista historico pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "medida.balanza_ultimo_mes_nominal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Balanza Ultimo mes nominal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "balanza ultimo mes nominal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Último mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Balanza turística último mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.balanza_ultimo_mes_interanual_nominal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Balanza ultimo mes interanual nominal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "balanza ultimo mes interanual nominal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vs Mismo mes año pasado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.BalanzaUltimoMes_año_previo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "BalanzaUltimoMes año previo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "BalanzaUltimoMes año previo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ultimo_mes_con_datos_ES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "UltimoMesConDatos_ES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultimo mes con datos ES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UltimoMesConDatos_ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ultima_fecha_con_datos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "UltimaFechaConDatos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha con datos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UltimaFechaConDatos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "medida.balanza_año_en_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Balanza Año en curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "balanza año en curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dim_región_MacroRegión_jerarquía_macro_región_has_dim_región_MacroRegión_jerarquía_país": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región.MacroRegión_jerarquía.macro_región": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía.macro_región"
+			          }
+			        },
+			        "dim_región.MacroRegión_jerarquía.país": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía.país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región.MacroRegión_jerarquía.macro_región"
+			            },
+			            "Object": {
+			              "Role": "dim_región.MacroRegión_jerarquía.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "macro_regións_have_país"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región.MacroRegión_jerarquía.país"
+			            },
+			            "Object": {
+			              "Role": "dim_región.MacroRegión_jerarquía.macro_región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "país_have_macro_regións"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_región.MacroRegión_jerarquía.país"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_región.MacroRegión_jerarquía.macro_región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "país_are_in_macro_regións"
+			        }
+			      ]
+			    },
+			    "dim_región_MacroRegión_jerarquía_has_país": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región.MacroRegión_jerarquía": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía"
+			          }
+			        },
+			        "dim_región.MacroRegión_jerarquía.país": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía.país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región.MacroRegión_jerarquía"
+			            },
+			            "Object": {
+			              "Role": "dim_región.MacroRegión_jerarquía.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MacroRegión_jerarquías_have_país"
+			        }
+			      ]
+			    },
+			    "dim_región_MacroRegión_jerarquía_has_macro_región": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región.MacroRegión_jerarquía": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía"
+			          }
+			        },
+			        "dim_región.MacroRegión_jerarquía.macro_región": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía.macro_región"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región.MacroRegión_jerarquía"
+			            },
+			            "Object": {
+			              "Role": "dim_región.MacroRegión_jerarquía.macro_región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MacroRegión_jerarquías_have_macro_regións"
+			        }
+			      ]
+			    },
+			    "dim_date_date_date_hierarchy_has_dim_date_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_date.date.date_hierarchy"
+			          }
+			        },
+			        "dim_date.date.day": {
+			          "Target": {
+			            "Entity": "dim_date.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    },
+			    "dim_date_date_date_hierarchy_has_dim_date_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_date.date.date_hierarchy"
+			          }
+			        },
+			        "dim_date.date.month": {
+			          "Target": {
+			            "Entity": "dim_date.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "dim_date_date_date_hierarchy_has_dim_date_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_date.date.date_hierarchy"
+			          }
+			        },
+			        "dim_date.date.quarter": {
+			          "Target": {
+			            "Entity": "dim_date.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "dim_date_date_date_hierarchy_has_dim_date_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_date.date.date_hierarchy"
+			          }
+			        },
+			        "dim_date.date.year": {
+			          "Target": {
+			            "Entity": "dim_date.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "dim_date_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date.date": {
+			          "Target": {
+			            "Entity": "dim_date.date"
+			          }
+			        },
+			        "dim_date.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dim_date.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date.date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "saldoturistasserie_has_dim_región": {
+			      "Binding": {
+			        "ConceptualEntity": "saldo-turistas-serie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "saldoturistasserie": {
+			          "Target": {
+			            "Entity": "saldoturistasserie"
+			          }
+			        },
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        }
+			      }
+			    },
+			    "saldoturistasserie_has_dim_date": {
+			      "Binding": {
+			        "ConceptualEntity": "saldo-turistas-serie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "saldoturistasserie": {
+			          "Target": {
+			            "Entity": "saldoturistasserie"
+			          }
+			        },
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        }
+			      }
+			    },
+			    "saldoturistasserie_has_dim_medio_transporte": {
+			      "Binding": {
+			        "ConceptualEntity": "saldo-turistas-serie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "saldoturistasserie": {
+			          "Target": {
+			            "Entity": "saldoturistasserie"
+			          }
+			        },
+			        "dim_medio_transporte": {
+			          "Target": {
+			            "Entity": "dim_medio_transporte"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_dim_región": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_dim_date": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_dim_medio_transporte": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "dim_medio_transporte": {
+			          "Target": {
+			            "Entity": "dim_medio_transporte"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_dim_región": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_dim_date": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_dim_medio_transporte": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "dim_medio_transporte": {
+			          "Target": {
+			            "Entity": "dim_medio_transporte"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_balanza_año_en_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.balanza_año_en_curso": {
+			          "Target": {
+			            "Entity": "medida.balanza_año_en_curso"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_balanza_año_en_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.balanza_año_en_curso": {
+			          "Target": {
+			            "Entity": "medida.balanza_año_en_curso"
+			          }
+			        }
+			      }
+			    },
+			    "dim_date_has_medida_ultima_fecha_con_datos": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "medida.ultima_fecha_con_datos": {
+			          "Target": {
+			            "Entity": "medida.ultima_fecha_con_datos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "medida.ultima_fecha_con_datos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_ultima_fecha_con_datos"
+			        }
+			      ]
+			    },
+			    "dim_date_has_medida_ultimo_mes_con_datos_ES": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "medida.ultimo_mes_con_datos_ES": {
+			          "Target": {
+			            "Entity": "medida.ultimo_mes_con_datos_ES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "medida.ultimo_mes_con_datos_ES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_ultimo_mes_con_datos_ES"
+			        }
+			      ]
+			    },
+			    "turistasreceptivo_has_medida_BalanzaUltimoMes_año_previo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.BalanzaUltimoMes_año_previo": {
+			          "Target": {
+			            "Entity": "medida.BalanzaUltimoMes_año_previo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_BalanzaUltimoMes_año_previo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.BalanzaUltimoMes_año_previo": {
+			          "Target": {
+			            "Entity": "medida.BalanzaUltimoMes_año_previo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_balanza_ultimo_mes_interanual_nominal": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.balanza_ultimo_mes_interanual_nominal": {
+			          "Target": {
+			            "Entity": "medida.balanza_ultimo_mes_interanual_nominal"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_balanza_ultimo_mes_interanual_nominal": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.balanza_ultimo_mes_interanual_nominal": {
+			          "Target": {
+			            "Entity": "medida.balanza_ultimo_mes_interanual_nominal"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_balanza_ultimo_mes_nominal": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.balanza_ultimo_mes_nominal": {
+			          "Target": {
+			            "Entity": "medida.balanza_ultimo_mes_nominal"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_balanza_ultimo_mes_nominal": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.balanza_ultimo_mes_nominal": {
+			          "Target": {
+			            "Entity": "medida.balanza_ultimo_mes_nominal"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_BalanzaTuristas_historico_": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.BalanzaTuristas_historico_": {
+			          "Target": {
+			            "Entity": "medida.BalanzaTuristas_historico_"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_BalanzaTuristas_historico_": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.BalanzaTuristas_historico_": {
+			          "Target": {
+			            "Entity": "medida.BalanzaTuristas_historico_"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_IngresosAcumuladoAnioAnterior_hasta_este_mes": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.IngresosAcumuladoAnioAnterior_hasta_este_mes": {
+			          "Target": {
+			            "Entity": "medida.IngresosAcumuladoAnioAnterior_hasta_este_mes"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ingresos_ultimo_mes_anio_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ingresos_ultimo_mes_anio_anterior": {
+			          "Target": {
+			            "Entity": "medida.ingresos_ultimo_mes_anio_anterior"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egresos_ultimo_mes_anio_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egresos_ultimo_mes_anio_anterior": {
+			          "Target": {
+			            "Entity": "medida.egresos_ultimo_mes_anio_anterior"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_EgresosAcumuladoAnioAnterior_hasta_este_mes": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.EgresosAcumuladoAnioAnterior_hasta_este_mes": {
+			          "Target": {
+			            "Entity": "medida.EgresosAcumuladoAnioAnterior_hasta_este_mes"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egresos_variacion_porcentual_ultimo_mes_interanual": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egresos_variacion_porcentual_ultimo_mes_interanual": {
+			          "Target": {
+			            "Entity": "medida.egresos_variacion_porcentual_ultimo_mes_interanual"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egresos_ultimo_mes_año_en_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egresos_ultimo_mes_año_en_curso": {
+			          "Target": {
+			            "Entity": "medida.egresos_ultimo_mes_año_en_curso"
+			          }
+			        }
+			      }
+			    },
+			    "dim_medio_transporte_has_medida_filtro_transporte_seleccionado": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMedioTransporte"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_medio_transporte": {
+			          "Target": {
+			            "Entity": "dim_medio_transporte"
+			          }
+			        },
+			        "medida.filtro_transporte_seleccionado": {
+			          "Target": {
+			            "Entity": "medida.filtro_transporte_seleccionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_medio_transporte"
+			            },
+			            "Object": {
+			              "Role": "medida.filtro_transporte_seleccionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_medio_transportes_have_filtro_transporte_seleccionado"
+			        }
+			      ]
+			    },
+			    "dim_región_has_medida_filtro_pais_seleccionado": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "medida.filtro_pais_seleccionado": {
+			          "Target": {
+			            "Entity": "medida.filtro_pais_seleccionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Object": {
+			              "Role": "medida.filtro_pais_seleccionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_have_filtro_pais_seleccionado"
+			        }
+			      ]
+			    },
+			    "turistasreceptivo_has_medida_ingreso_VariacionPorcentualUltimoMesInteranual": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ingreso_VariacionPorcentualUltimoMesInteranual": {
+			          "Target": {
+			            "Entity": "medida.ingreso_VariacionPorcentualUltimoMesInteranual"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ingresos_ultimo_mes_año_en_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ingresos_ultimo_mes_año_en_curso": {
+			          "Target": {
+			            "Entity": "medida.ingresos_ultimo_mes_año_en_curso"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egresos_acumulado_año_en_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egresos_acumulado_año_en_curso": {
+			          "Target": {
+			            "Entity": "medida.egresos_acumulado_año_en_curso"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ingresos_acumulado_año_en_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ingresos_acumulado_año_en_curso": {
+			          "Target": {
+			            "Entity": "medida.ingresos_acumulado_año_en_curso"
+			          }
+			        }
+			      }
+			    },
+			    "dim_date_has_medida_UltimaFechaConDatos_1": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "medida.UltimaFechaConDatos_1": {
+			          "Target": {
+			            "Entity": "medida.UltimaFechaConDatos_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "medida.UltimaFechaConDatos_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_UltimaFechaConDatos_1"
+			        }
+			      ]
+			    },
+			    "dim_medio_transporte_has_medio_de_transporte": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMedioTransporte"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_medio_transporte": {
+			          "Target": {
+			            "Entity": "dim_medio_transporte"
+			          }
+			        },
+			        "dim_medio_transporte.medio_de_transporte": {
+			          "Target": {
+			            "Entity": "dim_medio_transporte.medio_de_transporte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_medio_transporte"
+			            },
+			            "Object": {
+			              "Role": "dim_medio_transporte.medio_de_transporte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_medio_transportes_have_medio_de_transportes"
+			        }
+			      ]
+			    },
+			    "dim_región_has_MacroRegión_jerarquía": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "dim_región.MacroRegión_jerarquía": {
+			          "Target": {
+			            "Entity": "dim_región.MacroRegión_jerarquía"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Object": {
+			              "Role": "dim_región.MacroRegión_jerarquía"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_have_MacroRegión_jerarquías"
+			        }
+			      ]
+			    },
+			    "dim_región_has_longitud": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "dim_región.longitud": {
+			          "Target": {
+			            "Entity": "dim_región.longitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Object": {
+			              "Role": "dim_región.longitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_have_longituds"
+			        }
+			      ]
+			    },
+			    "dim_región_has_latitud": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "dim_región.latitud": {
+			          "Target": {
+			            "Entity": "dim_región.latitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Object": {
+			              "Role": "dim_región.latitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_have_latituds"
+			        }
+			      ]
+			    },
+			    "dim_región_has_país": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "dim_región.país": {
+			          "Target": {
+			            "Entity": "dim_región.país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Object": {
+			              "Role": "dim_región.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_have_país"
+			        }
+			      ]
+			    },
+			    "dim_región_has_macro_región": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "dim_región.macro_región": {
+			          "Target": {
+			            "Entity": "dim_región.macro_región"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Object": {
+			              "Role": "dim_región.macro_región"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_have_macro_regións"
+			        }
+			      ]
+			    },
+			    "turistasreceptivo_has_medida_ingresos_acumulado_hasta_UltimoMes": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ingresos_acumulado_hasta_UltimoMes": {
+			          "Target": {
+			            "Entity": "medida.ingresos_acumulado_hasta_UltimoMes"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egresos_acumulado_anio_EnCurso": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egresos_acumulado_anio_EnCurso": {
+			          "Target": {
+			            "Entity": "medida.egresos_acumulado_anio_EnCurso"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egresos_acumulado_hasta_UltimoMes": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egresos_acumulado_hasta_UltimoMes": {
+			          "Target": {
+			            "Entity": "medida.egresos_acumulado_hasta_UltimoMes"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ComparacionInteranual_receptivo_": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_receptivo_": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_receptivo_"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ComparacionInteranual_balanza_": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_balanza_": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_balanza_"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_ComparacionInteranual_balanza_": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_balanza_": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_balanza_"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_ComparacionInteranual_emisivo_": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_emisivo_": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_emisivo_"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ComparacionInteranual_balanza": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_balanza": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_balanza"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_ComparacionInteranual_balanza": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_balanza": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_balanza"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_ComparacionInteranual_emisivo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_emisivo": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_emisivo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ComparacionInteranual_receptivo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ComparacionInteranual_receptivo": {
+			          "Target": {
+			            "Entity": "medida.ComparacionInteranual_receptivo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_variacion_intermensual_balanza": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.variacion_intermensual_balanza": {
+			          "Target": {
+			            "Entity": "medida.variacion_intermensual_balanza"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_variacion_intermensual_balanza": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.variacion_intermensual_balanza": {
+			          "Target": {
+			            "Entity": "medida.variacion_intermensual_balanza"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_variacion_intermensual_emisivo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.variacion_intermensual_emisivo": {
+			          "Target": {
+			            "Entity": "medida.variacion_intermensual_emisivo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_variacion_intermensual_receptivo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.variacion_intermensual_receptivo": {
+			          "Target": {
+			            "Entity": "medida.variacion_intermensual_receptivo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_variacion_interanual_balanza": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.variacion_interanual_balanza": {
+			          "Target": {
+			            "Entity": "medida.variacion_interanual_balanza"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_variacion_interanual_balanza": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.variacion_interanual_balanza": {
+			          "Target": {
+			            "Entity": "medida.variacion_interanual_balanza"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_variacion_interanual_emisivo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.variacion_interanual_emisivo": {
+			          "Target": {
+			            "Entity": "medida.variacion_interanual_emisivo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_variacion_interanual_receptivo": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.variacion_interanual_receptivo": {
+			          "Target": {
+			            "Entity": "medida.variacion_interanual_receptivo"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_BalanzaTuristas_historico_nominal": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.BalanzaTuristas_historico_nominal": {
+			          "Target": {
+			            "Entity": "medida.BalanzaTuristas_historico_nominal"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_BalanzaTuristas_historico_nominal": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.BalanzaTuristas_historico_nominal": {
+			          "Target": {
+			            "Entity": "medida.BalanzaTuristas_historico_nominal"
+			          }
+			        }
+			      }
+			    },
+			    "turistasemisivo_has_medida_egreso_de_turista": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-emisivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasemisivo": {
+			          "Target": {
+			            "Entity": "turistasemisivo"
+			          }
+			        },
+			        "medida.egreso_de_turista": {
+			          "Target": {
+			            "Entity": "medida.egreso_de_turista"
+			          }
+			        }
+			      }
+			    },
+			    "turistasreceptivo_has_medida_ingreso_de_turista": {
+			      "Binding": {
+			        "ConceptualEntity": "turistas-receptivo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "turistasreceptivo": {
+			          "Target": {
+			            "Entity": "turistasreceptivo"
+			          }
+			        },
+			        "medida.ingreso_de_turista": {
+			          "Target": {
+			            "Entity": "medida.ingreso_de_turista"
+			          }
+			        }
+			      }
+			    },
+			    "dim_date_has_is_holiday": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.is_holiday": {
+			          "Target": {
+			            "Entity": "dim_date.is_holiday"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.is_holiday"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_is_holidays"
+			        }
+			      ]
+			    },
+			    "dim_date_has_is_weekend": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.is_weekend": {
+			          "Target": {
+			            "Entity": "dim_date.is_weekend"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.is_weekend"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_is_weekends"
+			        }
+			      ]
+			    },
+			    "dim_date_has_day_name": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.day_name": {
+			          "Target": {
+			            "Entity": "dim_date.day_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.day_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_day_names"
+			        }
+			      ]
+			    },
+			    "dim_date_has_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.day_of_week": {
+			          "Target": {
+			            "Entity": "dim_date.day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_day_of_week"
+			        }
+			      ]
+			    },
+			    "dim_date_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.day": {
+			          "Target": {
+			            "Entity": "dim_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_days"
+			        }
+			      ]
+			    },
+			    "dim_date_has_week": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.week": {
+			          "Target": {
+			            "Entity": "dim_date.week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_weeks"
+			        }
+			      ]
+			    },
+			    "dim_date_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.quarter": {
+			          "Target": {
+			            "Entity": "dim_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_quarters"
+			        }
+			      ]
+			    },
+			    "dim_date_has_month_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.month_year": {
+			          "Target": {
+			            "Entity": "dim_date.month_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.month_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_month_years"
+			        }
+			      ]
+			    },
+			    "dim_date_has_month_short": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.month_short": {
+			          "Target": {
+			            "Entity": "dim_date.month_short"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.month_short"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_month_shorts"
+			        }
+			      ]
+			    },
+			    "dim_date_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.month_name": {
+			          "Target": {
+			            "Entity": "dim_date.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_month_names"
+			        }
+			      ]
+			    },
+			    "dim_date_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.month": {
+			          "Target": {
+			            "Entity": "dim_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_months"
+			        }
+			      ]
+			    },
+			    "dim_date_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.year": {
+			          "Target": {
+			            "Entity": "dim_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_years"
+			        }
+			      ]
+			    },
+			    "dim_date_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.date": {
+			          "Target": {
+			            "Entity": "dim_date.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_dates"
+			        }
+			      ]
+			    },
+			    "dim_región_in_país": {
+			      "Binding": {
+			        "ConceptualEntity": "DimRegión"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_región": {
+			          "Target": {
+			            "Entity": "dim_región"
+			          }
+			        },
+			        "dim_región.país": {
+			          "Target": {
+			            "Entity": "dim_región.país"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_región.país"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_región"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_región.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_regións_are_in_país"
+			        }
+			      ]
+			    },
+			    "dim_date_is_weekend": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDate"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.is_weekend": {
+			          "Target": {
+			            "Entity": "dim_date.is_weekend"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "dim_date.is_weekend"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Adjectives": [
+			              {
+			                "weekend": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_dim_dates_are_weekend_dim_dates"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

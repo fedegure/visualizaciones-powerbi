@@ -1,0 +1,842 @@
+table Medidas
+	lineageTag: de3cb53f-e517-4ffb-8db3-1c183f06d63d
+
+	measure 'Ingreso de Turistas' = SUM ( 'turistas-receptivo'[Ingreso de Turistas] )
+		formatString: " #,##0"
+		lineageTag: d0e6dbed-699d-404a-89dc-36257e7c1e15
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Egreso de Turistas' = SUM ( 'turistas-emisivo'[Egreso de Turistas] )
+		formatString: " #,##0"
+		lineageTag: f6ba3aa4-b891-49ed-b777-0aa0bf7e164c
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'BalanzaTuristas Historico Nominal' = [Ingreso de Turistas] - [Egreso de Turistas]
+		formatString: " #,##0"
+		lineageTag: 501fceab-85cb-40e0-99b6-2bfafbceba9a
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Variacion Interanual Receptivo' =
+			
+			VAR CurrentYearIngresos = [Ingreso de Turistas]
+			VAR PreviousYearIngresos =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        DATEADD ( DimDate[Date], -1, YEAR )
+			    )
+			RETURN
+			IF (
+			    NOT ISBLANK ( CurrentYearIngresos ) && NOT ISBLANK ( PreviousYearIngresos ),
+			    DIVIDE ( CurrentYearIngresos - PreviousYearIngresos, ABS ( PreviousYearIngresos ) ),
+			    BLANK ()
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: d4e997f2-a056-4359-906d-e090edaa77cb
+
+	measure 'Variacion Interanual Emisivo' =
+			
+			VAR CurrentYearEgresos = [Egreso de Turistas]
+			VAR PreviousYearEgresos =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        DATEADD ( DimDate[Date], -1, YEAR )
+			    )
+			RETURN
+			IF (
+			    NOT ISBLANK ( CurrentYearEgresos ) && NOT ISBLANK ( PreviousYearEgresos ),
+			    DIVIDE ( CurrentYearEgresos - PreviousYearEgresos, ABS ( PreviousYearEgresos ) ),
+			    BLANK ()
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 13d38b36-a85e-4c93-9632-6cd2118e95a7
+
+	measure 'Variacion Interanual Balanza' =
+			
+			VAR CurrentYearSaldo = [BalanzaTuristas Historico Nominal]
+			VAR PreviousYearSaldo =
+			    CALCULATE (
+			        [BalanzaTuristas Historico Nominal],
+			        DATEADD ( DimDate[Date], -1, YEAR )
+			    )
+			RETURN
+			IF (
+			    NOT ISBLANK ( CurrentYearSaldo ) && NOT ISBLANK ( PreviousYearSaldo ),
+			    DIVIDE ( CurrentYearSaldo - PreviousYearSaldo, ABS ( PreviousYearSaldo ) ),
+			    BLANK ()
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 34c80c55-f71c-4f71-ab0b-768c8b009767
+
+	measure 'Variacion Intermensual Receptivo' =
+			
+			VAR CurrentMonthIngresos = [Ingreso de Turistas]
+			VAR PreviousYearMonthIngresos =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        DATEADD ( DimDate[Date], -1, YEAR )
+			    )
+			RETURN
+			IF (
+			    NOT ISBLANK ( CurrentMonthIngresos )
+			        && NOT ISBLANK ( PreviousYearMonthIngresos ),
+			    DIVIDE (
+			        CurrentMonthIngresos - PreviousYearMonthIngresos,
+			        ABS ( PreviousYearMonthIngresos )
+			    ),
+			    BLANK ()
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 0594c86e-a820-4f87-a2c4-ef164a36b72b
+
+	measure 'Variacion Intermensual Emisivo' =
+			
+			VAR CurrentMonthEgresos = [Egreso de Turistas]
+			VAR PreviousYearMonthEgresos =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        DATEADD ( DimDate[Date], -1, YEAR )
+			    )
+			RETURN
+			IF (
+			    NOT ISBLANK ( CurrentMonthEgresos )
+			        && NOT ISBLANK ( PreviousYearMonthEgresos ),
+			    DIVIDE (
+			        CurrentMonthEgresos - PreviousYearMonthEgresos,
+			        ABS ( PreviousYearMonthEgresos )
+			    ),
+			    BLANK ()
+			)
+		lineageTag: 91331054-4880-4192-93f0-0a44d5c3d1f5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Variacion Intermensual Balanza' =
+			
+			VAR CurrentMonthSaldo = [BalanzaTuristas Historico Nominal]
+			VAR PreviousYearMonthSaldo =
+			    CALCULATE (
+			        [BalanzaTuristas Historico Nominal],
+			        DATEADD ( DimDate[Date], -1, YEAR )
+			    )
+			RETURN
+			IF (
+			    NOT ISBLANK ( CurrentMonthSaldo )
+			        && NOT ISBLANK ( PreviousYearMonthSaldo ),
+			    DIVIDE (
+			        CurrentMonthSaldo - PreviousYearMonthSaldo,
+			        ABS ( PreviousYearMonthSaldo )
+			    ),
+			    BLANK ()
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: b3ac940c-f54c-45be-bc19-36f1ab3dcc1c
+
+	measure 'ComparacionInteranual Receptivo' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			VAR IngresosAnioActual =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			VAR IngresosAnioAnterior =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo - 1
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( IngresosAnioActual )
+			            && NOT ISBLANK ( IngresosAnioAnterior ),
+			        IngresosAnioActual - IngresosAnioAnterior,
+			        BLANK ()
+			    )
+		formatString: " #,##0"
+		lineageTag: 874ae4d7-131b-49f2-9f05-1315c5c46cac
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'ComparacionInteranual Emisivo' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			VAR EgresosAnioActual =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			VAR EgresosAnioAnterior =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo - 1
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( EgresosAnioActual )
+			            && NOT ISBLANK ( EgresosAnioAnterior ),
+			        EgresosAnioActual - EgresosAnioAnterior,
+			        BLANK ()
+			    )
+		formatString: " #,##0"
+		lineageTag: ce839429-09c7-4257-a438-0905bf947acb
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'ComparacionInteranual Balanza' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			VAR BalanzaAnioActual =
+			    CALCULATE (
+			        [BalanzaTuristas Historico Nominal],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			VAR BalanzaAnioAnterior =
+			    CALCULATE (
+			        [BalanzaTuristas Historico Nominal],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo - 1
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( BalanzaAnioActual )
+			            && NOT ISBLANK ( BalanzaAnioAnterior ),
+			        BalanzaAnioActual - BalanzaAnioAnterior,
+			        BLANK ()
+			    )
+		formatString: " #,##0"
+		lineageTag: 34026b96-3a8b-4766-89da-bff9a72f412a
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'ComparacionInteranual Emisivo %' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			VAR EgresosAnioActual =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			VAR EgresosAnioAnterior =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo - 1
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( EgresosAnioActual )
+			            && NOT ISBLANK ( EgresosAnioAnterior ),
+			        IF (
+			            EgresosAnioAnterior = 0,
+			            BLANK (),
+			            DIVIDE ( ( EgresosAnioActual - EgresosAnioAnterior ), ABS ( EgresosAnioAnterior ) )
+			        ),
+			        BLANK ()
+			    )
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: 93f9a58c-a004-4ab6-922b-572268ab1fb9
+
+	measure 'ComparacionInteranual Balanza %' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			VAR BalanzaAnioActual =
+			    CALCULATE (
+			        [BalanzaTuristas Historico Nominal],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			VAR BalanzaAnioAnterior =
+			    CALCULATE (
+			        [BalanzaTuristas Historico Nominal],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo - 1
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( BalanzaAnioActual )
+			            && NOT ISBLANK ( BalanzaAnioAnterior ),
+			        IF (
+			            BalanzaAnioAnterior = 0,
+			            BLANK (),
+			            DIVIDE ( ( BalanzaAnioActual - BalanzaAnioAnterior ), ABS ( BalanzaAnioAnterior ) )
+			        ),
+			        BLANK ()
+			    )
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: a12de3b4-30a1-4aeb-9e67-f9eac29f6369
+
+	measure 'ComparacionInteranual Receptivo %' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			VAR IngresosAnioActual =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			VAR IngresosAnioAnterior =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioMaximo - 1
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( IngresosAnioActual )
+			            && NOT ISBLANK ( IngresosAnioAnterior ),
+			        IF (
+			            IngresosAnioAnterior = 0,
+			            BLANK (),
+			            DIVIDE ( ( IngresosAnioActual - IngresosAnioAnterior ), ABS ( IngresosAnioAnterior ) )
+			        ),
+			        BLANK ()
+			    )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		lineageTag: 273a9521-64fa-4124-b6a7-3e66ffe12e2a
+
+	measure 'Egresos Acumulado Hasta UltimoMes' =
+			
+			VAR Anio = YEAR ( MAX ( 'DimDate'[Date] ) ) // Obtiene el año de cada fila en el gráfico
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Egreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = Anio
+			            && 'DimDate'[Month] <= MesMaximo
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: a348193e-1c89-4a7f-9bdf-a90e61d660b0
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Egresos Acumulado Anio EnCurso' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Egreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioMaximo
+			            && 'DimDate'[Month] <= MesMaximo
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: 8660e847-d376-445d-8d5f-9169c387ab43
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Ingresos Acumulado Hasta UltimoMes' =
+			
+			VAR Anio = YEAR ( MAX ( 'DimDate'[Date] ) ) // Obtiene el año de cada fila en el gráfico
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Ingreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = Anio
+			            && 'DimDate'[Month] <= MesMaximo
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: 94568c22-67c4-4797-a505-6e1a0f282535
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'UltimaFechaConDatos +1' =
+			
+			VAR UltimaFecha = [UltimaFechaConDatos]
+			VAR FechaUnMesDespues = EDATE ( UltimaFecha, 1 )
+			RETURN
+			IF (
+			    NOT ISBLANK ( FechaUnMesDespues ),
+			    "Actualizado al: " & FORMAT ( FechaUnMesDespues, "dd/MM/yy" ),
+			    "Sin datos"
+			)
+		lineageTag: da8843b1-6189-4554-9406-1517561af343
+
+	measure IngresosAcumuladoAñoEnCurso = ```
+			
+			    VAR AnioEnCurso = YEAR ( TODAY () ) // Obtiene el año actual
+			    VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			    RETURN
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioEnCurso
+			                && 'DimDate'[Month] <= MesMaximo
+			        )
+			    )
+			```
+		formatString: " #,##0"
+		lineageTag: 45767014-1bc9-4054-8350-8f303088e363
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure EgresosAcumuladoAñoEnCurso =
+			
+			VAR AnioEnCurso = YEAR ( TODAY () ) // Obtiene el año actual
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Egreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioEnCurso
+			            && 'DimDate'[Month] <= MesMaximo
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: 5ddec98b-accd-4ee0-ac08-772584eb1c7c
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure IngresosUltimoMesAñoEnCurso =
+			
+			VAR AnioEnCurso = YEAR ( TODAY () )
+			VAR UltimaFecha = [UltimaFechaConDatos]
+			VAR UltimoMes =
+			    IF (
+			        YEAR ( UltimaFecha ) = AnioEnCurso,
+			        MONTH ( UltimaFecha ),
+			        BLANK ()
+			    )
+			RETURN
+			CALCULATE (
+			    [Ingreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioEnCurso
+			            && 'DimDate'[Month] = UltimoMes
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: 9ed5bd22-4653-48d6-bf42-208bd7166f27
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Ingreso VariacionPorcentualUltimoMesInteranual' =
+			
+			VAR AnioEnCurso = YEAR ( TODAY () )
+			VAR UltimaFechaAnioEnCurso = [UltimaFechaConDatos]
+			VAR UltimoMesAnioEnCurso =
+			    IF (
+			        YEAR ( UltimaFechaAnioEnCurso ) = AnioEnCurso,
+			        MONTH ( UltimaFechaAnioEnCurso ),
+			        BLANK ()
+			    )
+			VAR IngresosUltimoMesAnioEnCurso =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioEnCurso
+			                && 'DimDate'[Month] = UltimoMesAnioEnCurso
+			        )
+			    )
+			VAR IngresosMismoMesAnioAnterior =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioEnCurso - 1
+			                && 'DimDate'[Month] = UltimoMesAnioEnCurso
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( IngresosUltimoMesAnioEnCurso )
+			            && NOT ISBLANK ( IngresosMismoMesAnioAnterior ),
+			        DIVIDE (
+			            (
+			                IngresosUltimoMesAnioEnCurso
+			                    - IngresosMismoMesAnioAnterior
+			            ),
+			            IngresosMismoMesAnioAnterior
+			        ),
+			        BLANK ()
+			    )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		lineageTag: 22662caa-14eb-46eb-86e1-763beb4021f2
+
+	measure FiltroPaisSeleccionado =
+			
+			VAR PaisSeleccionado =
+			    SELECTEDVALUE ( 'DimRegión'[País] )
+			RETURN
+			    IF (
+			        NOT ISFILTERED ( 'DimRegión'[País] ),
+			        "Todos los Países",
+			        IF (
+			            ISBLANK ( PaisSeleccionado ),
+			            "Varios países",
+			            PaisSeleccionado
+			        )
+			    )
+		lineageTag: 4d87d3c5-f52b-4453-892a-0fb97700a670
+
+	measure FiltroTransporteSeleccionado =
+			
+			VAR TransporteSeleccionado =
+			    SELECTEDVALUE ( 'DimMedioTransporte'[Medio de Transporte] )
+			RETURN
+			    IF (
+			        ISBLANK ( TransporteSeleccionado ),
+			        "Todos los Transportes",
+			        TransporteSeleccionado
+			    )
+		lineageTag: d88d5e6d-49f6-403c-8005-5192af5c7db0
+
+	measure EgresosUltimoMesAñoEnCurso =
+			
+			VAR AnioEnCurso = YEAR ( TODAY () )
+			VAR UltimaFecha = [UltimaFechaConDatos]
+			VAR UltimoMes =
+			    IF (
+			        YEAR ( UltimaFecha ) = AnioEnCurso,
+			        MONTH ( UltimaFecha ),
+			        BLANK ()
+			    )
+			RETURN
+			CALCULATE (
+			    [Egreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioEnCurso
+			            && 'DimDate'[Month] = UltimoMes
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: b6205d25-b103-4e10-8e4d-0d6cb21ff143
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure EgresosVariacionPorcentualUltimoMesInteranual =
+			
+			VAR AnioEnCurso = YEAR ( TODAY () )
+			VAR UltimaFechaAnioEnCurso = [UltimaFechaConDatos]
+			VAR UltimoMesAnioEnCurso =
+			    IF (
+			        YEAR ( UltimaFechaAnioEnCurso ) = AnioEnCurso,
+			        MONTH ( UltimaFechaAnioEnCurso ),
+			        BLANK ()
+			    )
+			VAR EgresosUltimoMesAnioEnCurso =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioEnCurso
+			                && 'DimDate'[Month] = UltimoMesAnioEnCurso
+			        )
+			    )
+			VAR EgresosMismoMesAnioAnterior =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioEnCurso - 1
+			                && 'DimDate'[Month] = UltimoMesAnioEnCurso
+			        )
+			    )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( EgresosUltimoMesAnioEnCurso )
+			            && NOT ISBLANK ( EgresosMismoMesAnioAnterior ),
+			        DIVIDE (
+			            (
+			                EgresosUltimoMesAnioEnCurso
+			                    - EgresosMismoMesAnioAnterior
+			            ),
+			            EgresosMismoMesAnioAnterior
+			        ),
+			        BLANK ()
+			    )
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: 992dfc0c-1a72-4ac9-a8d3-6fc6a797d757
+
+	measure 'EgresosAcumuladoAnioAnterior hasta este mes' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Egreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioMaximo - 1
+			            && 'DimDate'[Month] <= MesMaximo
+			    )
+			)
+		formatString: " #,##0"
+		lineageTag: 3dbd59a1-b5d5-44e6-884e-db9a648e5616
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure EgresosUltimoMesAnioAnterior =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Egreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioMaximo - 1
+			            && 'DimDate'[Month] = MesMaximo
+			    )
+			)
+		formatString: 0
+		lineageTag: d3c1d8e2-e20c-4a93-bf62-6633af2651c0
+
+	measure IngresosUltimoMesAnioAnterior =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Ingreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioMaximo - 1
+			            && 'DimDate'[Month] = MesMaximo
+			    )
+			)
+		formatString: 0
+		lineageTag: 08638346-747e-4e35-9b53-edb24b1db2f4
+
+	measure 'IngresosAcumuladoAnioAnterior hasta este mes' =
+			
+			VAR AnioMaximo = YEAR ( [UltimaFechaConDatos] )
+			VAR MesMaximo = MONTH ( [UltimaFechaConDatos] )
+			RETURN
+			CALCULATE (
+			    [Ingreso de Turistas],
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        'DimDate'[Year] = AnioMaximo - 1
+			            && 'DimDate'[Month] <= MesMaximo
+			    )
+			)
+		formatString: 0
+		lineageTag: aa86e124-8675-4ab2-a930-00ae6ec214ec
+
+	measure 'BalanzaTuristas Historico %' =
+			
+			IF (
+			    NOT ISBLANK ( [Ingreso de Turistas] )
+			        && NOT ISBLANK ( [Egreso de Turistas] ),
+			    DIVIDE ( ( [Egreso de Turistas] - [Ingreso de Turistas] ), [Ingreso de Turistas] ),
+			    BLANK ()
+			)
+		formatString: -#,##0.00%
+		lineageTag: c2d0ac5c-a924-4298-9a3f-314df334c85b
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Balanza Ultimo mes nominal' =
+			
+			VAR UltimaFecha = [UltimaFechaConDatos]
+			VAR AnioUltimoMes = YEAR ( UltimaFecha )
+			VAR MesUltimoMes = MONTH ( UltimaFecha )
+			VAR IngresosUltimoMes =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioUltimoMes
+			                && 'DimDate'[Month] = MesUltimoMes
+			        )
+			    )
+			VAR EgresosUltimoMes =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioUltimoMes
+			                && 'DimDate'[Month] = MesUltimoMes
+			        )
+			    )
+			RETURN
+			IngresosUltimoMes - EgresosUltimoMes
+		formatString: " #,##0"
+		lineageTag: 897a91b3-01c8-4436-9c62-058e14dd373a
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Balanza ultimo mes interanual nominal' =
+			
+			VAR BalanzaUltimoMesActual = [Balanza Ultimo mes nominal]
+			VAR UltimaFecha = [UltimaFechaConDatos]
+			VAR AnioUltimoMes = YEAR ( UltimaFecha )
+			VAR MesUltimoMes = MONTH ( UltimaFecha )
+			VAR IngresosUltimoMesAnioAnterior =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioUltimoMes - 1
+			                && 'DimDate'[Month] = MesUltimoMes
+			        )
+			    )
+			VAR EgresosUltimoMesAnioAnterior =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioUltimoMes - 1
+			                && 'DimDate'[Month] = MesUltimoMes
+			        )
+			    )
+			VAR BalanzaUltimoMesAnioAnterior =
+			    IngresosUltimoMesAnioAnterior - EgresosUltimoMesAnioAnterior
+			RETURN
+			BalanzaUltimoMesActual - BalanzaUltimoMesAnioAnterior
+		formatString: " #,##0"
+		lineageTag: 5dbd49fb-a356-43eb-951a-0e6fc0e49bca
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'BalanzaUltimoMes año previo' =
+			
+			VAR BalanzaUltimoMesActual = [Balanza Ultimo mes nominal]
+			VAR UltimaFecha = [UltimaFechaConDatos]
+			VAR AnioUltimoMes = YEAR ( UltimaFecha )
+			VAR MesUltimoMes = MONTH ( UltimaFecha )
+			VAR IngresosUltimoMesAnioAnterior =
+			    CALCULATE (
+			        [Ingreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioUltimoMes - 1
+			                && 'DimDate'[Month] = MesUltimoMes
+			        )
+			    )
+			VAR EgresosUltimoMesAnioAnterior =
+			    CALCULATE (
+			        [Egreso de Turistas],
+			        FILTER (
+			            ALL ( 'DimDate' ),
+			            'DimDate'[Year] = AnioUltimoMes - 1
+			                && 'DimDate'[Month] = MesUltimoMes
+			        )
+			    )
+			VAR BalanzaUltimoMesAnioAnterior =
+			    IngresosUltimoMesAnioAnterior - EgresosUltimoMesAnioAnterior
+			RETURN
+			BalanzaUltimoMesAnioAnterior
+		formatString: 0
+		lineageTag: de2dede1-e152-49bd-8557-dcdf01a7ea3e
+
+	measure UltimoMesConDatos_ES =
+			
+			FORMAT ( [UltimaFechaConDatos], "MMMM", "es-ES" )
+		lineageTag: 2c22e926-fac5-497b-9b2c-fdb3d0c4f361
+
+	measure UltimaFechaConDatos =
+			
+			CALCULATE (
+			    MAX ( 'DimDate'[Date] ),
+			    FILTER (
+			        ALL ( 'DimDate' ),
+			        NOT ISBLANK ( [Ingreso de Turistas] )
+			    )
+			)
+		formatString: General Date
+		lineageTag: 3a9ab02f-4ac0-4790-9a9f-a4fc89871db4
+
+	measure 'Balanza Año en curso' =
+			
+			[IngresosAcumuladoAñoEnCurso] - [Egresos Acumulado Anio EnCurso]
+		formatString: " #,##0"
+		lineageTag: 375484cf-c317-429b-bd12-a36090331d54
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	column Column
+		isHidden
+		formatString: 0
+		lineageTag: c0e6bb08-1571-42ff-861c-1c731a38bb29
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Medidas = calculated
+		mode: import
+		source =
+				
+				VAR AnioEnCurso = YEAR ( TODAY () )
+				VAR AnioAnterior = AnioEnCurso - 1
+				VAR UltimaFechaConDatosAnioEnCurso = [UltimaFechaConDatos]
+				VAR MesMaximoAnioEnCurso =
+				    MONTH ( UltimaFechaConDatosAnioEnCurso )
+				RETURN
+				CALCULATE (
+				    [Ingreso de Turistas],
+				    FILTER (
+				        ALL ( 'DimDate' ),
+				        'DimDate'[Year] = AnioAnterior
+				            && 'DimDate'[Month] <= MesMaximoAnioEnCurso
+				    )
+				)
+
+	annotation PBI_Id = 27f9c5dc11f64172a074ad295f911e8d
+

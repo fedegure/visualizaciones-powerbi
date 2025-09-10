@@ -1,0 +1,29 @@
+table DimMedioTransporte
+	lineageTag: 93f90012-7221-49ce-9cb7-9f9d580e896d
+
+	column 'Medio de Transporte'
+		dataType: string
+		lineageTag: 4ff599ad-c877-41b9-beaf-1de91ee1766c
+		summarizeBy: none
+		sourceColumn: Medio de Transporte
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimMedioTransporte = m
+		mode: import
+		source =
+				let
+				  Source = Table.Combine({
+				    Table.SelectColumns( #"turistas-emisivo", {"medio_de_transporte"}),
+				    Table.SelectColumns( #"turistas-receptivo", {"medio_de_transporte"}),
+				    Table.SelectColumns( #"saldo-turistas-serie", {"medio_de_transporte"})
+				  }),
+				  #"Removed Duplicates" = Table.Distinct(Source),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Removed Duplicates",{{"medio_de_transporte", "Medio de Transporte"}})
+				in
+				  #"Columnas con nombre cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

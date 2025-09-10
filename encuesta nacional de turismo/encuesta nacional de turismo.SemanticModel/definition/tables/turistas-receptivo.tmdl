@@ -1,0 +1,70 @@
+table turistas-receptivo
+	lineageTag: e4237e84-7927-484f-8b30-86382270072d
+
+	column indice_tiempo
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 2c8e4075-31ec-45f4-8ad2-ddb09133bda2
+		summarizeBy: none
+		sourceColumn: indice_tiempo
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column medio_de_transporte
+		dataType: string
+		isHidden
+		lineageTag: 4d57c1cb-fadf-4816-b536-45ecfec30163
+		summarizeBy: none
+		sourceColumn: medio_de_transporte
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column País
+		dataType: string
+		isHidden
+		lineageTag: 8bc1bfdf-352b-4f7b-924f-95cb08336c30
+		summarizeBy: none
+		sourceColumn: País
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ingreso de Turistas'
+		dataType: int64
+		isHidden
+		formatString: #.###.###
+		lineageTag: e0442b42-d1be-4341-8f55-74e5c5efb2cc
+		summarizeBy: sum
+		sourceColumn: Ingreso de Turistas
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	partition turistas-receptivo = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("D:\Users\Fede\Documents\__data analisis\datasets\encuesta nacional de turismo\turistas-no-residentes-serie.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"indice_tiempo", type date}, {"medio_de_transporte", type text}, {"pais_origen", type text}, {"viajes_de_turistas_no_residentes", Int64.Type}}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"pais_origen", "País"}, {"viajes_de_turistas_no_residentes", "Ingreso de Turistas"}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Columnas con nombre cambiado", each [indice_tiempo] > #date(2015, 12, 31)),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Filas filtradas","EE.UU. y Canadá","Estados Unidos y Canadá",Replacer.ReplaceText,{"País"})
+				in
+				    #"Valor reemplazado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

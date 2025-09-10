@@ -1,0 +1,95 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "Simple-Header---Blue-w-Visuals",
+      "reportVersionAtImport": {
+        "visual": "1.8.39",
+        "report": "2.0.39",
+        "page": "1.3.39"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Simple-Header---Blue-w-Visuals.json",
+      "reportVersionAtImport": {
+        "visual": "1.8.40",
+        "report": "2.0.40",
+        "page": "1.3.40"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "Simple-Header---Blue-w-Visuals",
+          "path": "BaseThemes/Simple-Header---Blue-w-Visuals.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Simple-Header---Blue-w-Visuals.json",
+          "path": "Simple-Header---Blue-w-Visuals.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Overview.svg",
+          "path": "Overview.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Cut-Bottom-Square.svg",
+          "path": "Cut-Bottom-Square.svg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultFilterActionIsDataFilter": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

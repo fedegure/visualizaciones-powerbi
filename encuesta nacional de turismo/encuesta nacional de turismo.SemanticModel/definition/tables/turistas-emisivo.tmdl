@@ -1,0 +1,67 @@
+table turistas-emisivo
+	lineageTag: c961c452-d688-48f5-af35-c5a2c85e7811
+
+	column indice_tiempo
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 396dc511-1ad8-4b63-9eac-855db25a56dc
+		summarizeBy: none
+		sourceColumn: indice_tiempo
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column medio_de_transporte
+		dataType: string
+		isHidden
+		lineageTag: 02ea0906-ee10-4e61-997a-b3bafdb72020
+		summarizeBy: none
+		sourceColumn: medio_de_transporte
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column País
+		dataType: string
+		isHidden
+		lineageTag: 7849ab30-f98e-4479-ba89-696c47cd4592
+		summarizeBy: none
+		sourceColumn: País
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Egreso de Turistas'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b14a36ca-4ed1-41b5-9986-5f20dd534242
+		summarizeBy: sum
+		sourceColumn: Egreso de Turistas
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition turistas-emisivo = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("D:\Users\Fede\Documents\__data analisis\datasets\encuesta nacional de turismo\turistas-residentes-serie.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"indice_tiempo", type date}, {"medio_de_transporte", type text}, {"pais_destino", type text}, {"viajes_de_turistas_residentes", Int64.Type}}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"pais_destino", "País"}, {"viajes_de_turistas_residentes", "Egreso de Turistas"}}),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Columnas con nombre cambiado","EE.UU. y Canadá","Estados Unidos y Canadá",Replacer.ReplaceText,{"País"})
+				in
+				    #"Valor reemplazado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,3106 @@
+﻿indice_tiempo,medio_de_transporte,pais,balanza
+2016-01-01,Aérea,Bolivia,3645
+2016-01-01,Aérea,Brasil,-66194
+2016-01-01,Aérea,Chile,-11789
+2016-01-01,Aérea,Paraguay,2000
+2016-01-01,Aérea,Uruguay,-12477
+2016-01-01,Aérea,EE.UU. y Canadá,-15437
+2016-01-01,Aérea,Resto de América,-40681
+2016-01-01,Aérea,Europa,43495
+2016-01-01,Aérea,Resto del mundo,6617
+2016-01-01,Fluvial/Marítima,Bolivia,2103
+2016-01-01,Fluvial/Marítima,Brasil,9001
+2016-01-01,Fluvial/Marítima,Chile,-9031
+2016-01-01,Fluvial/Marítima,Paraguay,-2484
+2016-01-01,Fluvial/Marítima,Uruguay,-79229
+2016-01-01,Fluvial/Marítima,EE.UU. y Canadá,17933
+2016-01-01,Fluvial/Marítima,Resto de América,6600
+2016-01-01,Fluvial/Marítima,Europa,21203
+2016-01-01,Fluvial/Marítima,Resto del mundo,6275
+2016-01-01,Terrestre,Bolivia,15054
+2016-01-01,Terrestre,Brasil,-316671
+2016-01-01,Terrestre,Chile,-203933
+2016-01-01,Terrestre,Paraguay,-49793
+2016-01-01,Terrestre,Uruguay,-139444
+2016-01-01,Terrestre,EE.UU. y Canadá,7487
+2016-01-01,Terrestre,Resto de América,13100
+2016-01-01,Terrestre,Europa,36041
+2016-01-01,Terrestre,Resto del mundo,16015
+2016-02-01,Aérea,Bolivia,-208
+2016-02-01,Aérea,Brasil,-77973
+2016-02-01,Aérea,Chile,-6061
+2016-02-01,Aérea,Paraguay,1430
+2016-02-01,Aérea,Uruguay,-9509
+2016-02-01,Aérea,EE.UU. y Canadá,-32671
+2016-02-01,Aérea,Resto de América,-61518
+2016-02-01,Aérea,Europa,13943
+2016-02-01,Aérea,Resto del mundo,2205
+2016-02-01,Fluvial/Marítima,Bolivia,-615
+2016-02-01,Fluvial/Marítima,Brasil,2635
+2016-02-01,Fluvial/Marítima,Chile,-8114
+2016-02-01,Fluvial/Marítima,Paraguay,-3096
+2016-02-01,Fluvial/Marítima,Uruguay,-76596
+2016-02-01,Fluvial/Marítima,EE.UU. y Canadá,18502
+2016-02-01,Fluvial/Marítima,Resto de América,3621
+2016-02-01,Fluvial/Marítima,Europa,27428
+2016-02-01,Fluvial/Marítima,Resto del mundo,6539
+2016-02-01,Terrestre,Bolivia,-20398
+2016-02-01,Terrestre,Brasil,-299504
+2016-02-01,Terrestre,Chile,-129157
+2016-02-01,Terrestre,Paraguay,-31043
+2016-02-01,Terrestre,Uruguay,-148520
+2016-02-01,Terrestre,EE.UU. y Canadá,7238
+2016-02-01,Terrestre,Resto de América,9496
+2016-02-01,Terrestre,Europa,33439
+2016-02-01,Terrestre,Resto del mundo,13714
+2016-03-01,Aérea,Bolivia,861
+2016-03-01,Aérea,Brasil,-71546
+2016-03-01,Aérea,Chile,-7458
+2016-03-01,Aérea,Paraguay,2755
+2016-03-01,Aérea,Uruguay,-1833
+2016-03-01,Aérea,EE.UU. y Canadá,-38315
+2016-03-01,Aérea,Resto de América,-41682
+2016-03-01,Aérea,Europa,11941
+2016-03-01,Aérea,Resto del mundo,6
+2016-03-01,Fluvial/Marítima,Bolivia,-274
+2016-03-01,Fluvial/Marítima,Brasil,119
+2016-03-01,Fluvial/Marítima,Chile,-3068
+2016-03-01,Fluvial/Marítima,Paraguay,-1417
+2016-03-01,Fluvial/Marítima,Uruguay,-26518
+2016-03-01,Fluvial/Marítima,EE.UU. y Canadá,16346
+2016-03-01,Fluvial/Marítima,Resto de América,6841
+2016-03-01,Fluvial/Marítima,Europa,17355
+2016-03-01,Fluvial/Marítima,Resto del mundo,5091
+2016-03-01,Terrestre,Bolivia,-3961
+2016-03-01,Terrestre,Brasil,-112478
+2016-03-01,Terrestre,Chile,-108867
+2016-03-01,Terrestre,Paraguay,-3024
+2016-03-01,Terrestre,Uruguay,-50435
+2016-03-01,Terrestre,EE.UU. y Canadá,6502
+2016-03-01,Terrestre,Resto de América,9537
+2016-03-01,Terrestre,Europa,30680
+2016-03-01,Terrestre,Resto del mundo,9556
+2016-04-01,Aérea,Bolivia,1870
+2016-04-01,Aérea,Brasil,-26741
+2016-04-01,Aérea,Chile,-4274
+2016-04-01,Aérea,Paraguay,1784
+2016-04-01,Aérea,Uruguay,-345
+2016-04-01,Aérea,EE.UU. y Canadá,-40441
+2016-04-01,Aérea,Resto de América,-40857
+2016-04-01,Aérea,Europa,4590
+2016-04-01,Aérea,Resto del mundo,-827
+2016-04-01,Fluvial/Marítima,Bolivia,1729
+2016-04-01,Fluvial/Marítima,Brasil,4166
+2016-04-01,Fluvial/Marítima,Chile,569
+2016-04-01,Fluvial/Marítima,Paraguay,-1238
+2016-04-01,Fluvial/Marítima,Uruguay,1698
+2016-04-01,Fluvial/Marítima,EE.UU. y Canadá,2660
+2016-04-01,Fluvial/Marítima,Resto de América,3111
+2016-04-01,Fluvial/Marítima,Europa,6183
+2016-04-01,Fluvial/Marítima,Resto del mundo,1667
+2016-04-01,Terrestre,Bolivia,-1179
+2016-04-01,Terrestre,Brasil,-26978
+2016-04-01,Terrestre,Chile,-67904
+2016-04-01,Terrestre,Paraguay,-28380
+2016-04-01,Terrestre,Uruguay,-5864
+2016-04-01,Terrestre,EE.UU. y Canadá,3367
+2016-04-01,Terrestre,Resto de América,7454
+2016-04-01,Terrestre,Europa,17752
+2016-04-01,Terrestre,Resto del mundo,5512
+2016-05-01,Aérea,Bolivia,2141
+2016-05-01,Aérea,Brasil,-3760
+2016-05-01,Aérea,Chile,-4147
+2016-05-01,Aérea,Paraguay,1601
+2016-05-01,Aérea,Uruguay,255
+2016-05-01,Aérea,EE.UU. y Canadá,-57130
+2016-05-01,Aérea,Resto de América,-41744
+2016-05-01,Aérea,Europa,-27054
+2016-05-01,Aérea,Resto del mundo,653
+2016-05-01,Fluvial/Marítima,Bolivia,2452
+2016-05-01,Fluvial/Marítima,Brasil,1358
+2016-05-01,Fluvial/Marítima,Chile,681
+2016-05-01,Fluvial/Marítima,Paraguay,-2144
+2016-05-01,Fluvial/Marítima,Uruguay,1033
+2016-05-01,Fluvial/Marítima,EE.UU. y Canadá,1631
+2016-05-01,Fluvial/Marítima,Resto de América,2868
+2016-05-01,Fluvial/Marítima,Europa,3842
+2016-05-01,Fluvial/Marítima,Resto del mundo,1104
+2016-05-01,Terrestre,Bolivia,-392
+2016-05-01,Terrestre,Brasil,-11068
+2016-05-01,Terrestre,Chile,-54565
+2016-05-01,Terrestre,Paraguay,-25670
+2016-05-01,Terrestre,Uruguay,-8227
+2016-05-01,Terrestre,EE.UU. y Canadá,1762
+2016-05-01,Terrestre,Resto de América,8333
+2016-05-01,Terrestre,Europa,11503
+2016-05-01,Terrestre,Resto del mundo,3823
+2016-06-01,Aérea,Bolivia,2018
+2016-06-01,Aérea,Brasil,7568
+2016-06-01,Aérea,Chile,-10447
+2016-06-01,Aérea,Paraguay,1028
+2016-06-01,Aérea,Uruguay,-34
+2016-06-01,Aérea,EE.UU. y Canadá,-54937
+2016-06-01,Aérea,Resto de América,-36849
+2016-06-01,Aérea,Europa,-51388
+2016-06-01,Aérea,Resto del mundo,1154
+2016-06-01,Fluvial/Marítima,Bolivia,252
+2016-06-01,Fluvial/Marítima,Brasil,3406
+2016-06-01,Fluvial/Marítima,Chile,522
+2016-06-01,Fluvial/Marítima,Paraguay,-3477
+2016-06-01,Fluvial/Marítima,Uruguay,-3467
+2016-06-01,Fluvial/Marítima,EE.UU. y Canadá,1793
+2016-06-01,Fluvial/Marítima,Resto de América,2908
+2016-06-01,Fluvial/Marítima,Europa,2629
+2016-06-01,Fluvial/Marítima,Resto del mundo,913
+2016-06-01,Terrestre,Bolivia,-2721
+2016-06-01,Terrestre,Brasil,-20463
+2016-06-01,Terrestre,Chile,-31360
+2016-06-01,Terrestre,Paraguay,-33091
+2016-06-01,Terrestre,Uruguay,-13908
+2016-06-01,Terrestre,EE.UU. y Canadá,2092
+2016-06-01,Terrestre,Resto de América,6985
+2016-06-01,Terrestre,Europa,7277
+2016-06-01,Terrestre,Resto del mundo,2833
+2016-07-01,Aérea,Bolivia,2670
+2016-07-01,Aérea,Brasil,12678
+2016-07-01,Aérea,Chile,-23521
+2016-07-01,Aérea,Paraguay,3409
+2016-07-01,Aérea,Uruguay,819
+2016-07-01,Aérea,EE.UU. y Canadá,-45438
+2016-07-01,Aérea,Resto de América,-36460
+2016-07-01,Aérea,Europa,-44958
+2016-07-01,Aérea,Resto del mundo,2056
+2016-07-01,Fluvial/Marítima,Bolivia,986
+2016-07-01,Fluvial/Marítima,Brasil,5606
+2016-07-01,Fluvial/Marítima,Chile,873
+2016-07-01,Fluvial/Marítima,Paraguay,-6488
+2016-07-01,Fluvial/Marítima,Uruguay,2025
+2016-07-01,Fluvial/Marítima,EE.UU. y Canadá,1007
+2016-07-01,Fluvial/Marítima,Resto de América,2705
+2016-07-01,Fluvial/Marítima,Europa,2814
+2016-07-01,Fluvial/Marítima,Resto del mundo,963
+2016-07-01,Terrestre,Bolivia,-5367
+2016-07-01,Terrestre,Brasil,-74911
+2016-07-01,Terrestre,Chile,-72724
+2016-07-01,Terrestre,Paraguay,-41901
+2016-07-01,Terrestre,Uruguay,-18884
+2016-07-01,Terrestre,EE.UU. y Canadá,2497
+2016-07-01,Terrestre,Resto de América,9483
+2016-07-01,Terrestre,Europa,11153
+2016-07-01,Terrestre,Resto del mundo,3254
+2016-08-01,Aérea,Bolivia,1156
+2016-08-01,Aérea,Brasil,13778
+2016-08-01,Aérea,Chile,-15558
+2016-08-01,Aérea,Paraguay,1314
+2016-08-01,Aérea,Uruguay,-669
+2016-08-01,Aérea,EE.UU. y Canadá,-55011
+2016-08-01,Aérea,Resto de América,-32581
+2016-08-01,Aérea,Europa,-36941
+2016-08-01,Aérea,Resto del mundo,-151
+2016-08-01,Fluvial/Marítima,Bolivia,1186
+2016-08-01,Fluvial/Marítima,Brasil,4126
+2016-08-01,Fluvial/Marítima,Chile,651
+2016-08-01,Fluvial/Marítima,Paraguay,-2647
+2016-08-01,Fluvial/Marítima,Uruguay,-435
+2016-08-01,Fluvial/Marítima,EE.UU. y Canadá,1097
+2016-08-01,Fluvial/Marítima,Resto de América,2998
+2016-08-01,Fluvial/Marítima,Europa,3979
+2016-08-01,Fluvial/Marítima,Resto del mundo,911
+2016-08-01,Terrestre,Bolivia,-11062
+2016-08-01,Terrestre,Brasil,-27486
+2016-08-01,Terrestre,Chile,-58992
+2016-08-01,Terrestre,Paraguay,-22163
+2016-08-01,Terrestre,Uruguay,-12334
+2016-08-01,Terrestre,EE.UU. y Canadá,2460
+2016-08-01,Terrestre,Resto de América,9499
+2016-08-01,Terrestre,Europa,13711
+2016-08-01,Terrestre,Resto del mundo,3532
+2016-09-01,Aérea,Bolivia,2110
+2016-09-01,Aérea,Brasil,9816
+2016-09-01,Aérea,Chile,-15914
+2016-09-01,Aérea,Paraguay,1488
+2016-09-01,Aérea,Uruguay,-34
+2016-09-01,Aérea,EE.UU. y Canadá,-54550
+2016-09-01,Aérea,Resto de América,-32103
+2016-09-01,Aérea,Europa,-40135
+2016-09-01,Aérea,Resto del mundo,1868
+2016-09-01,Fluvial/Marítima,Bolivia,888
+2016-09-01,Fluvial/Marítima,Brasil,5842
+2016-09-01,Fluvial/Marítima,Chile,1001
+2016-09-01,Fluvial/Marítima,Paraguay,-1857
+2016-09-01,Fluvial/Marítima,Uruguay,-658
+2016-09-01,Fluvial/Marítima,EE.UU. y Canadá,1220
+2016-09-01,Fluvial/Marítima,Resto de América,3314
+2016-09-01,Fluvial/Marítima,Europa,3862
+2016-09-01,Fluvial/Marítima,Resto del mundo,1122
+2016-09-01,Terrestre,Bolivia,-7591
+2016-09-01,Terrestre,Brasil,-30398
+2016-09-01,Terrestre,Chile,-57818
+2016-09-01,Terrestre,Paraguay,-12900
+2016-09-01,Terrestre,Uruguay,-3106
+2016-09-01,Terrestre,EE.UU. y Canadá,2134
+2016-09-01,Terrestre,Resto de América,7949
+2016-09-01,Terrestre,Europa,11552
+2016-09-01,Terrestre,Resto del mundo,3479
+2016-10-01,Aérea,Bolivia,2801
+2016-10-01,Aérea,Brasil,-12715
+2016-10-01,Aérea,Chile,-23914
+2016-10-01,Aérea,Paraguay,1081
+2016-10-01,Aérea,Uruguay,-2127
+2016-10-01,Aérea,EE.UU. y Canadá,-59868
+2016-10-01,Aérea,Resto de América,-28612
+2016-10-01,Aérea,Europa,-40891
+2016-10-01,Aérea,Resto del mundo,4086
+2016-10-01,Fluvial/Marítima,Bolivia,2369
+2016-10-01,Fluvial/Marítima,Brasil,5046
+2016-10-01,Fluvial/Marítima,Chile,1030
+2016-10-01,Fluvial/Marítima,Paraguay,-3423
+2016-10-01,Fluvial/Marítima,Uruguay,-12638
+2016-10-01,Fluvial/Marítima,EE.UU. y Canadá,1952
+2016-10-01,Fluvial/Marítima,Resto de América,4741
+2016-10-01,Fluvial/Marítima,Europa,5884
+2016-10-01,Fluvial/Marítima,Resto del mundo,1421
+2016-10-01,Terrestre,Bolivia,681
+2016-10-01,Terrestre,Brasil,-33212
+2016-10-01,Terrestre,Chile,-92202
+2016-10-01,Terrestre,Paraguay,-21568
+2016-10-01,Terrestre,Uruguay,-23463
+2016-10-01,Terrestre,EE.UU. y Canadá,2908
+2016-10-01,Terrestre,Resto de América,11052
+2016-10-01,Terrestre,Europa,20485
+2016-10-01,Terrestre,Resto del mundo,5625
+2016-11-01,Aérea,Bolivia,2774
+2016-11-01,Aérea,Brasil,-9196
+2016-11-01,Aérea,Chile,-19673
+2016-11-01,Aérea,Paraguay,1025
+2016-11-01,Aérea,Uruguay,-3444
+2016-11-01,Aérea,EE.UU. y Canadá,-31131
+2016-11-01,Aérea,Resto de América,-25031
+2016-11-01,Aérea,Europa,6780
+2016-11-01,Aérea,Resto del mundo,3410
+2016-11-01,Fluvial/Marítima,Bolivia,817
+2016-11-01,Fluvial/Marítima,Brasil,4802
+2016-11-01,Fluvial/Marítima,Chile,208
+2016-11-01,Fluvial/Marítima,Paraguay,-2665
+2016-11-01,Fluvial/Marítima,Uruguay,-20840
+2016-11-01,Fluvial/Marítima,EE.UU. y Canadá,5649
+2016-11-01,Fluvial/Marítima,Resto de América,5436
+2016-11-01,Fluvial/Marítima,Europa,11716
+2016-11-01,Fluvial/Marítima,Resto del mundo,1892
+2016-11-01,Terrestre,Bolivia,-652
+2016-11-01,Terrestre,Brasil,-22129
+2016-11-01,Terrestre,Chile,-81765
+2016-11-01,Terrestre,Paraguay,-20827
+2016-11-01,Terrestre,Uruguay,-31718
+2016-11-01,Terrestre,EE.UU. y Canadá,4780
+2016-11-01,Terrestre,Resto de América,11742
+2016-11-01,Terrestre,Europa,34812
+2016-11-01,Terrestre,Resto del mundo,6048
+2016-12-01,Aérea,Bolivia,4937
+2016-12-01,Aérea,Brasil,-18620
+2016-12-01,Aérea,Chile,-20989
+2016-12-01,Aérea,Paraguay,2334
+2016-12-01,Aérea,Uruguay,-5792
+2016-12-01,Aérea,EE.UU. y Canadá,-28235
+2016-12-01,Aérea,Resto de América,-11688
+2016-12-01,Aérea,Europa,26123
+2016-12-01,Aérea,Resto del mundo,4567
+2016-12-01,Fluvial/Marítima,Bolivia,816
+2016-12-01,Fluvial/Marítima,Brasil,2696
+2016-12-01,Fluvial/Marítima,Chile,-7488
+2016-12-01,Fluvial/Marítima,Paraguay,-257
+2016-12-01,Fluvial/Marítima,Uruguay,-30849
+2016-12-01,Fluvial/Marítima,EE.UU. y Canadá,10621
+2016-12-01,Fluvial/Marítima,Resto de América,6862
+2016-12-01,Fluvial/Marítima,Europa,13126
+2016-12-01,Fluvial/Marítima,Resto del mundo,3220
+2016-12-01,Terrestre,Bolivia,12143
+2016-12-01,Terrestre,Brasil,-35563
+2016-12-01,Terrestre,Chile,-106583
+2016-12-01,Terrestre,Paraguay,45422
+2016-12-01,Terrestre,Uruguay,-52863
+2016-12-01,Terrestre,EE.UU. y Canadá,6394
+2016-12-01,Terrestre,Resto de América,12954
+2016-12-01,Terrestre,Europa,29495
+2016-12-01,Terrestre,Resto del mundo,9149
+2017-01-01,Aérea,Bolivia,2570
+2017-01-01,Aérea,Brasil,-67554
+2017-01-01,Aérea,Chile,-28395
+2017-01-01,Aérea,Paraguay,2469
+2017-01-01,Aérea,Uruguay,-16306
+2017-01-01,Aérea,EE.UU. y Canadá,-29057
+2017-01-01,Aérea,Resto de América,-49489
+2017-01-01,Aérea,Europa,37939
+2017-01-01,Aérea,Resto del mundo,3339
+2017-01-01,Fluvial/Marítima,Bolivia,841
+2017-01-01,Fluvial/Marítima,Brasil,5563
+2017-01-01,Fluvial/Marítima,Chile,-9485
+2017-01-01,Fluvial/Marítima,Paraguay,-7761
+2017-01-01,Fluvial/Marítima,Uruguay,-100675
+2017-01-01,Fluvial/Marítima,EE.UU. y Canadá,19251
+2017-01-01,Fluvial/Marítima,Resto de América,5799
+2017-01-01,Fluvial/Marítima,Europa,20201
+2017-01-01,Fluvial/Marítima,Resto del mundo,5979
+2017-01-01,Terrestre,Bolivia,2904
+2017-01-01,Terrestre,Brasil,-318756
+2017-01-01,Terrestre,Chile,-379514
+2017-01-01,Terrestre,Paraguay,-101900
+2017-01-01,Terrestre,Uruguay,-191791
+2017-01-01,Terrestre,EE.UU. y Canadá,6750
+2017-01-01,Terrestre,Resto de América,10251
+2017-01-01,Terrestre,Europa,33396
+2017-01-01,Terrestre,Resto del mundo,13879
+2017-02-01,Aérea,Bolivia,1700
+2017-02-01,Aérea,Brasil,-93911
+2017-02-01,Aérea,Chile,-26320
+2017-02-01,Aérea,Paraguay,839
+2017-02-01,Aérea,Uruguay,-10718
+2017-02-01,Aérea,EE.UU. y Canadá,-41704
+2017-02-01,Aérea,Resto de América,-73076
+2017-02-01,Aérea,Europa,8066
+2017-02-01,Aérea,Resto del mundo,-1965
+2017-02-01,Fluvial/Marítima,Bolivia,436
+2017-02-01,Fluvial/Marítima,Brasil,280
+2017-02-01,Fluvial/Marítima,Chile,-6945
+2017-02-01,Fluvial/Marítima,Paraguay,-5548
+2017-02-01,Fluvial/Marítima,Uruguay,-80393
+2017-02-01,Fluvial/Marítima,EE.UU. y Canadá,19765
+2017-02-01,Fluvial/Marítima,Resto de América,-1088
+2017-02-01,Fluvial/Marítima,Europa,24275
+2017-02-01,Fluvial/Marítima,Resto del mundo,9155
+2017-02-01,Terrestre,Bolivia,-3202
+2017-02-01,Terrestre,Brasil,-321532
+2017-02-01,Terrestre,Chile,-234550
+2017-02-01,Terrestre,Paraguay,-80529
+2017-02-01,Terrestre,Uruguay,-189288
+2017-02-01,Terrestre,EE.UU. y Canadá,6207
+2017-02-01,Terrestre,Resto de América,6878
+2017-02-01,Terrestre,Europa,30713
+2017-02-01,Terrestre,Resto del mundo,12780
+2017-03-01,Aérea,Bolivia,-31
+2017-03-01,Aérea,Brasil,-69857
+2017-03-01,Aérea,Chile,-20292
+2017-03-01,Aérea,Paraguay,929
+2017-03-01,Aérea,Uruguay,-3438
+2017-03-01,Aérea,EE.UU. y Canadá,-47026
+2017-03-01,Aérea,Resto de América,-63274
+2017-03-01,Aérea,Europa,13756
+2017-03-01,Aérea,Resto del mundo,-7239
+2017-03-01,Fluvial/Marítima,Bolivia,-3822
+2017-03-01,Fluvial/Marítima,Brasil,6416
+2017-03-01,Fluvial/Marítima,Chile,-4580
+2017-03-01,Fluvial/Marítima,Paraguay,-3315
+2017-03-01,Fluvial/Marítima,Uruguay,-50469
+2017-03-01,Fluvial/Marítima,EE.UU. y Canadá,12654
+2017-03-01,Fluvial/Marítima,Resto de América,4155
+2017-03-01,Fluvial/Marítima,Europa,15186
+2017-03-01,Fluvial/Marítima,Resto del mundo,3231
+2017-03-01,Terrestre,Bolivia,-19815
+2017-03-01,Terrestre,Brasil,-122451
+2017-03-01,Terrestre,Chile,-147558
+2017-03-01,Terrestre,Paraguay,-43360
+2017-03-01,Terrestre,Uruguay,-72307
+2017-03-01,Terrestre,EE.UU. y Canadá,5870
+2017-03-01,Terrestre,Resto de América,6070
+2017-03-01,Terrestre,Europa,27862
+2017-03-01,Terrestre,Resto del mundo,8691
+2017-04-01,Aérea,Bolivia,2245
+2017-04-01,Aérea,Brasil,-40356
+2017-04-01,Aérea,Chile,-21987
+2017-04-01,Aérea,Paraguay,1716
+2017-04-01,Aérea,Uruguay,-150
+2017-04-01,Aérea,EE.UU. y Canadá,-44105
+2017-04-01,Aérea,Resto de América,-54375
+2017-04-01,Aérea,Europa,3784
+2017-04-01,Aérea,Resto del mundo,-6461
+2017-04-01,Fluvial/Marítima,Bolivia,-1187
+2017-04-01,Fluvial/Marítima,Brasil,4361
+2017-04-01,Fluvial/Marítima,Chile,746
+2017-04-01,Fluvial/Marítima,Paraguay,-1765
+2017-04-01,Fluvial/Marítima,Uruguay,-12256
+2017-04-01,Fluvial/Marítima,EE.UU. y Canadá,4067
+2017-04-01,Fluvial/Marítima,Resto de América,4532
+2017-04-01,Fluvial/Marítima,Europa,7928
+2017-04-01,Fluvial/Marítima,Resto del mundo,1710
+2017-04-01,Terrestre,Bolivia,-2897
+2017-04-01,Terrestre,Brasil,-49900
+2017-04-01,Terrestre,Chile,-105369
+2017-04-01,Terrestre,Paraguay,-60653
+2017-04-01,Terrestre,Uruguay,-39998
+2017-04-01,Terrestre,EE.UU. y Canadá,2918
+2017-04-01,Terrestre,Resto de América,7323
+2017-04-01,Terrestre,Europa,19533
+2017-04-01,Terrestre,Resto del mundo,5958
+2017-05-01,Aérea,Bolivia,1499
+2017-05-01,Aérea,Brasil,-12712
+2017-05-01,Aérea,Chile,-24077
+2017-05-01,Aérea,Paraguay,2172
+2017-05-01,Aérea,Uruguay,-148
+2017-05-01,Aérea,EE.UU. y Canadá,-50354
+2017-05-01,Aérea,Resto de América,-68063
+2017-05-01,Aérea,Europa,-21234
+2017-05-01,Aérea,Resto del mundo,-15672
+2017-05-01,Fluvial/Marítima,Bolivia,-55
+2017-05-01,Fluvial/Marítima,Brasil,4735
+2017-05-01,Fluvial/Marítima,Chile,735
+2017-05-01,Fluvial/Marítima,Paraguay,-2830
+2017-05-01,Fluvial/Marítima,Uruguay,-9544
+2017-05-01,Fluvial/Marítima,EE.UU. y Canadá,1723
+2017-05-01,Fluvial/Marítima,Resto de América,3336
+2017-05-01,Fluvial/Marítima,Europa,3484
+2017-05-01,Fluvial/Marítima,Resto del mundo,1072
+2017-05-01,Terrestre,Bolivia,-1722
+2017-05-01,Terrestre,Brasil,-23873
+2017-05-01,Terrestre,Chile,-71664
+2017-05-01,Terrestre,Paraguay,-54119
+2017-05-01,Terrestre,Uruguay,-25731
+2017-05-01,Terrestre,EE.UU. y Canadá,1878
+2017-05-01,Terrestre,Resto de América,7522
+2017-05-01,Terrestre,Europa,10513
+2017-05-01,Terrestre,Resto del mundo,3975
+2017-06-01,Aérea,Bolivia,1199
+2017-06-01,Aérea,Brasil,9587
+2017-06-01,Aérea,Chile,-17057
+2017-06-01,Aérea,Paraguay,1663
+2017-06-01,Aérea,Uruguay,900
+2017-06-01,Aérea,EE.UU. y Canadá,-52265
+2017-06-01,Aérea,Resto de América,-52591
+2017-06-01,Aérea,Europa,-52911
+2017-06-01,Aérea,Resto del mundo,-6694
+2017-06-01,Fluvial/Marítima,Bolivia,246
+2017-06-01,Fluvial/Marítima,Brasil,5190
+2017-06-01,Fluvial/Marítima,Chile,528
+2017-06-01,Fluvial/Marítima,Paraguay,-5727
+2017-06-01,Fluvial/Marítima,Uruguay,-253
+2017-06-01,Fluvial/Marítima,EE.UU. y Canadá,1784
+2017-06-01,Fluvial/Marítima,Resto de América,2078
+2017-06-01,Fluvial/Marítima,Europa,2305
+2017-06-01,Fluvial/Marítima,Resto del mundo,869
+2017-06-01,Terrestre,Bolivia,-1176
+2017-06-01,Terrestre,Brasil,-17000
+2017-06-01,Terrestre,Chile,-34134
+2017-06-01,Terrestre,Paraguay,-50303
+2017-06-01,Terrestre,Uruguay,-15331
+2017-06-01,Terrestre,EE.UU. y Canadá,1206
+2017-06-01,Terrestre,Resto de América,5356
+2017-06-01,Terrestre,Europa,6181
+2017-06-01,Terrestre,Resto del mundo,2297
+2017-07-01,Aérea,Bolivia,1368
+2017-07-01,Aérea,Brasil,21566
+2017-07-01,Aérea,Chile,-35591
+2017-07-01,Aérea,Paraguay,1679
+2017-07-01,Aérea,Uruguay,2062
+2017-07-01,Aérea,EE.UU. y Canadá,-55311
+2017-07-01,Aérea,Resto de América,-53548
+2017-07-01,Aérea,Europa,-55851
+2017-07-01,Aérea,Resto del mundo,-2948
+2017-07-01,Fluvial/Marítima,Bolivia,-10070
+2017-07-01,Fluvial/Marítima,Brasil,8429
+2017-07-01,Fluvial/Marítima,Chile,913
+2017-07-01,Fluvial/Marítima,Paraguay,-10232
+2017-07-01,Fluvial/Marítima,Uruguay,-9547
+2017-07-01,Fluvial/Marítima,EE.UU. y Canadá,1852
+2017-07-01,Fluvial/Marítima,Resto de América,1010
+2017-07-01,Fluvial/Marítima,Europa,3156
+2017-07-01,Fluvial/Marítima,Resto del mundo,841
+2017-07-01,Terrestre,Bolivia,-7281
+2017-07-01,Terrestre,Brasil,-77540
+2017-07-01,Terrestre,Chile,-83266
+2017-07-01,Terrestre,Paraguay,-87453
+2017-07-01,Terrestre,Uruguay,-32392
+2017-07-01,Terrestre,EE.UU. y Canadá,1325
+2017-07-01,Terrestre,Resto de América,8262
+2017-07-01,Terrestre,Europa,10024
+2017-07-01,Terrestre,Resto del mundo,2679
+2017-08-01,Aérea,Bolivia,614
+2017-08-01,Aérea,Brasil,9363
+2017-08-01,Aérea,Chile,-25336
+2017-08-01,Aérea,Paraguay,934
+2017-08-01,Aérea,Uruguay,1648
+2017-08-01,Aérea,EE.UU. y Canadá,-62184
+2017-08-01,Aérea,Resto de América,-47301
+2017-08-01,Aérea,Europa,-46141
+2017-08-01,Aérea,Resto del mundo,-343
+2017-08-01,Fluvial/Marítima,Bolivia,-9778
+2017-08-01,Fluvial/Marítima,Brasil,3580
+2017-08-01,Fluvial/Marítima,Chile,655
+2017-08-01,Fluvial/Marítima,Paraguay,-3725
+2017-08-01,Fluvial/Marítima,Uruguay,-2204
+2017-08-01,Fluvial/Marítima,EE.UU. y Canadá,988
+2017-08-01,Fluvial/Marítima,Resto de América,1146
+2017-08-01,Fluvial/Marítima,Europa,3174
+2017-08-01,Fluvial/Marítima,Resto del mundo,782
+2017-08-01,Terrestre,Bolivia,-8462
+2017-08-01,Terrestre,Brasil,-33329
+2017-08-01,Terrestre,Chile,-66145
+2017-08-01,Terrestre,Paraguay,-48831
+2017-08-01,Terrestre,Uruguay,-19819
+2017-08-01,Terrestre,EE.UU. y Canadá,1217
+2017-08-01,Terrestre,Resto de América,8691
+2017-08-01,Terrestre,Europa,12201
+2017-08-01,Terrestre,Resto del mundo,3070
+2017-09-01,Aérea,Bolivia,1326
+2017-09-01,Aérea,Brasil,-3329
+2017-09-01,Aérea,Chile,-12999
+2017-09-01,Aérea,Paraguay,906
+2017-09-01,Aérea,Uruguay,-331
+2017-09-01,Aérea,EE.UU. y Canadá,-57435
+2017-09-01,Aérea,Resto de América,-38740
+2017-09-01,Aérea,Europa,-54339
+2017-09-01,Aérea,Resto del mundo,-1699
+2017-09-01,Fluvial/Marítima,Bolivia,-9713
+2017-09-01,Fluvial/Marítima,Brasil,7210
+2017-09-01,Fluvial/Marítima,Chile,1173
+2017-09-01,Fluvial/Marítima,Paraguay,-3556
+2017-09-01,Fluvial/Marítima,Uruguay,-7205
+2017-09-01,Fluvial/Marítima,EE.UU. y Canadá,1508
+2017-09-01,Fluvial/Marítima,Resto de América,3235
+2017-09-01,Fluvial/Marítima,Europa,3480
+2017-09-01,Fluvial/Marítima,Resto del mundo,1085
+2017-09-01,Terrestre,Bolivia,-6367
+2017-09-01,Terrestre,Brasil,-24346
+2017-09-01,Terrestre,Chile,-62085
+2017-09-01,Terrestre,Paraguay,-33955
+2017-09-01,Terrestre,Uruguay,-6943
+2017-09-01,Terrestre,EE.UU. y Canadá,1327
+2017-09-01,Terrestre,Resto de América,7111
+2017-09-01,Terrestre,Europa,9849
+2017-09-01,Terrestre,Resto del mundo,3279
+2017-10-01,Aérea,Bolivia,1877
+2017-10-01,Aérea,Brasil,-13247
+2017-10-01,Aérea,Chile,-20782
+2017-10-01,Aérea,Paraguay,322
+2017-10-01,Aérea,Uruguay,-1473
+2017-10-01,Aérea,EE.UU. y Canadá,-64529
+2017-10-01,Aérea,Resto de América,-28765
+2017-10-01,Aérea,Europa,-48082
+2017-10-01,Aérea,Resto del mundo,-4215
+2017-10-01,Fluvial/Marítima,Bolivia,-6954
+2017-10-01,Fluvial/Marítima,Brasil,5827
+2017-10-01,Fluvial/Marítima,Chile,1036
+2017-10-01,Fluvial/Marítima,Paraguay,-4866
+2017-10-01,Fluvial/Marítima,Uruguay,-16285
+2017-10-01,Fluvial/Marítima,EE.UU. y Canadá,2734
+2017-10-01,Fluvial/Marítima,Resto de América,4319
+2017-10-01,Fluvial/Marítima,Europa,6659
+2017-10-01,Fluvial/Marítima,Resto del mundo,1749
+2017-10-01,Terrestre,Bolivia,-1011
+2017-10-01,Terrestre,Brasil,-29368
+2017-10-01,Terrestre,Chile,-90876
+2017-10-01,Terrestre,Paraguay,-36237
+2017-10-01,Terrestre,Uruguay,-26289
+2017-10-01,Terrestre,EE.UU. y Canadá,3027
+2017-10-01,Terrestre,Resto de América,10452
+2017-10-01,Terrestre,Europa,18173
+2017-10-01,Terrestre,Resto del mundo,5223
+2017-11-01,Aérea,Bolivia,2399
+2017-11-01,Aérea,Brasil,-18324
+2017-11-01,Aérea,Chile,-22659
+2017-11-01,Aérea,Paraguay,1736
+2017-11-01,Aérea,Uruguay,-3768
+2017-11-01,Aérea,EE.UU. y Canadá,-35654
+2017-11-01,Aérea,Resto de América,-23963
+2017-11-01,Aérea,Europa,423
+2017-11-01,Aérea,Resto del mundo,-561
+2017-11-01,Fluvial/Marítima,Bolivia,-7873
+2017-11-01,Fluvial/Marítima,Brasil,4257
+2017-11-01,Fluvial/Marítima,Chile,-77
+2017-11-01,Fluvial/Marítima,Paraguay,-4330
+2017-11-01,Fluvial/Marítima,Uruguay,-26284
+2017-11-01,Fluvial/Marítima,EE.UU. y Canadá,5231
+2017-11-01,Fluvial/Marítima,Resto de América,4462
+2017-11-01,Fluvial/Marítima,Europa,12028
+2017-11-01,Fluvial/Marítima,Resto del mundo,2688
+2017-11-01,Terrestre,Bolivia,-1980
+2017-11-01,Terrestre,Brasil,-32972
+2017-11-01,Terrestre,Chile,-89764
+2017-11-01,Terrestre,Paraguay,-37755
+2017-11-01,Terrestre,Uruguay,-35690
+2017-11-01,Terrestre,EE.UU. y Canadá,4933
+2017-11-01,Terrestre,Resto de América,10956
+2017-11-01,Terrestre,Europa,34727
+2017-11-01,Terrestre,Resto del mundo,6068
+2017-12-01,Aérea,Bolivia,4585
+2017-12-01,Aérea,Brasil,-33485
+2017-12-01,Aérea,Chile,-20989
+2017-12-01,Aérea,Paraguay,2542
+2017-12-01,Aérea,Uruguay,-5941
+2017-12-01,Aérea,EE.UU. y Canadá,-27187
+2017-12-01,Aérea,Resto de América,-15791
+2017-12-01,Aérea,Europa,25103
+2017-12-01,Aérea,Resto del mundo,7866
+2017-12-01,Fluvial/Marítima,Bolivia,-8148
+2017-12-01,Fluvial/Marítima,Brasil,3618
+2017-12-01,Fluvial/Marítima,Chile,-10862
+2017-12-01,Fluvial/Marítima,Paraguay,311
+2017-12-01,Fluvial/Marítima,Uruguay,-35491
+2017-12-01,Fluvial/Marítima,EE.UU. y Canadá,12907
+2017-12-01,Fluvial/Marítima,Resto de América,10097
+2017-12-01,Fluvial/Marítima,Europa,13915
+2017-12-01,Fluvial/Marítima,Resto del mundo,4426
+2017-12-01,Terrestre,Bolivia,12926
+2017-12-01,Terrestre,Brasil,-31697
+2017-12-01,Terrestre,Chile,-84990
+2017-12-01,Terrestre,Paraguay,40261
+2017-12-01,Terrestre,Uruguay,-48318
+2017-12-01,Terrestre,EE.UU. y Canadá,6299
+2017-12-01,Terrestre,Resto de América,14610
+2017-12-01,Terrestre,Europa,29328
+2017-12-01,Terrestre,Resto del mundo,9787
+2018-01-01,Aérea,Bolivia,2527
+2018-01-01,Aérea,Brasil,-91604
+2018-01-01,Aérea,Chile,-38532
+2018-01-01,Aérea,Paraguay,1917
+2018-01-01,Aérea,Uruguay,-23517
+2018-01-01,Aérea,EE.UU. y Canadá,-26108
+2018-01-01,Aérea,Resto de América,-59713
+2018-01-01,Aérea,Europa,27281
+2018-01-01,Aérea,Resto del mundo,4544
+2018-01-01,Fluvial/Marítima,Bolivia,-6394
+2018-01-01,Fluvial/Marítima,Brasil,15799
+2018-01-01,Fluvial/Marítima,Chile,-10113
+2018-01-01,Fluvial/Marítima,Paraguay,-12332
+2018-01-01,Fluvial/Marítima,Uruguay,-112875
+2018-01-01,Fluvial/Marítima,EE.UU. y Canadá,18031
+2018-01-01,Fluvial/Marítima,Resto de América,2221
+2018-01-01,Fluvial/Marítima,Europa,18468
+2018-01-01,Fluvial/Marítima,Resto del mundo,5428
+2018-01-01,Terrestre,Bolivia,8371
+2018-01-01,Terrestre,Brasil,-326270
+2018-01-01,Terrestre,Chile,-286438
+2018-01-01,Terrestre,Paraguay,-129615
+2018-01-01,Terrestre,Uruguay,-223052
+2018-01-01,Terrestre,EE.UU. y Canadá,7357
+2018-01-01,Terrestre,Resto de América,12520
+2018-01-01,Terrestre,Europa,32987
+2018-01-01,Terrestre,Resto del mundo,15590
+2018-02-01,Aérea,Bolivia,-329
+2018-02-01,Aérea,Brasil,-110766
+2018-02-01,Aérea,Chile,-34332
+2018-02-01,Aérea,Paraguay,-402
+2018-02-01,Aérea,Uruguay,-11905
+2018-02-01,Aérea,EE.UU. y Canadá,-54225
+2018-02-01,Aérea,Resto de América,-75065
+2018-02-01,Aérea,Europa,1809
+2018-02-01,Aérea,Resto del mundo,-3178
+2018-02-01,Fluvial/Marítima,Bolivia,-5444
+2018-02-01,Fluvial/Marítima,Brasil,882
+2018-02-01,Fluvial/Marítima,Chile,-9637
+2018-02-01,Fluvial/Marítima,Paraguay,-6046
+2018-02-01,Fluvial/Marítima,Uruguay,-99265
+2018-02-01,Fluvial/Marítima,EE.UU. y Canadá,19163
+2018-02-01,Fluvial/Marítima,Resto de América,-5812
+2018-02-01,Fluvial/Marítima,Europa,20163
+2018-02-01,Fluvial/Marítima,Resto del mundo,6343
+2018-02-01,Terrestre,Bolivia,-16100
+2018-02-01,Terrestre,Brasil,-311233
+2018-02-01,Terrestre,Chile,-180594
+2018-02-01,Terrestre,Paraguay,-101552
+2018-02-01,Terrestre,Uruguay,-206810
+2018-02-01,Terrestre,EE.UU. y Canadá,6556
+2018-02-01,Terrestre,Resto de América,9039
+2018-02-01,Terrestre,Europa,31242
+2018-02-01,Terrestre,Resto del mundo,13003
+2018-03-01,Aérea,Bolivia,1202
+2018-03-01,Aérea,Brasil,-104140
+2018-03-01,Aérea,Chile,-19301
+2018-03-01,Aérea,Paraguay,2533
+2018-03-01,Aérea,Uruguay,-3098
+2018-03-01,Aérea,EE.UU. y Canadá,-45584
+2018-03-01,Aérea,Resto de América,-70656
+2018-03-01,Aérea,Europa,4421
+2018-03-01,Aérea,Resto del mundo,-5162
+2018-03-01,Fluvial/Marítima,Bolivia,1834
+2018-03-01,Fluvial/Marítima,Brasil,4625
+2018-03-01,Fluvial/Marítima,Chile,-4045
+2018-03-01,Fluvial/Marítima,Paraguay,-4277
+2018-03-01,Fluvial/Marítima,Uruguay,-27430
+2018-03-01,Fluvial/Marítima,EE.UU. y Canadá,12496
+2018-03-01,Fluvial/Marítima,Resto de América,1818
+2018-03-01,Fluvial/Marítima,Europa,13001
+2018-03-01,Fluvial/Marítima,Resto del mundo,3328
+2018-03-01,Terrestre,Bolivia,-5084
+2018-03-01,Terrestre,Brasil,-144891
+2018-03-01,Terrestre,Chile,-77825
+2018-03-01,Terrestre,Paraguay,-27791
+2018-03-01,Terrestre,Uruguay,-48588
+2018-03-01,Terrestre,EE.UU. y Canadá,6633
+2018-03-01,Terrestre,Resto de América,9637
+2018-03-01,Terrestre,Europa,30750
+2018-03-01,Terrestre,Resto del mundo,9229
+2018-04-01,Aérea,Bolivia,2286
+2018-04-01,Aérea,Brasil,-59087
+2018-04-01,Aérea,Chile,-18855
+2018-04-01,Aérea,Paraguay,828
+2018-04-01,Aérea,Uruguay,-2452
+2018-04-01,Aérea,EE.UU. y Canadá,-43598
+2018-04-01,Aérea,Resto de América,-65069
+2018-04-01,Aérea,Europa,1978
+2018-04-01,Aérea,Resto del mundo,-13588
+2018-04-01,Fluvial/Marítima,Bolivia,2488
+2018-04-01,Fluvial/Marítima,Brasil,225
+2018-04-01,Fluvial/Marítima,Chile,-507
+2018-04-01,Fluvial/Marítima,Paraguay,-4773
+2018-04-01,Fluvial/Marítima,Uruguay,-29352
+2018-04-01,Fluvial/Marítima,EE.UU. y Canadá,2011
+2018-04-01,Fluvial/Marítima,Resto de América,1721
+2018-04-01,Fluvial/Marítima,Europa,5487
+2018-04-01,Fluvial/Marítima,Resto del mundo,1426
+2018-04-01,Terrestre,Bolivia,-465
+2018-04-01,Terrestre,Brasil,-70687
+2018-04-01,Terrestre,Chile,-99095
+2018-04-01,Terrestre,Paraguay,-92402
+2018-04-01,Terrestre,Uruguay,-82136
+2018-04-01,Terrestre,EE.UU. y Canadá,3768
+2018-04-01,Terrestre,Resto de América,7631
+2018-04-01,Terrestre,Europa,17118
+2018-04-01,Terrestre,Resto del mundo,6023
+2018-05-01,Aérea,Bolivia,1657
+2018-05-01,Aérea,Brasil,-11281
+2018-05-01,Aérea,Chile,-9989
+2018-05-01,Aérea,Paraguay,897
+2018-05-01,Aérea,Uruguay,-1945
+2018-05-01,Aérea,EE.UU. y Canadá,-65094
+2018-05-01,Aérea,Resto de América,-64007
+2018-05-01,Aérea,Europa,-45320
+2018-05-01,Aérea,Resto del mundo,-5162
+2018-05-01,Fluvial/Marítima,Bolivia,2665
+2018-05-01,Fluvial/Marítima,Brasil,1938
+2018-05-01,Fluvial/Marítima,Chile,702
+2018-05-01,Fluvial/Marítima,Paraguay,-2941
+2018-05-01,Fluvial/Marítima,Uruguay,-8488
+2018-05-01,Fluvial/Marítima,EE.UU. y Canadá,1357
+2018-05-01,Fluvial/Marítima,Resto de América,858
+2018-05-01,Fluvial/Marítima,Europa,3082
+2018-05-01,Fluvial/Marítima,Resto del mundo,1216
+2018-05-01,Terrestre,Bolivia,4329
+2018-05-01,Terrestre,Brasil,-25471
+2018-05-01,Terrestre,Chile,-46447
+2018-05-01,Terrestre,Paraguay,-58653
+2018-05-01,Terrestre,Uruguay,-30167
+2018-05-01,Terrestre,EE.UU. y Canadá,2087
+2018-05-01,Terrestre,Resto de América,8434
+2018-05-01,Terrestre,Europa,11548
+2018-05-01,Terrestre,Resto del mundo,3550
+2018-06-01,Aérea,Bolivia,1414
+2018-06-01,Aérea,Brasil,22436
+2018-06-01,Aérea,Chile,-3401
+2018-06-01,Aérea,Paraguay,912
+2018-06-01,Aérea,Uruguay,328
+2018-06-01,Aérea,EE.UU. y Canadá,-60829
+2018-06-01,Aérea,Resto de América,-50198
+2018-06-01,Aérea,Europa,-65896
+2018-06-01,Aérea,Resto del mundo,-5186
+2018-06-01,Fluvial/Marítima,Bolivia,1982
+2018-06-01,Fluvial/Marítima,Brasil,4636
+2018-06-01,Fluvial/Marítima,Chile,518
+2018-06-01,Fluvial/Marítima,Paraguay,-2062
+2018-06-01,Fluvial/Marítima,Uruguay,179
+2018-06-01,Fluvial/Marítima,EE.UU. y Canadá,1872
+2018-06-01,Fluvial/Marítima,Resto de América,2501
+2018-06-01,Fluvial/Marítima,Europa,2504
+2018-06-01,Fluvial/Marítima,Resto del mundo,1039
+2018-06-01,Terrestre,Bolivia,5182
+2018-06-01,Terrestre,Brasil,-17596
+2018-06-01,Terrestre,Chile,-9993
+2018-06-01,Terrestre,Paraguay,-36876
+2018-06-01,Terrestre,Uruguay,-10008
+2018-06-01,Terrestre,EE.UU. y Canadá,1584
+2018-06-01,Terrestre,Resto de América,7008
+2018-06-01,Terrestre,Europa,6713
+2018-06-01,Terrestre,Resto del mundo,2412
+2018-07-01,Aérea,Bolivia,1957
+2018-07-01,Aérea,Brasil,32982
+2018-07-01,Aérea,Chile,-5767
+2018-07-01,Aérea,Paraguay,2375
+2018-07-01,Aérea,Uruguay,-191
+2018-07-01,Aérea,EE.UU. y Canadá,-52949
+2018-07-01,Aérea,Resto de América,-50473
+2018-07-01,Aérea,Europa,-69208
+2018-07-01,Aérea,Resto del mundo,-2027
+2018-07-01,Fluvial/Marítima,Bolivia,2856
+2018-07-01,Fluvial/Marítima,Brasil,7776
+2018-07-01,Fluvial/Marítima,Chile,1001
+2018-07-01,Fluvial/Marítima,Paraguay,-5642
+2018-07-01,Fluvial/Marítima,Uruguay,-867
+2018-07-01,Fluvial/Marítima,EE.UU. y Canadá,1020
+2018-07-01,Fluvial/Marítima,Resto de América,65
+2018-07-01,Fluvial/Marítima,Europa,2432
+2018-07-01,Fluvial/Marítima,Resto del mundo,886
+2018-07-01,Terrestre,Bolivia,1946
+2018-07-01,Terrestre,Brasil,-76906
+2018-07-01,Terrestre,Chile,-13432
+2018-07-01,Terrestre,Paraguay,-53020
+2018-07-01,Terrestre,Uruguay,-15961
+2018-07-01,Terrestre,EE.UU. y Canadá,1702
+2018-07-01,Terrestre,Resto de América,9739
+2018-07-01,Terrestre,Europa,9916
+2018-07-01,Terrestre,Resto del mundo,2950
+2018-08-01,Aérea,Bolivia,1114
+2018-08-01,Aérea,Brasil,19368
+2018-08-01,Aérea,Chile,-942
+2018-08-01,Aérea,Paraguay,1467
+2018-08-01,Aérea,Uruguay,446
+2018-08-01,Aérea,EE.UU. y Canadá,-46603
+2018-08-01,Aérea,Resto de América,-32700
+2018-08-01,Aérea,Europa,-49926
+2018-08-01,Aérea,Resto del mundo,-208
+2018-08-01,Fluvial/Marítima,Bolivia,303
+2018-08-01,Fluvial/Marítima,Brasil,4829
+2018-08-01,Fluvial/Marítima,Chile,656
+2018-08-01,Fluvial/Marítima,Paraguay,-2471
+2018-08-01,Fluvial/Marítima,Uruguay,-740
+2018-08-01,Fluvial/Marítima,EE.UU. y Canadá,1350
+2018-08-01,Fluvial/Marítima,Resto de América,2661
+2018-08-01,Fluvial/Marítima,Europa,3557
+2018-08-01,Fluvial/Marítima,Resto del mundo,894
+2018-08-01,Terrestre,Bolivia,-3744
+2018-08-01,Terrestre,Brasil,-32814
+2018-08-01,Terrestre,Chile,-18095
+2018-08-01,Terrestre,Paraguay,-26169
+2018-08-01,Terrestre,Uruguay,-8651
+2018-08-01,Terrestre,EE.UU. y Canadá,1508
+2018-08-01,Terrestre,Resto de América,9115
+2018-08-01,Terrestre,Europa,12979
+2018-08-01,Terrestre,Resto del mundo,2731
+2018-09-01,Aérea,Bolivia,2057
+2018-09-01,Aérea,Brasil,2049
+2018-09-01,Aérea,Chile,12860
+2018-09-01,Aérea,Paraguay,808
+2018-09-01,Aérea,Uruguay,582
+2018-09-01,Aérea,EE.UU. y Canadá,-46522
+2018-09-01,Aérea,Resto de América,-26530
+2018-09-01,Aérea,Europa,-48254
+2018-09-01,Aérea,Resto del mundo,-124
+2018-09-01,Fluvial/Marítima,Bolivia,1289
+2018-09-01,Fluvial/Marítima,Brasil,6037
+2018-09-01,Fluvial/Marítima,Chile,1261
+2018-09-01,Fluvial/Marítima,Paraguay,-1715
+2018-09-01,Fluvial/Marítima,Uruguay,9467
+2018-09-01,Fluvial/Marítima,EE.UU. y Canadá,1581
+2018-09-01,Fluvial/Marítima,Resto de América,4312
+2018-09-01,Fluvial/Marítima,Europa,4112
+2018-09-01,Fluvial/Marítima,Resto del mundo,1283
+2018-09-01,Terrestre,Bolivia,1920
+2018-09-01,Terrestre,Brasil,-21419
+2018-09-01,Terrestre,Chile,24948
+2018-09-01,Terrestre,Paraguay,-11254
+2018-09-01,Terrestre,Uruguay,14902
+2018-09-01,Terrestre,EE.UU. y Canadá,2083
+2018-09-01,Terrestre,Resto de América,9523
+2018-09-01,Terrestre,Europa,11643
+2018-09-01,Terrestre,Resto del mundo,4187
+2018-10-01,Aérea,Bolivia,2652
+2018-10-01,Aérea,Brasil,-7066
+2018-10-01,Aérea,Chile,8215
+2018-10-01,Aérea,Paraguay,1594
+2018-10-01,Aérea,Uruguay,-606
+2018-10-01,Aérea,EE.UU. y Canadá,-41183
+2018-10-01,Aérea,Resto de América,-19009
+2018-10-01,Aérea,Europa,-43510
+2018-10-01,Aérea,Resto del mundo,4389
+2018-10-01,Fluvial/Marítima,Bolivia,2163
+2018-10-01,Fluvial/Marítima,Brasil,4835
+2018-10-01,Fluvial/Marítima,Chile,866
+2018-10-01,Fluvial/Marítima,Paraguay,-1964
+2018-10-01,Fluvial/Marítima,Uruguay,647
+2018-10-01,Fluvial/Marítima,EE.UU. y Canadá,3237
+2018-10-01,Fluvial/Marítima,Resto de América,5485
+2018-10-01,Fluvial/Marítima,Europa,6384
+2018-10-01,Fluvial/Marítima,Resto del mundo,1958
+2018-10-01,Terrestre,Bolivia,8763
+2018-10-01,Terrestre,Brasil,-27701
+2018-10-01,Terrestre,Chile,-5069
+2018-10-01,Terrestre,Paraguay,-9070
+2018-10-01,Terrestre,Uruguay,-4893
+2018-10-01,Terrestre,EE.UU. y Canadá,3691
+2018-10-01,Terrestre,Resto de América,12146
+2018-10-01,Terrestre,Europa,20900
+2018-10-01,Terrestre,Resto del mundo,5285
+2018-11-01,Aérea,Bolivia,3726
+2018-11-01,Aérea,Brasil,4925
+2018-11-01,Aérea,Chile,16612
+2018-11-01,Aérea,Paraguay,1574
+2018-11-01,Aérea,Uruguay,-1597
+2018-11-01,Aérea,EE.UU. y Canadá,-20260
+2018-11-01,Aérea,Resto de América,-18298
+2018-11-01,Aérea,Europa,12881
+2018-11-01,Aérea,Resto del mundo,-1605
+2018-11-01,Fluvial/Marítima,Bolivia,659
+2018-11-01,Fluvial/Marítima,Brasil,3770
+2018-11-01,Fluvial/Marítima,Chile,763
+2018-11-01,Fluvial/Marítima,Paraguay,-1481
+2018-11-01,Fluvial/Marítima,Uruguay,-3671
+2018-11-01,Fluvial/Marítima,EE.UU. y Canadá,4671
+2018-11-01,Fluvial/Marítima,Resto de América,5945
+2018-11-01,Fluvial/Marítima,Europa,11939
+2018-11-01,Fluvial/Marítima,Resto del mundo,2344
+2018-11-01,Terrestre,Bolivia,3398
+2018-11-01,Terrestre,Brasil,-14918
+2018-11-01,Terrestre,Chile,5678
+2018-11-01,Terrestre,Paraguay,-15734
+2018-11-01,Terrestre,Uruguay,-9257
+2018-11-01,Terrestre,EE.UU. y Canadá,6651
+2018-11-01,Terrestre,Resto de América,13631
+2018-11-01,Terrestre,Europa,40694
+2018-11-01,Terrestre,Resto del mundo,6955
+2018-12-01,Aérea,Bolivia,4519
+2018-12-01,Aérea,Brasil,-1576
+2018-12-01,Aérea,Chile,6368
+2018-12-01,Aérea,Paraguay,2590
+2018-12-01,Aérea,Uruguay,-3623
+2018-12-01,Aérea,EE.UU. y Canadá,-15167
+2018-12-01,Aérea,Resto de América,-6982
+2018-12-01,Aérea,Europa,20655
+2018-12-01,Aérea,Resto del mundo,8488
+2018-12-01,Fluvial/Marítima,Bolivia,1983
+2018-12-01,Fluvial/Marítima,Brasil,19962
+2018-12-01,Fluvial/Marítima,Chile,468
+2018-12-01,Fluvial/Marítima,Paraguay,1109
+2018-12-01,Fluvial/Marítima,Uruguay,-32454
+2018-12-01,Fluvial/Marítima,EE.UU. y Canadá,14549
+2018-12-01,Fluvial/Marítima,Resto de América,10812
+2018-12-01,Fluvial/Marítima,Europa,15798
+2018-12-01,Fluvial/Marítima,Resto del mundo,5298
+2018-12-01,Terrestre,Bolivia,17573
+2018-12-01,Terrestre,Brasil,-21804
+2018-12-01,Terrestre,Chile,-4918
+2018-12-01,Terrestre,Paraguay,40811
+2018-12-01,Terrestre,Uruguay,-23166
+2018-12-01,Terrestre,EE.UU. y Canadá,8156
+2018-12-01,Terrestre,Resto de América,15287
+2018-12-01,Terrestre,Europa,32351
+2018-12-01,Terrestre,Resto del mundo,10168
+2019-01-01,Aérea,Bolivia,5105
+2019-01-01,Aérea,Brasil,-42359
+2019-01-01,Aérea,Chile,-5286
+2019-01-01,Aérea,Paraguay,4051
+2019-01-01,Aérea,Uruguay,-18679
+2019-01-01,Aérea,EE.UU. y Canadá,-5797
+2019-01-01,Aérea,Resto de América,-23174
+2019-01-01,Aérea,Europa,44761
+2019-01-01,Aérea,Resto del mundo,3867
+2019-01-01,Fluvial/Marítima,Bolivia,1851
+2019-01-01,Fluvial/Marítima,Brasil,31685
+2019-01-01,Fluvial/Marítima,Chile,370
+2019-01-01,Fluvial/Marítima,Paraguay,-7932
+2019-01-01,Fluvial/Marítima,Uruguay,-82265
+2019-01-01,Fluvial/Marítima,EE.UU. y Canadá,24202
+2019-01-01,Fluvial/Marítima,Resto de América,5193
+2019-01-01,Fluvial/Marítima,Europa,22705
+2019-01-01,Fluvial/Marítima,Resto del mundo,7232
+2019-01-01,Terrestre,Bolivia,11522
+2019-01-01,Terrestre,Brasil,-153734
+2019-01-01,Terrestre,Chile,-121783
+2019-01-01,Terrestre,Paraguay,-83631
+2019-01-01,Terrestre,Uruguay,-129364
+2019-01-01,Terrestre,EE.UU. y Canadá,9206
+2019-01-01,Terrestre,Resto de América,16702
+2019-01-01,Terrestre,Europa,39163
+2019-01-01,Terrestre,Resto del mundo,16047
+2019-02-01,Aérea,Bolivia,2551
+2019-02-01,Aérea,Brasil,-104218
+2019-02-01,Aérea,Chile,10229
+2019-02-01,Aérea,Paraguay,1918
+2019-02-01,Aérea,Uruguay,-12555
+2019-02-01,Aérea,EE.UU. y Canadá,-30489
+2019-02-01,Aérea,Resto de América,-53728
+2019-02-01,Aérea,Europa,10535
+2019-02-01,Aérea,Resto del mundo,288
+2019-02-01,Fluvial/Marítima,Bolivia,728
+2019-02-01,Fluvial/Marítima,Brasil,14135
+2019-02-01,Fluvial/Marítima,Chile,2803
+2019-02-01,Fluvial/Marítima,Paraguay,-3861
+2019-02-01,Fluvial/Marítima,Uruguay,-60504
+2019-02-01,Fluvial/Marítima,EE.UU. y Canadá,26489
+2019-02-01,Fluvial/Marítima,Resto de América,3140
+2019-02-01,Fluvial/Marítima,Europa,24134
+2019-02-01,Fluvial/Marítima,Resto del mundo,9272
+2019-02-01,Terrestre,Bolivia,411
+2019-02-01,Terrestre,Brasil,-208405
+2019-02-01,Terrestre,Chile,-9860
+2019-02-01,Terrestre,Paraguay,-53801
+2019-02-01,Terrestre,Uruguay,-108473
+2019-02-01,Terrestre,EE.UU. y Canadá,7867
+2019-02-01,Terrestre,Resto de América,9752
+2019-02-01,Terrestre,Europa,36651
+2019-02-01,Terrestre,Resto del mundo,15507
+2019-03-01,Aérea,Bolivia,2028
+2019-03-01,Aérea,Brasil,-52738
+2019-03-01,Aérea,Chile,1473
+2019-03-01,Aérea,Paraguay,1212
+2019-03-01,Aérea,Uruguay,-3344
+2019-03-01,Aérea,EE.UU. y Canadá,-29568
+2019-03-01,Aérea,Resto de América,-58582
+2019-03-01,Aérea,Europa,19386
+2019-03-01,Aérea,Resto del mundo,375
+2019-03-01,Fluvial/Marítima,Bolivia,492
+2019-03-01,Fluvial/Marítima,Brasil,14378
+2019-03-01,Fluvial/Marítima,Chile,844
+2019-03-01,Fluvial/Marítima,Paraguay,-2569
+2019-03-01,Fluvial/Marítima,Uruguay,-39459
+2019-03-01,Fluvial/Marítima,EE.UU. y Canadá,17482
+2019-03-01,Fluvial/Marítima,Resto de América,5003
+2019-03-01,Fluvial/Marítima,Europa,16616
+2019-03-01,Fluvial/Marítima,Resto del mundo,5026
+2019-03-01,Terrestre,Bolivia,-10364
+2019-03-01,Terrestre,Brasil,-94637
+2019-03-01,Terrestre,Chile,-51733
+2019-03-01,Terrestre,Paraguay,-33161
+2019-03-01,Terrestre,Uruguay,-61334
+2019-03-01,Terrestre,EE.UU. y Canadá,7814
+2019-03-01,Terrestre,Resto de América,11731
+2019-03-01,Terrestre,Europa,33168
+2019-03-01,Terrestre,Resto del mundo,11743
+2019-04-01,Aérea,Bolivia,3170
+2019-04-01,Aérea,Brasil,-23378
+2019-04-01,Aérea,Chile,3028
+2019-04-01,Aérea,Paraguay,3301
+2019-04-01,Aérea,Uruguay,4734
+2019-04-01,Aérea,EE.UU. y Canadá,-34743
+2019-04-01,Aérea,Resto de América,-33830
+2019-04-01,Aérea,Europa,5572
+2019-04-01,Aérea,Resto del mundo,-1305
+2019-04-01,Fluvial/Marítima,Bolivia,1740
+2019-04-01,Fluvial/Marítima,Brasil,1310
+2019-04-01,Fluvial/Marítima,Chile,712
+2019-04-01,Fluvial/Marítima,Paraguay,-1168
+2019-04-01,Fluvial/Marítima,Uruguay,-2785
+2019-04-01,Fluvial/Marítima,EE.UU. y Canadá,3133
+2019-04-01,Fluvial/Marítima,Resto de América,5238
+2019-04-01,Fluvial/Marítima,Europa,7391
+2019-04-01,Fluvial/Marítima,Resto del mundo,2181
+2019-04-01,Terrestre,Bolivia,4119
+2019-04-01,Terrestre,Brasil,-44574
+2019-04-01,Terrestre,Chile,-24492
+2019-04-01,Terrestre,Paraguay,-40860
+2019-04-01,Terrestre,Uruguay,-11390
+2019-04-01,Terrestre,EE.UU. y Canadá,4282
+2019-04-01,Terrestre,Resto de América,11934
+2019-04-01,Terrestre,Europa,24426
+2019-04-01,Terrestre,Resto del mundo,7234
+2019-05-01,Aérea,Bolivia,3026
+2019-05-01,Aérea,Brasil,7543
+2019-05-01,Aérea,Chile,11451
+2019-05-01,Aérea,Paraguay,2186
+2019-05-01,Aérea,Uruguay,1958
+2019-05-01,Aérea,EE.UU. y Canadá,-53403
+2019-05-01,Aérea,Resto de América,-44778
+2019-05-01,Aérea,Europa,-25179
+2019-05-01,Aérea,Resto del mundo,-1737
+2019-05-01,Fluvial/Marítima,Bolivia,3340
+2019-05-01,Fluvial/Marítima,Brasil,3550
+2019-05-01,Fluvial/Marítima,Chile,649
+2019-05-01,Fluvial/Marítima,Paraguay,-1409
+2019-05-01,Fluvial/Marítima,Uruguay,1101
+2019-05-01,Fluvial/Marítima,EE.UU. y Canadá,2129
+2019-05-01,Fluvial/Marítima,Resto de América,3686
+2019-05-01,Fluvial/Marítima,Europa,3724
+2019-05-01,Fluvial/Marítima,Resto del mundo,1449
+2019-05-01,Terrestre,Bolivia,485
+2019-05-01,Terrestre,Brasil,-22131
+2019-05-01,Terrestre,Chile,-6246
+2019-05-01,Terrestre,Paraguay,-34584
+2019-05-01,Terrestre,Uruguay,-11468
+2019-05-01,Terrestre,EE.UU. y Canadá,2462
+2019-05-01,Terrestre,Resto de América,9476
+2019-05-01,Terrestre,Europa,12951
+2019-05-01,Terrestre,Resto del mundo,4388
+2019-06-01,Aérea,Bolivia,2540
+2019-06-01,Aérea,Brasil,26483
+2019-06-01,Aérea,Chile,8548
+2019-06-01,Aérea,Paraguay,1728
+2019-06-01,Aérea,Uruguay,2760
+2019-06-01,Aérea,EE.UU. y Canadá,-55539
+2019-06-01,Aérea,Resto de América,-39138
+2019-06-01,Aérea,Europa,-50688
+2019-06-01,Aérea,Resto del mundo,-4278
+2019-06-01,Fluvial/Marítima,Bolivia,2561
+2019-06-01,Fluvial/Marítima,Brasil,3549
+2019-06-01,Fluvial/Marítima,Chile,397
+2019-06-01,Fluvial/Marítima,Paraguay,-1403
+2019-06-01,Fluvial/Marítima,Uruguay,-962
+2019-06-01,Fluvial/Marítima,EE.UU. y Canadá,1957
+2019-06-01,Fluvial/Marítima,Resto de América,3256
+2019-06-01,Fluvial/Marítima,Europa,2594
+2019-06-01,Fluvial/Marítima,Resto del mundo,1056
+2019-06-01,Terrestre,Bolivia,-5211
+2019-06-01,Terrestre,Brasil,-25754
+2019-06-01,Terrestre,Chile,-9112
+2019-06-01,Terrestre,Paraguay,-42338
+2019-06-01,Terrestre,Uruguay,-9895
+2019-06-01,Terrestre,EE.UU. y Canadá,2357
+2019-06-01,Terrestre,Resto de América,9099
+2019-06-01,Terrestre,Europa,7959
+2019-06-01,Terrestre,Resto del mundo,2695
+2019-07-01,Aérea,Bolivia,3219
+2019-07-01,Aérea,Brasil,51638
+2019-07-01,Aérea,Chile,9750
+2019-07-01,Aérea,Paraguay,3711
+2019-07-01,Aérea,Uruguay,3213
+2019-07-01,Aérea,EE.UU. y Canadá,-34371
+2019-07-01,Aérea,Resto de América,-36839
+2019-07-01,Aérea,Europa,-48471
+2019-07-01,Aérea,Resto del mundo,-2029
+2019-07-01,Fluvial/Marítima,Bolivia,2836
+2019-07-01,Fluvial/Marítima,Brasil,7811
+2019-07-01,Fluvial/Marítima,Chile,797
+2019-07-01,Fluvial/Marítima,Paraguay,-2429
+2019-07-01,Fluvial/Marítima,Uruguay,3591
+2019-07-01,Fluvial/Marítima,EE.UU. y Canadá,2555
+2019-07-01,Fluvial/Marítima,Resto de América,4251
+2019-07-01,Fluvial/Marítima,Europa,3933
+2019-07-01,Fluvial/Marítima,Resto del mundo,1252
+2019-07-01,Terrestre,Bolivia,-1588
+2019-07-01,Terrestre,Brasil,-67441
+2019-07-01,Terrestre,Chile,-20267
+2019-07-01,Terrestre,Paraguay,-44871
+2019-07-01,Terrestre,Uruguay,-1445
+2019-07-01,Terrestre,EE.UU. y Canadá,2863
+2019-07-01,Terrestre,Resto de América,9800
+2019-07-01,Terrestre,Europa,12938
+2019-07-01,Terrestre,Resto del mundo,3107
+2019-08-01,Aérea,Bolivia,787
+2019-08-01,Aérea,Brasil,23912
+2019-08-01,Aérea,Chile,5934
+2019-08-01,Aérea,Paraguay,1115
+2019-08-01,Aérea,Uruguay,1448
+2019-08-01,Aérea,EE.UU. y Canadá,-55746
+2019-08-01,Aérea,Resto de América,-37284
+2019-08-01,Aérea,Europa,-46849
+2019-08-01,Aérea,Resto del mundo,-86
+2019-08-01,Fluvial/Marítima,Bolivia,849
+2019-08-01,Fluvial/Marítima,Brasil,5648
+2019-08-01,Fluvial/Marítima,Chile,536
+2019-08-01,Fluvial/Marítima,Paraguay,-2030
+2019-08-01,Fluvial/Marítima,Uruguay,-2618
+2019-08-01,Fluvial/Marítima,EE.UU. y Canadá,1395
+2019-08-01,Fluvial/Marítima,Resto de América,3074
+2019-08-01,Fluvial/Marítima,Europa,4035
+2019-08-01,Fluvial/Marítima,Resto del mundo,1147
+2019-08-01,Terrestre,Bolivia,-7642
+2019-08-01,Terrestre,Brasil,-32577
+2019-08-01,Terrestre,Chile,-10669
+2019-08-01,Terrestre,Paraguay,-31508
+2019-08-01,Terrestre,Uruguay,-6071
+2019-08-01,Terrestre,EE.UU. y Canadá,2159
+2019-08-01,Terrestre,Resto de América,9521
+2019-08-01,Terrestre,Europa,16110
+2019-08-01,Terrestre,Resto del mundo,3113
+2019-09-01,Aérea,Bolivia,2357
+2019-09-01,Aérea,Brasil,17761
+2019-09-01,Aérea,Chile,16926
+2019-09-01,Aérea,Paraguay,2382
+2019-09-01,Aérea,Uruguay,3510
+2019-09-01,Aérea,EE.UU. y Canadá,-51206
+2019-09-01,Aérea,Resto de América,-24095
+2019-09-01,Aérea,Europa,-52989
+2019-09-01,Aérea,Resto del mundo,-1199
+2019-09-01,Fluvial/Marítima,Bolivia,2554
+2019-09-01,Fluvial/Marítima,Brasil,6380
+2019-09-01,Fluvial/Marítima,Chile,1132
+2019-09-01,Fluvial/Marítima,Paraguay,-1491
+2019-09-01,Fluvial/Marítima,Uruguay,11692
+2019-09-01,Fluvial/Marítima,EE.UU. y Canadá,1792
+2019-09-01,Fluvial/Marítima,Resto de América,4682
+2019-09-01,Fluvial/Marítima,Europa,3993
+2019-09-01,Fluvial/Marítima,Resto del mundo,1213
+2019-09-01,Terrestre,Bolivia,-1538
+2019-09-01,Terrestre,Brasil,-20222
+2019-09-01,Terrestre,Chile,17227
+2019-09-01,Terrestre,Paraguay,-13740
+2019-09-01,Terrestre,Uruguay,23401
+2019-09-01,Terrestre,EE.UU. y Canadá,2689
+2019-09-01,Terrestre,Resto de América,11002
+2019-09-01,Terrestre,Europa,13695
+2019-09-01,Terrestre,Resto del mundo,3834
+2019-10-01,Aérea,Bolivia,4213
+2019-10-01,Aérea,Brasil,10541
+2019-10-01,Aérea,Chile,12371
+2019-10-01,Aérea,Paraguay,2192
+2019-10-01,Aérea,Uruguay,492
+2019-10-01,Aérea,EE.UU. y Canadá,-47418
+2019-10-01,Aérea,Resto de América,-19873
+2019-10-01,Aérea,Europa,-41820
+2019-10-01,Aérea,Resto del mundo,-7232
+2019-10-01,Fluvial/Marítima,Bolivia,1103
+2019-10-01,Fluvial/Marítima,Brasil,5813
+2019-10-01,Fluvial/Marítima,Chile,720
+2019-10-01,Fluvial/Marítima,Paraguay,-2446
+2019-10-01,Fluvial/Marítima,Uruguay,1554
+2019-10-01,Fluvial/Marítima,EE.UU. y Canadá,2507
+2019-10-01,Fluvial/Marítima,Resto de América,6114
+2019-10-01,Fluvial/Marítima,Europa,6272
+2019-10-01,Fluvial/Marítima,Resto del mundo,1835
+2019-10-01,Terrestre,Bolivia,4467
+2019-10-01,Terrestre,Brasil,-22791
+2019-10-01,Terrestre,Chile,-12109
+2019-10-01,Terrestre,Paraguay,-16477
+2019-10-01,Terrestre,Uruguay,439
+2019-10-01,Terrestre,EE.UU. y Canadá,4705
+2019-10-01,Terrestre,Resto de América,12179
+2019-10-01,Terrestre,Europa,23317
+2019-10-01,Terrestre,Resto del mundo,6399
+2019-11-01,Aérea,Bolivia,3033
+2019-11-01,Aérea,Brasil,10286
+2019-11-01,Aérea,Chile,19462
+2019-11-01,Aérea,Paraguay,1896
+2019-11-01,Aérea,Uruguay,-677
+2019-11-01,Aérea,EE.UU. y Canadá,-29521
+2019-11-01,Aérea,Resto de América,-17986
+2019-11-01,Aérea,Europa,11958
+2019-11-01,Aérea,Resto del mundo,-2059
+2019-11-01,Fluvial/Marítima,Bolivia,1699
+2019-11-01,Fluvial/Marítima,Brasil,5541
+2019-11-01,Fluvial/Marítima,Chile,760
+2019-11-01,Fluvial/Marítima,Paraguay,-1941
+2019-11-01,Fluvial/Marítima,Uruguay,-8659
+2019-11-01,Fluvial/Marítima,EE.UU. y Canadá,5724
+2019-11-01,Fluvial/Marítima,Resto de América,5424
+2019-11-01,Fluvial/Marítima,Europa,12628
+2019-11-01,Fluvial/Marítima,Resto del mundo,2477
+2019-11-01,Terrestre,Bolivia,-1113
+2019-11-01,Terrestre,Brasil,-17848
+2019-11-01,Terrestre,Chile,30764
+2019-11-01,Terrestre,Paraguay,-52880
+2019-11-01,Terrestre,Uruguay,-10103
+2019-11-01,Terrestre,EE.UU. y Canadá,8052
+2019-11-01,Terrestre,Resto de América,13528
+2019-11-01,Terrestre,Europa,45183
+2019-11-01,Terrestre,Resto del mundo,7607
+2019-12-01,Aérea,Bolivia,5145
+2019-12-01,Aérea,Brasil,12995
+2019-12-01,Aérea,Chile,11006
+2019-12-01,Aérea,Paraguay,3234
+2019-12-01,Aérea,Uruguay,-3232
+2019-12-01,Aérea,EE.UU. y Canadá,-8238
+2019-12-01,Aérea,Resto de América,370
+2019-12-01,Aérea,Europa,29540
+2019-12-01,Aérea,Resto del mundo,10436
+2019-12-01,Fluvial/Marítima,Bolivia,3793
+2019-12-01,Fluvial/Marítima,Brasil,12133
+2019-12-01,Fluvial/Marítima,Chile,953
+2019-12-01,Fluvial/Marítima,Paraguay,981
+2019-12-01,Fluvial/Marítima,Uruguay,-30385
+2019-12-01,Fluvial/Marítima,EE.UU. y Canadá,18703
+2019-12-01,Fluvial/Marítima,Resto de América,11402
+2019-12-01,Fluvial/Marítima,Europa,15463
+2019-12-01,Fluvial/Marítima,Resto del mundo,5595
+2019-12-01,Terrestre,Bolivia,18261
+2019-12-01,Terrestre,Brasil,-24737
+2019-12-01,Terrestre,Chile,18412
+2019-12-01,Terrestre,Paraguay,41361
+2019-12-01,Terrestre,Uruguay,-19003
+2019-12-01,Terrestre,EE.UU. y Canadá,11135
+2019-12-01,Terrestre,Resto de América,18241
+2019-12-01,Terrestre,Europa,37171
+2019-12-01,Terrestre,Resto del mundo,11181
+2020-01-01,Aérea,Bolivia,5401
+2020-01-01,Aérea,Brasil,-16230
+2020-01-01,Aérea,Chile,5910
+2020-01-01,Aérea,Paraguay,3303
+2020-01-01,Aérea,Uruguay,-11631
+2020-01-01,Aérea,EE.UU. y Canadá,3016
+2020-01-01,Aérea,Resto de América,-25141
+2020-01-01,Aérea,Europa,37608
+2020-01-01,Aérea,Resto del mundo,6736
+2020-01-01,Fluvial/Marítima,Bolivia,2777
+2020-01-01,Fluvial/Marítima,Brasil,34052
+2020-01-01,Fluvial/Marítima,Chile,500
+2020-01-01,Fluvial/Marítima,Paraguay,-5766
+2020-01-01,Fluvial/Marítima,Uruguay,-89160
+2020-01-01,Fluvial/Marítima,EE.UU. y Canadá,23564
+2020-01-01,Fluvial/Marítima,Resto de América,7918
+2020-01-01,Fluvial/Marítima,Europa,23421
+2020-01-01,Fluvial/Marítima,Resto del mundo,6813
+2020-01-01,Terrestre,Bolivia,20459
+2020-01-01,Terrestre,Brasil,-178969
+2020-01-01,Terrestre,Chile,-28228
+2020-01-01,Terrestre,Paraguay,-71206
+2020-01-01,Terrestre,Uruguay,-116374
+2020-01-01,Terrestre,EE.UU. y Canadá,11431
+2020-01-01,Terrestre,Resto de América,20068
+2020-01-01,Terrestre,Europa,41200
+2020-01-01,Terrestre,Resto del mundo,16907
+2020-02-01,Aérea,Bolivia,2521
+2020-02-01,Aérea,Brasil,-66176
+2020-02-01,Aérea,Chile,16245
+2020-02-01,Aérea,Paraguay,1432
+2020-02-01,Aérea,Uruguay,-7686
+2020-02-01,Aérea,EE.UU. y Canadá,-24158
+2020-02-01,Aérea,Resto de América,-43081
+2020-02-01,Aérea,Europa,10404
+2020-02-01,Aérea,Resto del mundo,-765
+2020-02-01,Fluvial/Marítima,Bolivia,57
+2020-02-01,Fluvial/Marítima,Brasil,15062
+2020-02-01,Fluvial/Marítima,Chile,2293
+2020-02-01,Fluvial/Marítima,Paraguay,-3177
+2020-02-01,Fluvial/Marítima,Uruguay,-83687
+2020-02-01,Fluvial/Marítima,EE.UU. y Canadá,29252
+2020-02-01,Fluvial/Marítima,Resto de América,5761
+2020-02-01,Fluvial/Marítima,Europa,27471
+2020-02-01,Fluvial/Marítima,Resto del mundo,7887
+2020-02-01,Terrestre,Bolivia,7651
+2020-02-01,Terrestre,Brasil,-223784
+2020-02-01,Terrestre,Chile,27537
+2020-02-01,Terrestre,Paraguay,-48700
+2020-02-01,Terrestre,Uruguay,-118027
+2020-02-01,Terrestre,EE.UU. y Canadá,10468
+2020-02-01,Terrestre,Resto de América,14388
+2020-02-01,Terrestre,Europa,38812
+2020-02-01,Terrestre,Resto del mundo,16418
+2020-03-01,Aérea,Bolivia,3144
+2020-03-01,Aérea,Brasil,-22305
+2020-03-01,Aérea,Chile,1875
+2020-03-01,Aérea,Paraguay,735
+2020-03-01,Aérea,Uruguay,-171
+2020-03-01,Aérea,EE.UU. y Canadá,-7820
+2020-03-01,Aérea,Resto de América,-5064
+2020-03-01,Aérea,Europa,3516
+2020-03-01,Aérea,Resto del mundo,-1433
+2020-03-01,Fluvial/Marítima,Bolivia,-922
+2020-03-01,Fluvial/Marítima,Brasil,6449
+2020-03-01,Fluvial/Marítima,Chile,665
+2020-03-01,Fluvial/Marítima,Paraguay,831
+2020-03-01,Fluvial/Marítima,Uruguay,-5911
+2020-03-01,Fluvial/Marítima,EE.UU. y Canadá,11542
+2020-03-01,Fluvial/Marítima,Resto de América,3219
+2020-03-01,Fluvial/Marítima,Europa,8837
+2020-03-01,Fluvial/Marítima,Resto del mundo,2107
+2020-03-01,Terrestre,Bolivia,15690
+2020-03-01,Terrestre,Brasil,-44623
+2020-03-01,Terrestre,Chile,5233
+2020-03-01,Terrestre,Paraguay,-192
+2020-03-01,Terrestre,Uruguay,-9647
+2020-03-01,Terrestre,EE.UU. y Canadá,4501
+2020-03-01,Terrestre,Resto de América,8542
+2020-03-01,Terrestre,Europa,16619
+2020-03-01,Terrestre,Resto del mundo,4969
+2020-04-01,Aérea,Bolivia,0
+2020-04-01,Aérea,Brasil,0
+2020-04-01,Aérea,Chile,0
+2020-04-01,Aérea,Paraguay,0
+2020-04-01,Aérea,Uruguay,0
+2020-04-01,Aérea,EE.UU. y Canadá,0
+2020-04-01,Aérea,Resto de América,0
+2020-04-01,Aérea,Europa,0
+2020-04-01,Aérea,Resto del mundo,0
+2020-04-01,Fluvial/Marítima,Bolivia,0
+2020-04-01,Fluvial/Marítima,Brasil,0
+2020-04-01,Fluvial/Marítima,Chile,0
+2020-04-01,Fluvial/Marítima,Paraguay,0
+2020-04-01,Fluvial/Marítima,Uruguay,0
+2020-04-01,Fluvial/Marítima,EE.UU. y Canadá,0
+2020-04-01,Fluvial/Marítima,Resto de América,0
+2020-04-01,Fluvial/Marítima,Europa,0
+2020-04-01,Fluvial/Marítima,Resto del mundo,0
+2020-04-01,Terrestre,Bolivia,0
+2020-04-01,Terrestre,Brasil,0
+2020-04-01,Terrestre,Chile,0
+2020-04-01,Terrestre,Paraguay,0
+2020-04-01,Terrestre,Uruguay,0
+2020-04-01,Terrestre,EE.UU. y Canadá,0
+2020-04-01,Terrestre,Resto de América,0
+2020-04-01,Terrestre,Europa,0
+2020-04-01,Terrestre,Resto del mundo,0
+2020-05-01,Aérea,Bolivia,0
+2020-05-01,Aérea,Brasil,0
+2020-05-01,Aérea,Chile,0
+2020-05-01,Aérea,Paraguay,0
+2020-05-01,Aérea,Uruguay,0
+2020-05-01,Aérea,EE.UU. y Canadá,0
+2020-05-01,Aérea,Resto de América,0
+2020-05-01,Aérea,Europa,0
+2020-05-01,Aérea,Resto del mundo,0
+2020-05-01,Fluvial/Marítima,Bolivia,0
+2020-05-01,Fluvial/Marítima,Brasil,0
+2020-05-01,Fluvial/Marítima,Chile,0
+2020-05-01,Fluvial/Marítima,Paraguay,0
+2020-05-01,Fluvial/Marítima,Uruguay,0
+2020-05-01,Fluvial/Marítima,EE.UU. y Canadá,0
+2020-05-01,Fluvial/Marítima,Resto de América,0
+2020-05-01,Fluvial/Marítima,Europa,0
+2020-05-01,Fluvial/Marítima,Resto del mundo,0
+2020-05-01,Terrestre,Bolivia,0
+2020-05-01,Terrestre,Brasil,0
+2020-05-01,Terrestre,Chile,0
+2020-05-01,Terrestre,Paraguay,0
+2020-05-01,Terrestre,Uruguay,0
+2020-05-01,Terrestre,EE.UU. y Canadá,0
+2020-05-01,Terrestre,Resto de América,0
+2020-05-01,Terrestre,Europa,0
+2020-05-01,Terrestre,Resto del mundo,0
+2020-06-01,Aérea,Bolivia,0
+2020-06-01,Aérea,Brasil,0
+2020-06-01,Aérea,Chile,0
+2020-06-01,Aérea,Paraguay,0
+2020-06-01,Aérea,Uruguay,0
+2020-06-01,Aérea,EE.UU. y Canadá,0
+2020-06-01,Aérea,Resto de América,0
+2020-06-01,Aérea,Europa,0
+2020-06-01,Aérea,Resto del mundo,0
+2020-06-01,Fluvial/Marítima,Bolivia,0
+2020-06-01,Fluvial/Marítima,Brasil,0
+2020-06-01,Fluvial/Marítima,Chile,0
+2020-06-01,Fluvial/Marítima,Paraguay,0
+2020-06-01,Fluvial/Marítima,Uruguay,0
+2020-06-01,Fluvial/Marítima,EE.UU. y Canadá,0
+2020-06-01,Fluvial/Marítima,Resto de América,0
+2020-06-01,Fluvial/Marítima,Europa,0
+2020-06-01,Fluvial/Marítima,Resto del mundo,0
+2020-06-01,Terrestre,Bolivia,0
+2020-06-01,Terrestre,Brasil,0
+2020-06-01,Terrestre,Chile,0
+2020-06-01,Terrestre,Paraguay,0
+2020-06-01,Terrestre,Uruguay,0
+2020-06-01,Terrestre,EE.UU. y Canadá,0
+2020-06-01,Terrestre,Resto de América,0
+2020-06-01,Terrestre,Europa,0
+2020-06-01,Terrestre,Resto del mundo,0
+2020-07-01,Aérea,Bolivia,-178
+2020-07-01,Aérea,Brasil,-130
+2020-07-01,Aérea,Chile,-232
+2020-07-01,Aérea,Paraguay,-217
+2020-07-01,Aérea,Uruguay,-11
+2020-07-01,Aérea,EE.UU. y Canadá,-503
+2020-07-01,Aérea,Resto de América,-581
+2020-07-01,Aérea,Europa,-763
+2020-07-01,Aérea,Resto del mundo,19
+2020-07-01,Fluvial/Marítima,Bolivia,0
+2020-07-01,Fluvial/Marítima,Brasil,6
+2020-07-01,Fluvial/Marítima,Chile,0
+2020-07-01,Fluvial/Marítima,Paraguay,1
+2020-07-01,Fluvial/Marítima,Uruguay,-344
+2020-07-01,Fluvial/Marítima,EE.UU. y Canadá,0
+2020-07-01,Fluvial/Marítima,Resto de América,1
+2020-07-01,Fluvial/Marítima,Europa,1
+2020-07-01,Fluvial/Marítima,Resto del mundo,5
+2020-07-01,Terrestre,Bolivia,-46
+2020-07-01,Terrestre,Brasil,-345
+2020-07-01,Terrestre,Chile,-88
+2020-07-01,Terrestre,Paraguay,-422
+2020-07-01,Terrestre,Uruguay,-354
+2020-07-01,Terrestre,EE.UU. y Canadá,2
+2020-07-01,Terrestre,Resto de América,1
+2020-07-01,Terrestre,Europa,2
+2020-07-01,Terrestre,Resto del mundo,29
+2020-08-01,Aérea,Bolivia,-91
+2020-08-01,Aérea,Brasil,-286
+2020-08-01,Aérea,Chile,-117
+2020-08-01,Aérea,Paraguay,-94
+2020-08-01,Aérea,Uruguay,-56
+2020-08-01,Aérea,EE.UU. y Canadá,-662
+2020-08-01,Aérea,Resto de América,172
+2020-08-01,Aérea,Europa,-839
+2020-08-01,Aérea,Resto del mundo,9
+2020-08-01,Fluvial/Marítima,Bolivia,1
+2020-08-01,Fluvial/Marítima,Brasil,2
+2020-08-01,Fluvial/Marítima,Chile,0
+2020-08-01,Fluvial/Marítima,Paraguay,-7
+2020-08-01,Fluvial/Marítima,Uruguay,-445
+2020-08-01,Fluvial/Marítima,EE.UU. y Canadá,4
+2020-08-01,Fluvial/Marítima,Resto de América,2
+2020-08-01,Fluvial/Marítima,Europa,9
+2020-08-01,Fluvial/Marítima,Resto del mundo,6
+2020-08-01,Terrestre,Bolivia,257
+2020-08-01,Terrestre,Brasil,-181
+2020-08-01,Terrestre,Chile,-158
+2020-08-01,Terrestre,Paraguay,318
+2020-08-01,Terrestre,Uruguay,-438
+2020-08-01,Terrestre,EE.UU. y Canadá,0
+2020-08-01,Terrestre,Resto de América,1
+2020-08-01,Terrestre,Europa,6
+2020-08-01,Terrestre,Resto del mundo,2
+2020-09-01,Aérea,Bolivia,-387
+2020-09-01,Aérea,Brasil,-628
+2020-09-01,Aérea,Chile,-320
+2020-09-01,Aérea,Paraguay,-370
+2020-09-01,Aérea,Uruguay,-45
+2020-09-01,Aérea,EE.UU. y Canadá,-1602
+2020-09-01,Aérea,Resto de América,-352
+2020-09-01,Aérea,Europa,-2727
+2020-09-01,Aérea,Resto del mundo,97
+2020-09-01,Fluvial/Marítima,Bolivia,2
+2020-09-01,Fluvial/Marítima,Brasil,6
+2020-09-01,Fluvial/Marítima,Chile,1
+2020-09-01,Fluvial/Marítima,Paraguay,0
+2020-09-01,Fluvial/Marítima,Uruguay,-616
+2020-09-01,Fluvial/Marítima,EE.UU. y Canadá,3
+2020-09-01,Fluvial/Marítima,Resto de América,5
+2020-09-01,Fluvial/Marítima,Europa,7
+2020-09-01,Fluvial/Marítima,Resto del mundo,25
+2020-09-01,Terrestre,Bolivia,426
+2020-09-01,Terrestre,Brasil,-190
+2020-09-01,Terrestre,Chile,-11
+2020-09-01,Terrestre,Paraguay,525
+2020-09-01,Terrestre,Uruguay,-615
+2020-09-01,Terrestre,EE.UU. y Canadá,5
+2020-09-01,Terrestre,Resto de América,24
+2020-09-01,Terrestre,Europa,8
+2020-09-01,Terrestre,Resto del mundo,6
+2020-10-01,Aérea,Bolivia,-1052
+2020-10-01,Aérea,Brasil,-1021
+2020-10-01,Aérea,Chile,-604
+2020-10-01,Aérea,Paraguay,-285
+2020-10-01,Aérea,Uruguay,-137
+2020-10-01,Aérea,EE.UU. y Canadá,-4297
+2020-10-01,Aérea,Resto de América,-843
+2020-10-01,Aérea,Europa,-3488
+2020-10-01,Aérea,Resto del mundo,121
+2020-10-01,Fluvial/Marítima,Bolivia,0
+2020-10-01,Fluvial/Marítima,Brasil,2
+2020-10-01,Fluvial/Marítima,Chile,0
+2020-10-01,Fluvial/Marítima,Paraguay,0
+2020-10-01,Fluvial/Marítima,Uruguay,-1118
+2020-10-01,Fluvial/Marítima,EE.UU. y Canadá,1
+2020-10-01,Fluvial/Marítima,Resto de América,7
+2020-10-01,Fluvial/Marítima,Europa,4
+2020-10-01,Fluvial/Marítima,Resto del mundo,3
+2020-10-01,Terrestre,Bolivia,272
+2020-10-01,Terrestre,Brasil,-245
+2020-10-01,Terrestre,Chile,-206
+2020-10-01,Terrestre,Paraguay,416
+2020-10-01,Terrestre,Uruguay,-1051
+2020-10-01,Terrestre,EE.UU. y Canadá,2
+2020-10-01,Terrestre,Resto de América,30
+2020-10-01,Terrestre,Europa,7
+2020-10-01,Terrestre,Resto del mundo,1
+2020-11-01,Aérea,Bolivia,-1243
+2020-11-01,Aérea,Brasil,-2463
+2020-11-01,Aérea,Chile,-1736
+2020-11-01,Aérea,Paraguay,-630
+2020-11-01,Aérea,Uruguay,-256
+2020-11-01,Aérea,EE.UU. y Canadá,-8368
+2020-11-01,Aérea,Resto de América,-2185
+2020-11-01,Aérea,Europa,-4518
+2020-11-01,Aérea,Resto del mundo,142
+2020-11-01,Fluvial/Marítima,Bolivia,1
+2020-11-01,Fluvial/Marítima,Brasil,4
+2020-11-01,Fluvial/Marítima,Chile,6
+2020-11-01,Fluvial/Marítima,Paraguay,4
+2020-11-01,Fluvial/Marítima,Uruguay,-1262
+2020-11-01,Fluvial/Marítima,EE.UU. y Canadá,2
+2020-11-01,Fluvial/Marítima,Resto de América,7
+2020-11-01,Fluvial/Marítima,Europa,17
+2020-11-01,Fluvial/Marítima,Resto del mundo,1
+2020-11-01,Terrestre,Bolivia,-90
+2020-11-01,Terrestre,Brasil,-398
+2020-11-01,Terrestre,Chile,-444
+2020-11-01,Terrestre,Paraguay,1020
+2020-11-01,Terrestre,Uruguay,-1485
+2020-11-01,Terrestre,EE.UU. y Canadá,4
+2020-11-01,Terrestre,Resto de América,51
+2020-11-01,Terrestre,Europa,17
+2020-11-01,Terrestre,Resto del mundo,2
+2020-12-01,Aérea,Bolivia,-1621
+2020-12-01,Aérea,Brasil,-2307
+2020-12-01,Aérea,Chile,-4119
+2020-12-01,Aérea,Paraguay,-3908
+2020-12-01,Aérea,Uruguay,-121
+2020-12-01,Aérea,EE.UU. y Canadá,-11674
+2020-12-01,Aérea,Resto de América,-5644
+2020-12-01,Aérea,Europa,-8402
+2020-12-01,Aérea,Resto del mundo,184
+2020-12-01,Fluvial/Marítima,Bolivia,1
+2020-12-01,Fluvial/Marítima,Brasil,5
+2020-12-01,Fluvial/Marítima,Chile,8
+2020-12-01,Fluvial/Marítima,Paraguay,6
+2020-12-01,Fluvial/Marítima,Uruguay,-1923
+2020-12-01,Fluvial/Marítima,EE.UU. y Canadá,6
+2020-12-01,Fluvial/Marítima,Resto de América,6
+2020-12-01,Fluvial/Marítima,Europa,24
+2020-12-01,Fluvial/Marítima,Resto del mundo,2
+2020-12-01,Terrestre,Bolivia,-80
+2020-12-01,Terrestre,Brasil,-578
+2020-12-01,Terrestre,Chile,-2631
+2020-12-01,Terrestre,Paraguay,1054
+2020-12-01,Terrestre,Uruguay,-2380
+2020-12-01,Terrestre,EE.UU. y Canadá,6
+2020-12-01,Terrestre,Resto de América,58
+2020-12-01,Terrestre,Europa,16
+2020-12-01,Terrestre,Resto del mundo,3
+2021-01-01,Aérea,Bolivia,-659
+2021-01-01,Aérea,Brasil,-8941
+2021-01-01,Aérea,Chile,-3765
+2021-01-01,Aérea,Paraguay,-1872
+2021-01-01,Aérea,Uruguay,-114
+2021-01-01,Aérea,EE.UU. y Canadá,-11943
+2021-01-01,Aérea,Resto de América,-13979
+2021-01-01,Aérea,Europa,4211
+2021-01-01,Aérea,Resto del mundo,-1150
+2021-01-01,Fluvial/Marítima,Bolivia,5
+2021-01-01,Fluvial/Marítima,Brasil,1
+2021-01-01,Fluvial/Marítima,Chile,2
+2021-01-01,Fluvial/Marítima,Paraguay,2
+2021-01-01,Fluvial/Marítima,Uruguay,-1436
+2021-01-01,Fluvial/Marítima,EE.UU. y Canadá,2
+2021-01-01,Fluvial/Marítima,Resto de América,5
+2021-01-01,Fluvial/Marítima,Europa,17
+2021-01-01,Fluvial/Marítima,Resto del mundo,0
+2021-01-01,Terrestre,Bolivia,-59
+2021-01-01,Terrestre,Brasil,-835
+2021-01-01,Terrestre,Chile,-443
+2021-01-01,Terrestre,Paraguay,436
+2021-01-01,Terrestre,Uruguay,-1225
+2021-01-01,Terrestre,EE.UU. y Canadá,10
+2021-01-01,Terrestre,Resto de América,23
+2021-01-01,Terrestre,Europa,12
+2021-01-01,Terrestre,Resto del mundo,0
+2021-02-01,Aérea,Bolivia,-2637
+2021-02-01,Aérea,Brasil,-7025
+2021-02-01,Aérea,Chile,-3727
+2021-02-01,Aérea,Paraguay,-2700
+2021-02-01,Aérea,Uruguay,-185
+2021-02-01,Aérea,EE.UU. y Canadá,-12969
+2021-02-01,Aérea,Resto de América,-17568
+2021-02-01,Aérea,Europa,598
+2021-02-01,Aérea,Resto del mundo,-437
+2021-02-01,Fluvial/Marítima,Bolivia,1
+2021-02-01,Fluvial/Marítima,Brasil,3
+2021-02-01,Fluvial/Marítima,Chile,1
+2021-02-01,Fluvial/Marítima,Paraguay,1
+2021-02-01,Fluvial/Marítima,Uruguay,-2728
+2021-02-01,Fluvial/Marítima,EE.UU. y Canadá,4
+2021-02-01,Fluvial/Marítima,Resto de América,10
+2021-02-01,Fluvial/Marítima,Europa,21
+2021-02-01,Fluvial/Marítima,Resto del mundo,2
+2021-02-01,Terrestre,Bolivia,-103
+2021-02-01,Terrestre,Brasil,-757
+2021-02-01,Terrestre,Chile,-634
+2021-02-01,Terrestre,Paraguay,182
+2021-02-01,Terrestre,Uruguay,-660
+2021-02-01,Terrestre,EE.UU. y Canadá,7
+2021-02-01,Terrestre,Resto de América,20
+2021-02-01,Terrestre,Europa,22
+2021-02-01,Terrestre,Resto del mundo,8
+2021-03-01,Aérea,Bolivia,-2372
+2021-03-01,Aérea,Brasil,-5925
+2021-03-01,Aérea,Chile,-2617
+2021-03-01,Aérea,Paraguay,-4328
+2021-03-01,Aérea,Uruguay,-254
+2021-03-01,Aérea,EE.UU. y Canadá,-7970
+2021-03-01,Aérea,Resto de América,-17740
+2021-03-01,Aérea,Europa,1809
+2021-03-01,Aérea,Resto del mundo,-279
+2021-03-01,Fluvial/Marítima,Bolivia,1
+2021-03-01,Fluvial/Marítima,Brasil,-5
+2021-03-01,Fluvial/Marítima,Chile,1
+2021-03-01,Fluvial/Marítima,Paraguay,3
+2021-03-01,Fluvial/Marítima,Uruguay,-4172
+2021-03-01,Fluvial/Marítima,EE.UU. y Canadá,6
+2021-03-01,Fluvial/Marítima,Resto de América,4
+2021-03-01,Fluvial/Marítima,Europa,15
+2021-03-01,Fluvial/Marítima,Resto del mundo,4
+2021-03-01,Terrestre,Bolivia,-150
+2021-03-01,Terrestre,Brasil,-643
+2021-03-01,Terrestre,Chile,-427
+2021-03-01,Terrestre,Paraguay,-128
+2021-03-01,Terrestre,Uruguay,-229
+2021-03-01,Terrestre,EE.UU. y Canadá,2
+2021-03-01,Terrestre,Resto de América,17
+2021-03-01,Terrestre,Europa,9
+2021-03-01,Terrestre,Resto del mundo,2
+2021-04-01,Aérea,Bolivia,-1482
+2021-04-01,Aérea,Brasil,-710
+2021-04-01,Aérea,Chile,-1019
+2021-04-01,Aérea,Paraguay,-1864
+2021-04-01,Aérea,Uruguay,-134
+2021-04-01,Aérea,EE.UU. y Canadá,-9190
+2021-04-01,Aérea,Resto de América,-5569
+2021-04-01,Aérea,Europa,1476
+2021-04-01,Aérea,Resto del mundo,137
+2021-04-01,Fluvial/Marítima,Bolivia,1
+2021-04-01,Fluvial/Marítima,Brasil,-3
+2021-04-01,Fluvial/Marítima,Chile,0
+2021-04-01,Fluvial/Marítima,Paraguay,4
+2021-04-01,Fluvial/Marítima,Uruguay,-2026
+2021-04-01,Fluvial/Marítima,EE.UU. y Canadá,3
+2021-04-01,Fluvial/Marítima,Resto de América,8
+2021-04-01,Fluvial/Marítima,Europa,7
+2021-04-01,Fluvial/Marítima,Resto del mundo,6
+2021-04-01,Terrestre,Bolivia,-156
+2021-04-01,Terrestre,Brasil,88
+2021-04-01,Terrestre,Chile,-118
+2021-04-01,Terrestre,Paraguay,63
+2021-04-01,Terrestre,Uruguay,117
+2021-04-01,Terrestre,EE.UU. y Canadá,1
+2021-04-01,Terrestre,Resto de América,4
+2021-04-01,Terrestre,Europa,9
+2021-04-01,Terrestre,Resto del mundo,1
+2021-05-01,Aérea,Bolivia,-1075
+2021-05-01,Aérea,Brasil,-603
+2021-05-01,Aérea,Chile,-1006
+2021-05-01,Aérea,Paraguay,-1284
+2021-05-01,Aérea,Uruguay,-218
+2021-05-01,Aérea,EE.UU. y Canadá,-13861
+2021-05-01,Aérea,Resto de América,-4946
+2021-05-01,Aérea,Europa,-387
+2021-05-01,Aérea,Resto del mundo,105
+2021-05-01,Fluvial/Marítima,Bolivia,0
+2021-05-01,Fluvial/Marítima,Brasil,3
+2021-05-01,Fluvial/Marítima,Chile,1
+2021-05-01,Fluvial/Marítima,Paraguay,1
+2021-05-01,Fluvial/Marítima,Uruguay,-2456
+2021-05-01,Fluvial/Marítima,EE.UU. y Canadá,5
+2021-05-01,Fluvial/Marítima,Resto de América,4
+2021-05-01,Fluvial/Marítima,Europa,4
+2021-05-01,Fluvial/Marítima,Resto del mundo,3
+2021-05-01,Terrestre,Bolivia,-143
+2021-05-01,Terrestre,Brasil,70
+2021-05-01,Terrestre,Chile,-96
+2021-05-01,Terrestre,Paraguay,96
+2021-05-01,Terrestre,Uruguay,158
+2021-05-01,Terrestre,EE.UU. y Canadá,5
+2021-05-01,Terrestre,Resto de América,3
+2021-05-01,Terrestre,Europa,2
+2021-05-01,Terrestre,Resto del mundo,0
+2021-06-01,Aérea,Bolivia,-1670
+2021-06-01,Aérea,Brasil,-585
+2021-06-01,Aérea,Chile,-927
+2021-06-01,Aérea,Paraguay,-1287
+2021-06-01,Aérea,Uruguay,-359
+2021-06-01,Aérea,EE.UU. y Canadá,-20092
+2021-06-01,Aérea,Resto de América,-5037
+2021-06-01,Aérea,Europa,-2025
+2021-06-01,Aérea,Resto del mundo,90
+2021-06-01,Fluvial/Marítima,Bolivia,0
+2021-06-01,Fluvial/Marítima,Brasil,1
+2021-06-01,Fluvial/Marítima,Chile,0
+2021-06-01,Fluvial/Marítima,Paraguay,2
+2021-06-01,Fluvial/Marítima,Uruguay,-3449
+2021-06-01,Fluvial/Marítima,EE.UU. y Canadá,7
+2021-06-01,Fluvial/Marítima,Resto de América,6
+2021-06-01,Fluvial/Marítima,Europa,8
+2021-06-01,Fluvial/Marítima,Resto del mundo,7
+2021-06-01,Terrestre,Bolivia,-111
+2021-06-01,Terrestre,Brasil,113
+2021-06-01,Terrestre,Chile,-24
+2021-06-01,Terrestre,Paraguay,59
+2021-06-01,Terrestre,Uruguay,190
+2021-06-01,Terrestre,EE.UU. y Canadá,1
+2021-06-01,Terrestre,Resto de América,5
+2021-06-01,Terrestre,Europa,4
+2021-06-01,Terrestre,Resto del mundo,2
+2021-07-01,Aérea,Bolivia,-394
+2021-07-01,Aérea,Brasil,-260
+2021-07-01,Aérea,Chile,-8
+2021-07-01,Aérea,Paraguay,-1273
+2021-07-01,Aérea,Uruguay,-687
+2021-07-01,Aérea,EE.UU. y Canadá,-14085
+2021-07-01,Aérea,Resto de América,-2169
+2021-07-01,Aérea,Europa,-2793
+2021-07-01,Aérea,Resto del mundo,164
+2021-07-01,Fluvial/Marítima,Bolivia,1
+2021-07-01,Fluvial/Marítima,Brasil,2
+2021-07-01,Fluvial/Marítima,Chile,0
+2021-07-01,Fluvial/Marítima,Paraguay,0
+2021-07-01,Fluvial/Marítima,Uruguay,-3345
+2021-07-01,Fluvial/Marítima,EE.UU. y Canadá,3
+2021-07-01,Fluvial/Marítima,Resto de América,7
+2021-07-01,Fluvial/Marítima,Europa,8
+2021-07-01,Fluvial/Marítima,Resto del mundo,9
+2021-07-01,Terrestre,Bolivia,-366
+2021-07-01,Terrestre,Brasil,148
+2021-07-01,Terrestre,Chile,-173
+2021-07-01,Terrestre,Paraguay,71
+2021-07-01,Terrestre,Uruguay,228
+2021-07-01,Terrestre,EE.UU. y Canadá,3
+2021-07-01,Terrestre,Resto de América,13
+2021-07-01,Terrestre,Europa,7
+2021-07-01,Terrestre,Resto del mundo,1
+2021-08-01,Aérea,Bolivia,-897
+2021-08-01,Aérea,Brasil,-801
+2021-08-01,Aérea,Chile,-1025
+2021-08-01,Aérea,Paraguay,-1063
+2021-08-01,Aérea,Uruguay,-1120
+2021-08-01,Aérea,EE.UU. y Canadá,-18604
+2021-08-01,Aérea,Resto de América,-3954
+2021-08-01,Aérea,Europa,-10078
+2021-08-01,Aérea,Resto del mundo,121
+2021-08-01,Fluvial/Marítima,Bolivia,0
+2021-08-01,Fluvial/Marítima,Brasil,0
+2021-08-01,Fluvial/Marítima,Chile,0
+2021-08-01,Fluvial/Marítima,Paraguay,1
+2021-08-01,Fluvial/Marítima,Uruguay,-4067
+2021-08-01,Fluvial/Marítima,EE.UU. y Canadá,2
+2021-08-01,Fluvial/Marítima,Resto de América,3
+2021-08-01,Fluvial/Marítima,Europa,7
+2021-08-01,Fluvial/Marítima,Resto del mundo,6
+2021-08-01,Terrestre,Bolivia,-444
+2021-08-01,Terrestre,Brasil,82
+2021-08-01,Terrestre,Chile,-183
+2021-08-01,Terrestre,Paraguay,57
+2021-08-01,Terrestre,Uruguay,184
+2021-08-01,Terrestre,EE.UU. y Canadá,3
+2021-08-01,Terrestre,Resto de América,14
+2021-08-01,Terrestre,Europa,6
+2021-08-01,Terrestre,Resto del mundo,0
+2021-09-01,Aérea,Bolivia,-1135
+2021-09-01,Aérea,Brasil,-1024
+2021-09-01,Aérea,Chile,-1106
+2021-09-01,Aérea,Paraguay,-934
+2021-09-01,Aérea,Uruguay,-840
+2021-09-01,Aérea,EE.UU. y Canadá,-22472
+2021-09-01,Aérea,Resto de América,-4654
+2021-09-01,Aérea,Europa,-12692
+2021-09-01,Aérea,Resto del mundo,138
+2021-09-01,Fluvial/Marítima,Bolivia,1
+2021-09-01,Fluvial/Marítima,Brasil,2
+2021-09-01,Fluvial/Marítima,Chile,3
+2021-09-01,Fluvial/Marítima,Paraguay,1
+2021-09-01,Fluvial/Marítima,Uruguay,-4112
+2021-09-01,Fluvial/Marítima,EE.UU. y Canadá,3
+2021-09-01,Fluvial/Marítima,Resto de América,10
+2021-09-01,Fluvial/Marítima,Europa,7
+2021-09-01,Fluvial/Marítima,Resto del mundo,9
+2021-09-01,Terrestre,Bolivia,-453
+2021-09-01,Terrestre,Brasil,-77
+2021-09-01,Terrestre,Chile,-451
+2021-09-01,Terrestre,Paraguay,58
+2021-09-01,Terrestre,Uruguay,255
+2021-09-01,Terrestre,EE.UU. y Canadá,0
+2021-09-01,Terrestre,Resto de América,17
+2021-09-01,Terrestre,Europa,5
+2021-09-01,Terrestre,Resto del mundo,0
+2021-10-01,Aérea,Bolivia,-491
+2021-10-01,Aérea,Brasil,-1631
+2021-10-01,Aérea,Chile,-187
+2021-10-01,Aérea,Paraguay,-1351
+2021-10-01,Aérea,Uruguay,-1400
+2021-10-01,Aérea,EE.UU. y Canadá,-31013
+2021-10-01,Aérea,Resto de América,-5573
+2021-10-01,Aérea,Europa,-13810
+2021-10-01,Aérea,Resto del mundo,-650
+2021-10-01,Fluvial/Marítima,Bolivia,9
+2021-10-01,Fluvial/Marítima,Brasil,12
+2021-10-01,Fluvial/Marítima,Chile,5
+2021-10-01,Fluvial/Marítima,Paraguay,3
+2021-10-01,Fluvial/Marítima,Uruguay,-4816
+2021-10-01,Fluvial/Marítima,EE.UU. y Canadá,10
+2021-10-01,Fluvial/Marítima,Resto de América,26
+2021-10-01,Fluvial/Marítima,Europa,33
+2021-10-01,Fluvial/Marítima,Resto del mundo,8
+2021-10-01,Terrestre,Bolivia,-440
+2021-10-01,Terrestre,Brasil,-1759
+2021-10-01,Terrestre,Chile,-393
+2021-10-01,Terrestre,Paraguay,-1942
+2021-10-01,Terrestre,Uruguay,358
+2021-10-01,Terrestre,EE.UU. y Canadá,11
+2021-10-01,Terrestre,Resto de América,91
+2021-10-01,Terrestre,Europa,31
+2021-10-01,Terrestre,Resto del mundo,14
+2021-11-01,Aérea,Bolivia,422
+2021-11-01,Aérea,Brasil,365
+2021-11-01,Aérea,Chile,3305
+2021-11-01,Aérea,Paraguay,-1380
+2021-11-01,Aérea,Uruguay,-1405
+2021-11-01,Aérea,EE.UU. y Canadá,-27046
+2021-11-01,Aérea,Resto de América,-14891
+2021-11-01,Aérea,Europa,-5875
+2021-11-01,Aérea,Resto del mundo,-535
+2021-11-01,Fluvial/Marítima,Bolivia,30
+2021-11-01,Fluvial/Marítima,Brasil,1244
+2021-11-01,Fluvial/Marítima,Chile,45
+2021-11-01,Fluvial/Marítima,Paraguay,32
+2021-11-01,Fluvial/Marítima,Uruguay,-17507
+2021-11-01,Fluvial/Marítima,EE.UU. y Canadá,225
+2021-11-01,Fluvial/Marítima,Resto de América,448
+2021-11-01,Fluvial/Marítima,Europa,663
+2021-11-01,Fluvial/Marítima,Resto del mundo,69
+2021-11-01,Terrestre,Bolivia,-1006
+2021-11-01,Terrestre,Brasil,743
+2021-11-01,Terrestre,Chile,698
+2021-11-01,Terrestre,Paraguay,-10323
+2021-11-01,Terrestre,Uruguay,-4882
+2021-11-01,Terrestre,EE.UU. y Canadá,85
+2021-11-01,Terrestre,Resto de América,325
+2021-11-01,Terrestre,Europa,401
+2021-11-01,Terrestre,Resto del mundo,149
+2021-12-01,Aérea,Bolivia,744
+2021-12-01,Aérea,Brasil,-2460
+2021-12-01,Aérea,Chile,1204
+2021-12-01,Aérea,Paraguay,-1229
+2021-12-01,Aérea,Uruguay,-2481
+2021-12-01,Aérea,EE.UU. y Canadá,-6444
+2021-12-01,Aérea,Resto de América,-16461
+2021-12-01,Aérea,Europa,5029
+2021-12-01,Aérea,Resto del mundo,-296
+2021-12-01,Fluvial/Marítima,Bolivia,115
+2021-12-01,Fluvial/Marítima,Brasil,732
+2021-12-01,Fluvial/Marítima,Chile,203
+2021-12-01,Fluvial/Marítima,Paraguay,25
+2021-12-01,Fluvial/Marítima,Uruguay,-19142
+2021-12-01,Fluvial/Marítima,EE.UU. y Canadá,1776
+2021-12-01,Fluvial/Marítima,Resto de América,745
+2021-12-01,Fluvial/Marítima,Europa,1359
+2021-12-01,Fluvial/Marítima,Resto del mundo,142
+2021-12-01,Terrestre,Bolivia,-1507
+2021-12-01,Terrestre,Brasil,-2294
+2021-12-01,Terrestre,Chile,-2156
+2021-12-01,Terrestre,Paraguay,-11891
+2021-12-01,Terrestre,Uruguay,-7981
+2021-12-01,Terrestre,EE.UU. y Canadá,336
+2021-12-01,Terrestre,Resto de América,828
+2021-12-01,Terrestre,Europa,1149
+2021-12-01,Terrestre,Resto del mundo,584
+2022-01-01,Aérea,Bolivia,133
+2022-01-01,Aérea,Brasil,-12627
+2022-01-01,Aérea,Chile,3228
+2022-01-01,Aérea,Paraguay,-678
+2022-01-01,Aérea,Uruguay,-7598
+2022-01-01,Aérea,EE.UU. y Canadá,3604
+2022-01-01,Aérea,Resto de América,-20974
+2022-01-01,Aérea,Europa,16779
+2022-01-01,Aérea,Resto del mundo,-500
+2022-01-01,Fluvial/Marítima,Bolivia,101
+2022-01-01,Fluvial/Marítima,Brasil,735
+2022-01-01,Fluvial/Marítima,Chile,221
+2022-01-01,Fluvial/Marítima,Paraguay,-377
+2022-01-01,Fluvial/Marítima,Uruguay,-42975
+2022-01-01,Fluvial/Marítima,EE.UU. y Canadá,570
+2022-01-01,Fluvial/Marítima,Resto de América,-416
+2022-01-01,Fluvial/Marítima,Europa,914
+2022-01-01,Fluvial/Marítima,Resto del mundo,148
+2022-01-01,Terrestre,Bolivia,-1472
+2022-01-01,Terrestre,Brasil,-72124
+2022-01-01,Terrestre,Chile,-498
+2022-01-01,Terrestre,Paraguay,-73422
+2022-01-01,Terrestre,Uruguay,-39954
+2022-01-01,Terrestre,EE.UU. y Canadá,768
+2022-01-01,Terrestre,Resto de América,1279
+2022-01-01,Terrestre,Europa,2534
+2022-01-01,Terrestre,Resto del mundo,1130
+2022-02-01,Aérea,Bolivia,-920
+2022-02-01,Aérea,Brasil,-35168
+2022-02-01,Aérea,Chile,4397
+2022-02-01,Aérea,Paraguay,-790
+2022-02-01,Aérea,Uruguay,-5666
+2022-02-01,Aérea,EE.UU. y Canadá,-11464
+2022-02-01,Aérea,Resto de América,-38155
+2022-02-01,Aérea,Europa,12194
+2022-02-01,Aérea,Resto del mundo,-1145
+2022-02-01,Fluvial/Marítima,Bolivia,103
+2022-02-01,Fluvial/Marítima,Brasil,-2206
+2022-02-01,Fluvial/Marítima,Chile,285
+2022-02-01,Fluvial/Marítima,Paraguay,-266
+2022-02-01,Fluvial/Marítima,Uruguay,-40045
+2022-02-01,Fluvial/Marítima,EE.UU. y Canadá,646
+2022-02-01,Fluvial/Marítima,Resto de América,899
+2022-02-01,Fluvial/Marítima,Europa,1562
+2022-02-01,Fluvial/Marítima,Resto del mundo,244
+2022-02-01,Terrestre,Bolivia,-3835
+2022-02-01,Terrestre,Brasil,-124711
+2022-02-01,Terrestre,Chile,-1696
+2022-02-01,Terrestre,Paraguay,-43268
+2022-02-01,Terrestre,Uruguay,-36911
+2022-02-01,Terrestre,EE.UU. y Canadá,1011
+2022-02-01,Terrestre,Resto de América,1384
+2022-02-01,Terrestre,Europa,3796
+2022-02-01,Terrestre,Resto del mundo,2081
+2022-03-01,Aérea,Bolivia,747
+2022-03-01,Aérea,Brasil,-21577
+2022-03-01,Aérea,Chile,858
+2022-03-01,Aérea,Paraguay,-100
+2022-03-01,Aérea,Uruguay,-3240
+2022-03-01,Aérea,EE.UU. y Canadá,-10588
+2022-03-01,Aérea,Resto de América,-30315
+2022-03-01,Aérea,Europa,10670
+2022-03-01,Aérea,Resto del mundo,1070
+2022-03-01,Fluvial/Marítima,Bolivia,89
+2022-03-01,Fluvial/Marítima,Brasil,111
+2022-03-01,Fluvial/Marítima,Chile,154
+2022-03-01,Fluvial/Marítima,Paraguay,-300
+2022-03-01,Fluvial/Marítima,Uruguay,-22246
+2022-03-01,Fluvial/Marítima,EE.UU. y Canadá,1131
+2022-03-01,Fluvial/Marítima,Resto de América,1833
+2022-03-01,Fluvial/Marítima,Europa,2091
+2022-03-01,Fluvial/Marítima,Resto del mundo,240
+2022-03-01,Terrestre,Bolivia,-3582
+2022-03-01,Terrestre,Brasil,-57246
+2022-03-01,Terrestre,Chile,-3556
+2022-03-01,Terrestre,Paraguay,-25512
+2022-03-01,Terrestre,Uruguay,-22101
+2022-03-01,Terrestre,EE.UU. y Canadá,1447
+2022-03-01,Terrestre,Resto de América,2013
+2022-03-01,Terrestre,Europa,6390
+2022-03-01,Terrestre,Resto del mundo,1536
+2022-04-01,Aérea,Bolivia,2258
+2022-04-01,Aérea,Brasil,-8321
+2022-04-01,Aérea,Chile,2598
+2022-04-01,Aérea,Paraguay,487
+2022-04-01,Aérea,Uruguay,-1344
+2022-04-01,Aérea,EE.UU. y Canadá,-8492
+2022-04-01,Aérea,Resto de América,-28311
+2022-04-01,Aérea,Europa,5327
+2022-04-01,Aérea,Resto del mundo,511
+2022-04-01,Fluvial/Marítima,Bolivia,343
+2022-04-01,Fluvial/Marítima,Brasil,2125
+2022-04-01,Fluvial/Marítima,Chile,278
+2022-04-01,Fluvial/Marítima,Paraguay,-1218
+2022-04-01,Fluvial/Marítima,Uruguay,-1585
+2022-04-01,Fluvial/Marítima,EE.UU. y Canadá,848
+2022-04-01,Fluvial/Marítima,Resto de América,2020
+2022-04-01,Fluvial/Marítima,Europa,2337
+2022-04-01,Fluvial/Marítima,Resto del mundo,199
+2022-04-01,Terrestre,Bolivia,-557
+2022-04-01,Terrestre,Brasil,-29558
+2022-04-01,Terrestre,Chile,-2819
+2022-04-01,Terrestre,Paraguay,-28091
+2022-04-01,Terrestre,Uruguay,8599
+2022-04-01,Terrestre,EE.UU. y Canadá,1638
+2022-04-01,Terrestre,Resto de América,3177
+2022-04-01,Terrestre,Europa,6906
+2022-04-01,Terrestre,Resto del mundo,1235
+2022-05-01,Aérea,Bolivia,1539
+2022-05-01,Aérea,Brasil,-1322
+2022-05-01,Aérea,Chile,3654
+2022-05-01,Aérea,Paraguay,392
+2022-05-01,Aérea,Uruguay,-614
+2022-05-01,Aérea,EE.UU. y Canadá,-21746
+2022-05-01,Aérea,Resto de América,-30577
+2022-05-01,Aérea,Europa,-19819
+2022-05-01,Aérea,Resto del mundo,-1399
+2022-05-01,Fluvial/Marítima,Bolivia,466
+2022-05-01,Fluvial/Marítima,Brasil,1290
+2022-05-01,Fluvial/Marítima,Chile,377
+2022-05-01,Fluvial/Marítima,Paraguay,-1753
+2022-05-01,Fluvial/Marítima,Uruguay,5050
+2022-05-01,Fluvial/Marítima,EE.UU. y Canadá,775
+2022-05-01,Fluvial/Marítima,Resto de América,1462
+2022-05-01,Fluvial/Marítima,Europa,1545
+2022-05-01,Fluvial/Marítima,Resto del mundo,208
+2022-05-01,Terrestre,Bolivia,-940
+2022-05-01,Terrestre,Brasil,-7096
+2022-05-01,Terrestre,Chile,-11291
+2022-05-01,Terrestre,Paraguay,-22965
+2022-05-01,Terrestre,Uruguay,5247
+2022-05-01,Terrestre,EE.UU. y Canadá,1560
+2022-05-01,Terrestre,Resto de América,3311
+2022-05-01,Terrestre,Europa,5412
+2022-05-01,Terrestre,Resto del mundo,907
+2022-06-01,Aérea,Bolivia,660
+2022-06-01,Aérea,Brasil,12672
+2022-06-01,Aérea,Chile,941
+2022-06-01,Aérea,Paraguay,-721
+2022-06-01,Aérea,Uruguay,-574
+2022-06-01,Aérea,EE.UU. y Canadá,-22076
+2022-06-01,Aérea,Resto de América,-35518
+2022-06-01,Aérea,Europa,-36751
+2022-06-01,Aérea,Resto del mundo,-2059
+2022-06-01,Fluvial/Marítima,Bolivia,116
+2022-06-01,Fluvial/Marítima,Brasil,3956
+2022-06-01,Fluvial/Marítima,Chile,360
+2022-06-01,Fluvial/Marítima,Paraguay,-1284
+2022-06-01,Fluvial/Marítima,Uruguay,-2747
+2022-06-01,Fluvial/Marítima,EE.UU. y Canadá,940
+2022-06-01,Fluvial/Marítima,Resto de América,1272
+2022-06-01,Fluvial/Marítima,Europa,1142
+2022-06-01,Fluvial/Marítima,Resto del mundo,258
+2022-06-01,Terrestre,Bolivia,-2166
+2022-06-01,Terrestre,Brasil,-3502
+2022-06-01,Terrestre,Chile,-9603
+2022-06-01,Terrestre,Paraguay,-23455
+2022-06-01,Terrestre,Uruguay,-1383
+2022-06-01,Terrestre,EE.UU. y Canadá,1576
+2022-06-01,Terrestre,Resto de América,3195
+2022-06-01,Terrestre,Europa,3252
+2022-06-01,Terrestre,Resto del mundo,620
+2022-07-01,Aérea,Bolivia,1468
+2022-07-01,Aérea,Brasil,19804
+2022-07-01,Aérea,Chile,4989
+2022-07-01,Aérea,Paraguay,426
+2022-07-01,Aérea,Uruguay,1083
+2022-07-01,Aérea,EE.UU. y Canadá,-18455
+2022-07-01,Aérea,Resto de América,-32561
+2022-07-01,Aérea,Europa,-39004
+2022-07-01,Aérea,Resto del mundo,-2229
+2022-07-01,Fluvial/Marítima,Bolivia,684
+2022-07-01,Fluvial/Marítima,Brasil,5960
+2022-07-01,Fluvial/Marítima,Chile,760
+2022-07-01,Fluvial/Marítima,Paraguay,-4341
+2022-07-01,Fluvial/Marítima,Uruguay,11292
+2022-07-01,Fluvial/Marítima,EE.UU. y Canadá,1327
+2022-07-01,Fluvial/Marítima,Resto de América,2622
+2022-07-01,Fluvial/Marítima,Europa,1567
+2022-07-01,Fluvial/Marítima,Resto del mundo,327
+2022-07-01,Terrestre,Bolivia,-5776
+2022-07-01,Terrestre,Brasil,-29870
+2022-07-01,Terrestre,Chile,-6761
+2022-07-01,Terrestre,Paraguay,-33689
+2022-07-01,Terrestre,Uruguay,30009
+2022-07-01,Terrestre,EE.UU. y Canadá,1718
+2022-07-01,Terrestre,Resto de América,3576
+2022-07-01,Terrestre,Europa,4318
+2022-07-01,Terrestre,Resto del mundo,554
+2022-08-01,Aérea,Bolivia,1013
+2022-08-01,Aérea,Brasil,15793
+2022-08-01,Aérea,Chile,6718
+2022-08-01,Aérea,Paraguay,456
+2022-08-01,Aérea,Uruguay,-122
+2022-08-01,Aérea,EE.UU. y Canadá,-22481
+2022-08-01,Aérea,Resto de América,-32320
+2022-08-01,Aérea,Europa,-46237
+2022-08-01,Aérea,Resto del mundo,-1809
+2022-08-01,Fluvial/Marítima,Bolivia,-342
+2022-08-01,Fluvial/Marítima,Brasil,4866
+2022-08-01,Fluvial/Marítima,Chile,514
+2022-08-01,Fluvial/Marítima,Paraguay,-2909
+2022-08-01,Fluvial/Marítima,Uruguay,10050
+2022-08-01,Fluvial/Marítima,EE.UU. y Canadá,1164
+2022-08-01,Fluvial/Marítima,Resto de América,2861
+2022-08-01,Fluvial/Marítima,Europa,1912
+2022-08-01,Fluvial/Marítima,Resto del mundo,301
+2022-08-01,Terrestre,Bolivia,-8943
+2022-08-01,Terrestre,Brasil,-4807
+2022-08-01,Terrestre,Chile,-11881
+2022-08-01,Terrestre,Paraguay,-17313
+2022-08-01,Terrestre,Uruguay,21898
+2022-08-01,Terrestre,EE.UU. y Canadá,1638
+2022-08-01,Terrestre,Resto de América,4336
+2022-08-01,Terrestre,Europa,6340
+2022-08-01,Terrestre,Resto del mundo,674
+2022-09-01,Aérea,Bolivia,2260
+2022-09-01,Aérea,Brasil,5103
+2022-09-01,Aérea,Chile,4437
+2022-09-01,Aérea,Paraguay,-770
+2022-09-01,Aérea,Uruguay,-754
+2022-09-01,Aérea,EE.UU. y Canadá,-23577
+2022-09-01,Aérea,Resto de América,-21556
+2022-09-01,Aérea,Europa,-53990
+2022-09-01,Aérea,Resto del mundo,-3330
+2022-09-01,Fluvial/Marítima,Bolivia,-497
+2022-09-01,Fluvial/Marítima,Brasil,6464
+2022-09-01,Fluvial/Marítima,Chile,760
+2022-09-01,Fluvial/Marítima,Paraguay,-1736
+2022-09-01,Fluvial/Marítima,Uruguay,13223
+2022-09-01,Fluvial/Marítima,EE.UU. y Canadá,1216
+2022-09-01,Fluvial/Marítima,Resto de América,3620
+2022-09-01,Fluvial/Marítima,Europa,2206
+2022-09-01,Fluvial/Marítima,Resto del mundo,380
+2022-09-01,Terrestre,Bolivia,-7506
+2022-09-01,Terrestre,Brasil,-1135
+2022-09-01,Terrestre,Chile,-13962
+2022-09-01,Terrestre,Paraguay,-14110
+2022-09-01,Terrestre,Uruguay,33607
+2022-09-01,Terrestre,EE.UU. y Canadá,1949
+2022-09-01,Terrestre,Resto de América,6249
+2022-09-01,Terrestre,Europa,5380
+2022-09-01,Terrestre,Resto del mundo,1102
+2022-10-01,Aérea,Bolivia,3554
+2022-10-01,Aérea,Brasil,-4834
+2022-10-01,Aérea,Chile,2531
+2022-10-01,Aérea,Paraguay,-181
+2022-10-01,Aérea,Uruguay,-697
+2022-10-01,Aérea,EE.UU. y Canadá,-28011
+2022-10-01,Aérea,Resto de América,-20496
+2022-10-01,Aérea,Europa,-38771
+2022-10-01,Aérea,Resto del mundo,-1081
+2022-10-01,Fluvial/Marítima,Bolivia,785
+2022-10-01,Fluvial/Marítima,Brasil,4011
+2022-10-01,Fluvial/Marítima,Chile,838
+2022-10-01,Fluvial/Marítima,Paraguay,-2465
+2022-10-01,Fluvial/Marítima,Uruguay,-4539
+2022-10-01,Fluvial/Marítima,EE.UU. y Canadá,2034
+2022-10-01,Fluvial/Marítima,Resto de América,5071
+2022-10-01,Fluvial/Marítima,Europa,4230
+2022-10-01,Fluvial/Marítima,Resto del mundo,580
+2022-10-01,Terrestre,Bolivia,-2811
+2022-10-01,Terrestre,Brasil,-15186
+2022-10-01,Terrestre,Chile,-33275
+2022-10-01,Terrestre,Paraguay,-18946
+2022-10-01,Terrestre,Uruguay,12045
+2022-10-01,Terrestre,EE.UU. y Canadá,3883
+2022-10-01,Terrestre,Resto de América,5560
+2022-10-01,Terrestre,Europa,12056
+2022-10-01,Terrestre,Resto del mundo,1968
+2022-11-01,Aérea,Bolivia,5348
+2022-11-01,Aérea,Brasil,4125
+2022-11-01,Aérea,Chile,11877
+2022-11-01,Aérea,Paraguay,505
+2022-11-01,Aérea,Uruguay,-2143
+2022-11-01,Aérea,EE.UU. y Canadá,-5873
+2022-11-01,Aérea,Resto de América,-11590
+2022-11-01,Aérea,Europa,-7412
+2022-11-01,Aérea,Resto del mundo,-1431
+2022-11-01,Fluvial/Marítima,Bolivia,805
+2022-11-01,Fluvial/Marítima,Brasil,4971
+2022-11-01,Fluvial/Marítima,Chile,887
+2022-11-01,Fluvial/Marítima,Paraguay,-2366
+2022-11-01,Fluvial/Marítima,Uruguay,-1041
+2022-11-01,Fluvial/Marítima,EE.UU. y Canadá,4082
+2022-11-01,Fluvial/Marítima,Resto de América,4989
+2022-11-01,Fluvial/Marítima,Europa,8311
+2022-11-01,Fluvial/Marítima,Resto del mundo,1189
+2022-11-01,Terrestre,Bolivia,-3974
+2022-11-01,Terrestre,Brasil,-10515
+2022-11-01,Terrestre,Chile,-14151
+2022-11-01,Terrestre,Paraguay,-12510
+2022-11-01,Terrestre,Uruguay,16756
+2022-11-01,Terrestre,EE.UU. y Canadá,7703
+2022-11-01,Terrestre,Resto de América,6608
+2022-11-01,Terrestre,Europa,24045
+2022-11-01,Terrestre,Resto del mundo,3737
+2022-12-01,Aérea,Bolivia,3372
+2022-12-01,Aérea,Brasil,-2615
+2022-12-01,Aérea,Chile,9533
+2022-12-01,Aérea,Paraguay,-390
+2022-12-01,Aérea,Uruguay,-2239
+2022-12-01,Aérea,EE.UU. y Canadá,15750
+2022-12-01,Aérea,Resto de América,-7429
+2022-12-01,Aérea,Europa,20000
+2022-12-01,Aérea,Resto del mundo,-11703
+2022-12-01,Fluvial/Marítima,Bolivia,1802
+2022-12-01,Fluvial/Marítima,Brasil,5516
+2022-12-01,Fluvial/Marítima,Chile,1276
+2022-12-01,Fluvial/Marítima,Paraguay,-3328
+2022-12-01,Fluvial/Marítima,Uruguay,-30919
+2022-12-01,Fluvial/Marítima,EE.UU. y Canadá,18097
+2022-12-01,Fluvial/Marítima,Resto de América,8862
+2022-12-01,Fluvial/Marítima,Europa,9328
+2022-12-01,Fluvial/Marítima,Resto del mundo,2075
+2022-12-01,Terrestre,Bolivia,-569
+2022-12-01,Terrestre,Brasil,-16268
+2022-12-01,Terrestre,Chile,-19191
+2022-12-01,Terrestre,Paraguay,-10514
+2022-12-01,Terrestre,Uruguay,-5894
+2022-12-01,Terrestre,EE.UU. y Canadá,8636
+2022-12-01,Terrestre,Resto de América,6775
+2022-12-01,Terrestre,Europa,19787
+2022-12-01,Terrestre,Resto del mundo,6417
+2023-01-01,Aérea,Bolivia,4161
+2023-01-01,Aérea,Brasil,-42219
+2023-01-01,Aérea,Chile,4846
+2023-01-01,Aérea,Paraguay,-1240
+2023-01-01,Aérea,Uruguay,-757
+2023-01-01,Aérea,EE.UU. y Canadá,15567
+2023-01-01,Aérea,Resto de América,-25289
+2023-01-01,Aérea,Europa,29130
+2023-01-01,Aérea,Resto del mundo,-293
+2023-01-01,Fluvial/Marítima,Bolivia,2232
+2023-01-01,Fluvial/Marítima,Brasil,16688
+2023-01-01,Fluvial/Marítima,Chile,1624
+2023-01-01,Fluvial/Marítima,Paraguay,-15473
+2023-01-01,Fluvial/Marítima,Uruguay,-92423
+2023-01-01,Fluvial/Marítima,EE.UU. y Canadá,22770
+2023-01-01,Fluvial/Marítima,Resto de América,7101
+2023-01-01,Fluvial/Marítima,Europa,13224
+2023-01-01,Fluvial/Marítima,Resto del mundo,2811
+2023-01-01,Terrestre,Bolivia,-11226
+2023-01-01,Terrestre,Brasil,-252775
+2023-01-01,Terrestre,Chile,-121409
+2023-01-01,Terrestre,Paraguay,-100140
+2023-01-01,Terrestre,Uruguay,-74872
+2023-01-01,Terrestre,EE.UU. y Canadá,11189
+2023-01-01,Terrestre,Resto de América,9226
+2023-01-01,Terrestre,Europa,27091
+2023-01-01,Terrestre,Resto del mundo,10582
+2023-02-01,Aérea,Bolivia,-664
+2023-02-01,Aérea,Brasil,-65881
+2023-02-01,Aérea,Chile,16975
+2023-02-01,Aérea,Paraguay,-114
+2023-02-01,Aérea,Uruguay,-2864
+2023-02-01,Aérea,EE.UU. y Canadá,-11004
+2023-02-01,Aérea,Resto de América,-42086
+2023-02-01,Aérea,Europa,12801
+2023-02-01,Aérea,Resto del mundo,-1052
+2023-02-01,Fluvial/Marítima,Bolivia,-1200
+2023-02-01,Fluvial/Marítima,Brasil,14319
+2023-02-01,Fluvial/Marítima,Chile,3494
+2023-02-01,Fluvial/Marítima,Paraguay,-7257
+2023-02-01,Fluvial/Marítima,Uruguay,-67369
+2023-02-01,Fluvial/Marítima,EE.UU. y Canadá,28258
+2023-02-01,Fluvial/Marítima,Resto de América,2235
+2023-02-01,Fluvial/Marítima,Europa,16669
+2023-02-01,Fluvial/Marítima,Resto del mundo,3113
+2023-02-01,Terrestre,Bolivia,-36086
+2023-02-01,Terrestre,Brasil,-268227
+2023-02-01,Terrestre,Chile,17725
+2023-02-01,Terrestre,Paraguay,-56176
+2023-02-01,Terrestre,Uruguay,-78123
+2023-02-01,Terrestre,EE.UU. y Canadá,10504
+2023-02-01,Terrestre,Resto de América,6389
+2023-02-01,Terrestre,Europa,26433
+2023-02-01,Terrestre,Resto del mundo,9673
+2023-03-01,Aérea,Bolivia,2383
+2023-03-01,Aérea,Brasil,-44612
+2023-03-01,Aérea,Chile,15077
+2023-03-01,Aérea,Paraguay,396
+2023-03-01,Aérea,Uruguay,1309
+2023-03-01,Aérea,EE.UU. y Canadá,-3233
+2023-03-01,Aérea,Resto de América,-24078
+2023-03-01,Aérea,Europa,26767
+2023-03-01,Aérea,Resto del mundo,1540
+2023-03-01,Fluvial/Marítima,Bolivia,-265
+2023-03-01,Fluvial/Marítima,Brasil,4771
+2023-03-01,Fluvial/Marítima,Chile,2354
+2023-03-01,Fluvial/Marítima,Paraguay,-2541
+2023-03-01,Fluvial/Marítima,Uruguay,-32243
+2023-03-01,Fluvial/Marítima,EE.UU. y Canadá,23985
+2023-03-01,Fluvial/Marítima,Resto de América,5862
+2023-03-01,Fluvial/Marítima,Europa,16729
+2023-03-01,Fluvial/Marítima,Resto del mundo,2747
+2023-03-01,Terrestre,Bolivia,-18100
+2023-03-01,Terrestre,Brasil,-108077
+2023-03-01,Terrestre,Chile,-4998
+2023-03-01,Terrestre,Paraguay,-20417
+2023-03-01,Terrestre,Uruguay,-7960
+2023-03-01,Terrestre,EE.UU. y Canadá,10499
+2023-03-01,Terrestre,Resto de América,6747
+2023-03-01,Terrestre,Europa,26713
+2023-03-01,Terrestre,Resto del mundo,6283
+2023-04-01,Aérea,Bolivia,1739
+2023-04-01,Aérea,Brasil,-9365
+2023-04-01,Aérea,Chile,13660
+2023-04-01,Aérea,Paraguay,1972
+2023-04-01,Aérea,Uruguay,2587
+2023-04-01,Aérea,EE.UU. y Canadá,-8915
+2023-04-01,Aérea,Resto de América,-18741
+2023-04-01,Aérea,Europa,1516
+2023-04-01,Aérea,Resto del mundo,1211
+2023-04-01,Fluvial/Marítima,Bolivia,203
+2023-04-01,Fluvial/Marítima,Brasil,5353
+2023-04-01,Fluvial/Marítima,Chile,1458
+2023-04-01,Fluvial/Marítima,Paraguay,-3015
+2023-04-01,Fluvial/Marítima,Uruguay,14756
+2023-04-01,Fluvial/Marítima,EE.UU. y Canadá,4438
+2023-04-01,Fluvial/Marítima,Resto de América,6583
+2023-04-01,Fluvial/Marítima,Europa,6197
+2023-04-01,Fluvial/Marítima,Resto del mundo,1071
+2023-04-01,Terrestre,Bolivia,-5509
+2023-04-01,Terrestre,Brasil,-27692
+2023-04-01,Terrestre,Chile,25610
+2023-04-01,Terrestre,Paraguay,-24048
+2023-04-01,Terrestre,Uruguay,59451
+2023-04-01,Terrestre,EE.UU. y Canadá,5582
+2023-04-01,Terrestre,Resto de América,8830
+2023-04-01,Terrestre,Europa,18841
+2023-04-01,Terrestre,Resto del mundo,4204
+2023-05-01,Aérea,Bolivia,2097
+2023-05-01,Aérea,Brasil,7859
+2023-05-01,Aérea,Chile,16413
+2023-05-01,Aérea,Paraguay,730
+2023-05-01,Aérea,Uruguay,2182
+2023-05-01,Aérea,EE.UU. y Canadá,-27979
+2023-05-01,Aérea,Resto de América,-26121
+2023-05-01,Aérea,Europa,-36692
+2023-05-01,Aérea,Resto del mundo,-2633
+2023-05-01,Fluvial/Marítima,Bolivia,-226
+2023-05-01,Fluvial/Marítima,Brasil,6102
+2023-05-01,Fluvial/Marítima,Chile,1333
+2023-05-01,Fluvial/Marítima,Paraguay,-4417
+2023-05-01,Fluvial/Marítima,Uruguay,15533
+2023-05-01,Fluvial/Marítima,EE.UU. y Canadá,1888
+2023-05-01,Fluvial/Marítima,Resto de América,4745
+2023-05-01,Fluvial/Marítima,Europa,2936
+2023-05-01,Fluvial/Marítima,Resto del mundo,693
+2023-05-01,Terrestre,Bolivia,-6521
+2023-05-01,Terrestre,Brasil,-11032
+2023-05-01,Terrestre,Chile,38551
+2023-05-01,Terrestre,Paraguay,-29156
+2023-05-01,Terrestre,Uruguay,40341
+2023-05-01,Terrestre,EE.UU. y Canadá,3332
+2023-05-01,Terrestre,Resto de América,7477
+2023-05-01,Terrestre,Europa,10537
+2023-05-01,Terrestre,Resto del mundo,2133
+2023-06-01,Aérea,Bolivia,1559
+2023-06-01,Aérea,Brasil,33602
+2023-06-01,Aérea,Chile,19692
+2023-06-01,Aérea,Paraguay,-550
+2023-06-01,Aérea,Uruguay,1564
+2023-06-01,Aérea,EE.UU. y Canadá,-31592
+2023-06-01,Aérea,Resto de América,-17717
+2023-06-01,Aérea,Europa,-54077
+2023-06-01,Aérea,Resto del mundo,705
+2023-06-01,Fluvial/Marítima,Bolivia,-206
+2023-06-01,Fluvial/Marítima,Brasil,8814
+2023-06-01,Fluvial/Marítima,Chile,1569
+2023-06-01,Fluvial/Marítima,Paraguay,-2981
+2023-06-01,Fluvial/Marítima,Uruguay,20206
+2023-06-01,Fluvial/Marítima,EE.UU. y Canadá,2240
+2023-06-01,Fluvial/Marítima,Resto de América,4777
+2023-06-01,Fluvial/Marítima,Europa,1932
+2023-06-01,Fluvial/Marítima,Resto del mundo,642
+2023-06-01,Terrestre,Bolivia,-5395
+2023-06-01,Terrestre,Brasil,1017
+2023-06-01,Terrestre,Chile,5983
+2023-06-01,Terrestre,Paraguay,-14835
+2023-06-01,Terrestre,Uruguay,40252
+2023-06-01,Terrestre,EE.UU. y Canadá,2828
+2023-06-01,Terrestre,Resto de América,5897
+2023-06-01,Terrestre,Europa,4878
+2023-06-01,Terrestre,Resto del mundo,1377
+2023-07-01,Aérea,Bolivia,1603
+2023-07-01,Aérea,Brasil,49931
+2023-07-01,Aérea,Chile,26604
+2023-07-01,Aérea,Paraguay,908
+2023-07-01,Aérea,Uruguay,5453
+2023-07-01,Aérea,EE.UU. y Canadá,-28292
+2023-07-01,Aérea,Resto de América,-17041
+2023-07-01,Aérea,Europa,-49272
+2023-07-01,Aérea,Resto del mundo,539
+2023-07-01,Fluvial/Marítima,Bolivia,352
+2023-07-01,Fluvial/Marítima,Brasil,14446
+2023-07-01,Fluvial/Marítima,Chile,2212
+2023-07-01,Fluvial/Marítima,Paraguay,-8651
+2023-07-01,Fluvial/Marítima,Uruguay,38246
+2023-07-01,Fluvial/Marítima,EE.UU. y Canadá,2303
+2023-07-01,Fluvial/Marítima,Resto de América,5803
+2023-07-01,Fluvial/Marítima,Europa,2806
+2023-07-01,Fluvial/Marítima,Resto del mundo,683
+2023-07-01,Terrestre,Bolivia,-10556
+2023-07-01,Terrestre,Brasil,-9692
+2023-07-01,Terrestre,Chile,19911
+2023-07-01,Terrestre,Paraguay,-32067
+2023-07-01,Terrestre,Uruguay,82041
+2023-07-01,Terrestre,EE.UU. y Canadá,3098
+2023-07-01,Terrestre,Resto de América,7201
+2023-07-01,Terrestre,Europa,7045
+2023-07-01,Terrestre,Resto del mundo,1325
+2023-08-01,Aérea,Bolivia,2177
+2023-08-01,Aérea,Brasil,44339
+2023-08-01,Aérea,Chile,16845
+2023-08-01,Aérea,Paraguay,529
+2023-08-01,Aérea,Uruguay,948
+2023-08-01,Aérea,EE.UU. y Canadá,-20807
+2023-08-01,Aérea,Resto de América,-12451
+2023-08-01,Aérea,Europa,-42283
+2023-08-01,Aérea,Resto del mundo,-543
+2023-08-01,Fluvial/Marítima,Bolivia,-802
+2023-08-01,Fluvial/Marítima,Brasil,9215
+2023-08-01,Fluvial/Marítima,Chile,1427
+2023-08-01,Fluvial/Marítima,Paraguay,-4427
+2023-08-01,Fluvial/Marítima,Uruguay,21525
+2023-08-01,Fluvial/Marítima,EE.UU. y Canadá,1972
+2023-08-01,Fluvial/Marítima,Resto de América,6897
+2023-08-01,Fluvial/Marítima,Europa,2975
+2023-08-01,Fluvial/Marítima,Resto del mundo,604
+2023-08-01,Terrestre,Bolivia,-13423
+2023-08-01,Terrestre,Brasil,1676
+2023-08-01,Terrestre,Chile,3022
+2023-08-01,Terrestre,Paraguay,-17677
+2023-08-01,Terrestre,Uruguay,59060
+2023-08-01,Terrestre,EE.UU. y Canadá,2863
+2023-08-01,Terrestre,Resto de América,7759
+2023-08-01,Terrestre,Europa,9850
+2023-08-01,Terrestre,Resto del mundo,1519
+2023-09-01,Aérea,Bolivia,1196
+2023-09-01,Aérea,Brasil,40231
+2023-09-01,Aérea,Chile,21467
+2023-09-01,Aérea,Paraguay,34
+2023-09-01,Aérea,Uruguay,1872
+2023-09-01,Aérea,EE.UU. y Canadá,-32414
+2023-09-01,Aérea,Resto de América,-4700
+2023-09-01,Aérea,Europa,-53330
+2023-09-01,Aérea,Resto del mundo,-2006
+2023-09-01,Fluvial/Marítima,Bolivia,-264
+2023-09-01,Fluvial/Marítima,Brasil,10779
+2023-09-01,Fluvial/Marítima,Chile,2121
+2023-09-01,Fluvial/Marítima,Paraguay,-2935
+2023-09-01,Fluvial/Marítima,Uruguay,29205
+2023-09-01,Fluvial/Marítima,EE.UU. y Canadá,2047
+2023-09-01,Fluvial/Marítima,Resto de América,7200
+2023-09-01,Fluvial/Marítima,Europa,2830
+2023-09-01,Fluvial/Marítima,Resto del mundo,793
+2023-09-01,Terrestre,Bolivia,-9815
+2023-09-01,Terrestre,Brasil,15067
+2023-09-01,Terrestre,Chile,18266
+2023-09-01,Terrestre,Paraguay,-14033
+2023-09-01,Terrestre,Uruguay,72544
+2023-09-01,Terrestre,EE.UU. y Canadá,3387
+2023-09-01,Terrestre,Resto de América,8094
+2023-09-01,Terrestre,Europa,8248
+2023-09-01,Terrestre,Resto del mundo,2244
+2023-10-01,Aérea,Bolivia,2621
+2023-10-01,Aérea,Brasil,22019
+2023-10-01,Aérea,Chile,21506
+2023-10-01,Aérea,Paraguay,1092
+2023-10-01,Aérea,Uruguay,-310
+2023-10-01,Aérea,EE.UU. y Canadá,-35444
+2023-10-01,Aérea,Resto de América,-1508
+2023-10-01,Aérea,Europa,-46540
+2023-10-01,Aérea,Resto del mundo,-3096
+2023-10-01,Fluvial/Marítima,Bolivia,447
+2023-10-01,Fluvial/Marítima,Brasil,10054
+2023-10-01,Fluvial/Marítima,Chile,1739
+2023-10-01,Fluvial/Marítima,Paraguay,-3512
+2023-10-01,Fluvial/Marítima,Uruguay,17564
+2023-10-01,Fluvial/Marítima,EE.UU. y Canadá,2559
+2023-10-01,Fluvial/Marítima,Resto de América,8825
+2023-10-01,Fluvial/Marítima,Europa,4504
+2023-10-01,Fluvial/Marítima,Resto del mundo,1043
+2023-10-01,Terrestre,Bolivia,-3131
+2023-10-01,Terrestre,Brasil,2282
+2023-10-01,Terrestre,Chile,13288
+2023-10-01,Terrestre,Paraguay,-12721
+2023-10-01,Terrestre,Uruguay,59909
+2023-10-01,Terrestre,EE.UU. y Canadá,5556
+2023-10-01,Terrestre,Resto de América,11132
+2023-10-01,Terrestre,Europa,18022
+2023-10-01,Terrestre,Resto del mundo,3095
+2023-11-01,Aérea,Bolivia,2808
+2023-11-01,Aérea,Brasil,3645
+2023-11-01,Aérea,Chile,28682
+2023-11-01,Aérea,Paraguay,1112
+2023-11-01,Aérea,Uruguay,-469
+2023-11-01,Aérea,EE.UU. y Canadá,3219
+2023-11-01,Aérea,Resto de América,5655
+2023-11-01,Aérea,Europa,-1967
+2023-11-01,Aérea,Resto del mundo,1380
+2023-11-01,Fluvial/Marítima,Bolivia,298
+2023-11-01,Fluvial/Marítima,Brasil,8669
+2023-11-01,Fluvial/Marítima,Chile,1946
+2023-11-01,Fluvial/Marítima,Paraguay,-1232
+2023-11-01,Fluvial/Marítima,Uruguay,19424
+2023-11-01,Fluvial/Marítima,EE.UU. y Canadá,5048
+2023-11-01,Fluvial/Marítima,Resto de América,9267
+2023-11-01,Fluvial/Marítima,Europa,11673
+2023-11-01,Fluvial/Marítima,Resto del mundo,1624
+2023-11-01,Terrestre,Bolivia,-4709
+2023-11-01,Terrestre,Brasil,-7939
+2023-11-01,Terrestre,Chile,10119
+2023-11-01,Terrestre,Paraguay,-8254
+2023-11-01,Terrestre,Uruguay,54661
+2023-11-01,Terrestre,EE.UU. y Canadá,9958
+2023-11-01,Terrestre,Resto de América,9801
+2023-11-01,Terrestre,Europa,35980
+2023-11-01,Terrestre,Resto del mundo,4287
+2023-12-01,Aérea,Bolivia,3440
+2023-12-01,Aérea,Brasil,5517
+2023-12-01,Aérea,Chile,27378
+2023-12-01,Aérea,Paraguay,-295
+2023-12-01,Aérea,Uruguay,-2868
+2023-12-01,Aérea,EE.UU. y Canadá,17868
+2023-12-01,Aérea,Resto de América,-2318
+2023-12-01,Aérea,Europa,36404
+2023-12-01,Aérea,Resto del mundo,8789
+2023-12-01,Fluvial/Marítima,Bolivia,1053
+2023-12-01,Fluvial/Marítima,Brasil,8022
+2023-12-01,Fluvial/Marítima,Chile,2058
+2023-12-01,Fluvial/Marítima,Paraguay,-2412
+2023-12-01,Fluvial/Marítima,Uruguay,-17767
+2023-12-01,Fluvial/Marítima,EE.UU. y Canadá,16333
+2023-12-01,Fluvial/Marítima,Resto de América,9891
+2023-12-01,Fluvial/Marítima,Europa,10488
+2023-12-01,Fluvial/Marítima,Resto del mundo,3163
+2023-12-01,Terrestre,Bolivia,-1403
+2023-12-01,Terrestre,Brasil,-582
+2023-12-01,Terrestre,Chile,21642
+2023-12-01,Terrestre,Paraguay,-7022
+2023-12-01,Terrestre,Uruguay,22948
+2023-12-01,Terrestre,EE.UU. y Canadá,11744
+2023-12-01,Terrestre,Resto de América,10187
+2023-12-01,Terrestre,Europa,28537
+2023-12-01,Terrestre,Resto del mundo,5593
+2024-01-01,Aérea,Bolivia,2133
+2024-01-01,Aérea,Brasil,-24829
+2024-01-01,Aérea,Chile,13710
+2024-01-01,Aérea,Paraguay,-344
+2024-01-01,Aérea,Uruguay,-7304
+2024-01-01,Aérea,EE.UU. y Canadá,19373
+2024-01-01,Aérea,Resto de América,-16302
+2024-01-01,Aérea,Europa,38010
+2024-01-01,Aérea,Resto del mundo,4550
+2024-01-01,Fluvial/Marítima,Bolivia,177
+2024-01-01,Fluvial/Marítima,Brasil,8476
+2024-01-01,Fluvial/Marítima,Chile,2463
+2024-01-01,Fluvial/Marítima,Paraguay,-12005
+2024-01-01,Fluvial/Marítima,Uruguay,-66794
+2024-01-01,Fluvial/Marítima,EE.UU. y Canadá,31221
+2024-01-01,Fluvial/Marítima,Resto de América,11942
+2024-01-01,Fluvial/Marítima,Europa,15538
+2024-01-01,Fluvial/Marítima,Resto del mundo,4931
+2024-01-01,Terrestre,Bolivia,-11506
+2024-01-01,Terrestre,Brasil,-137104
+2024-01-01,Terrestre,Chile,-38637
+2024-01-01,Terrestre,Paraguay,-87071
+2024-01-01,Terrestre,Uruguay,-32160
+2024-01-01,Terrestre,EE.UU. y Canadá,12619
+2024-01-01,Terrestre,Resto de América,12910
+2024-01-01,Terrestre,Europa,33800
+2024-01-01,Terrestre,Resto del mundo,7883
+2024-02-01,Aérea,Bolivia,-694
+2024-02-01,Aérea,Brasil,-65893
+2024-02-01,Aérea,Chile,22454
+2024-02-01,Aérea,Paraguay,68
+2024-02-01,Aérea,Uruguay,-4887
+2024-02-01,Aérea,EE.UU. y Canadá,-15148
+2024-02-01,Aérea,Resto de América,-38600
+2024-02-01,Aérea,Europa,21841
+2024-02-01,Aérea,Resto del mundo,5658
+2024-02-01,Fluvial/Marítima,Bolivia,-2369
+2024-02-01,Fluvial/Marítima,Brasil,-2312
+2024-02-01,Fluvial/Marítima,Chile,5712
+2024-02-01,Fluvial/Marítima,Paraguay,-4736
+2024-02-01,Fluvial/Marítima,Uruguay,-55122
+2024-02-01,Fluvial/Marítima,EE.UU. y Canadá,34249
+2024-02-01,Fluvial/Marítima,Resto de América,8581
+2024-02-01,Fluvial/Marítima,Europa,19020
+2024-02-01,Fluvial/Marítima,Resto del mundo,8158
+2024-02-01,Terrestre,Bolivia,-47721
+2024-02-01,Terrestre,Brasil,-183793
+2024-02-01,Terrestre,Chile,44888
+2024-02-01,Terrestre,Paraguay,-52609
+2024-02-01,Terrestre,Uruguay,-49905
+2024-02-01,Terrestre,EE.UU. y Canadá,11711
+2024-02-01,Terrestre,Resto de América,10021
+2024-02-01,Terrestre,Europa,33071
+2024-02-01,Terrestre,Resto del mundo,8435
+2024-03-01,Aérea,Bolivia,683
+2024-03-01,Aérea,Brasil,-40021
+2024-03-01,Aérea,Chile,12684
+2024-03-01,Aérea,Paraguay,659
+2024-03-01,Aérea,Uruguay,988
+2024-03-01,Aérea,EE.UU. y Canadá,3592
+2024-03-01,Aérea,Resto de América,-24075
+2024-03-01,Aérea,Europa,25128
+2024-03-01,Aérea,Resto del mundo,4646
+2024-03-01,Fluvial/Marítima,Bolivia,-964
+2024-03-01,Fluvial/Marítima,Brasil,94
+2024-03-01,Fluvial/Marítima,Chile,2781
+2024-03-01,Fluvial/Marítima,Paraguay,-1150
+2024-03-01,Fluvial/Marítima,Uruguay,-1662
+2024-03-01,Fluvial/Marítima,EE.UU. y Canadá,29476
+2024-03-01,Fluvial/Marítima,Resto de América,14643
+2024-03-01,Fluvial/Marítima,Europa,19226
+2024-03-01,Fluvial/Marítima,Resto del mundo,8872
+2024-03-01,Terrestre,Bolivia,-17260
+2024-03-01,Terrestre,Brasil,-78345
+2024-03-01,Terrestre,Chile,-25690
+2024-03-01,Terrestre,Paraguay,-15508
+2024-03-01,Terrestre,Uruguay,21540
+2024-03-01,Terrestre,EE.UU. y Canadá,13326
+2024-03-01,Terrestre,Resto de América,11688
+2024-03-01,Terrestre,Europa,33132
+2024-03-01,Terrestre,Resto del mundo,7905
+2024-04-01,Aérea,Bolivia,284
+2024-04-01,Aérea,Brasil,-9791
+2024-04-01,Aérea,Chile,2829
+2024-04-01,Aérea,Paraguay,-1710
+2024-04-01,Aérea,Uruguay,-523
+2024-04-01,Aérea,EE.UU. y Canadá,-16308
+2024-04-01,Aérea,Resto de América,-12495
+2024-04-01,Aérea,Europa,2281
+2024-04-01,Aérea,Resto del mundo,-1707
+2024-04-01,Fluvial/Marítima,Bolivia,-814
+2024-04-01,Fluvial/Marítima,Brasil,2928
+2024-04-01,Fluvial/Marítima,Chile,1359
+2024-04-01,Fluvial/Marítima,Paraguay,-4106
+2024-04-01,Fluvial/Marítima,Uruguay,-18006
+2024-04-01,Fluvial/Marítima,EE.UU. y Canadá,7682
+2024-04-01,Fluvial/Marítima,Resto de América,9019
+2024-04-01,Fluvial/Marítima,Europa,6200
+2024-04-01,Fluvial/Marítima,Resto del mundo,1760
+2024-04-01,Terrestre,Bolivia,-12480
+2024-04-01,Terrestre,Brasil,-42242
+2024-04-01,Terrestre,Chile,-122155
+2024-04-01,Terrestre,Paraguay,-52365
+2024-04-01,Terrestre,Uruguay,-20831
+2024-04-01,Terrestre,EE.UU. y Canadá,6683
+2024-04-01,Terrestre,Resto de América,9442
+2024-04-01,Terrestre,Europa,18857
+2024-04-01,Terrestre,Resto del mundo,5225
+2024-05-01,Aérea,Bolivia,588
+2024-05-01,Aérea,Brasil,19971
+2024-05-01,Aérea,Chile,5221
+2024-05-01,Aérea,Paraguay,-666
+2024-05-01,Aérea,Uruguay,-3
+2024-05-01,Aérea,EE.UU. y Canadá,-30389
+2024-05-01,Aérea,Resto de América,-23752
+2024-05-01,Aérea,Europa,-31218
+2024-05-01,Aérea,Resto del mundo,-3367
+2024-05-01,Fluvial/Marítima,Bolivia,-536
+2024-05-01,Fluvial/Marítima,Brasil,4447
+2024-05-01,Fluvial/Marítima,Chile,1079
+2024-05-01,Fluvial/Marítima,Paraguay,-2314
+2024-05-01,Fluvial/Marítima,Uruguay,-2412
+2024-05-01,Fluvial/Marítima,EE.UU. y Canadá,2280
+2024-05-01,Fluvial/Marítima,Resto de América,6736
+2024-05-01,Fluvial/Marítima,Europa,2971
+2024-05-01,Fluvial/Marítima,Resto del mundo,1000
+2024-05-01,Terrestre,Bolivia,-9220
+2024-05-01,Terrestre,Brasil,-5281
+2024-05-01,Terrestre,Chile,-68087
+2024-05-01,Terrestre,Paraguay,-30207
+2024-05-01,Terrestre,Uruguay,5435
+2024-05-01,Terrestre,EE.UU. y Canadá,3480
+2024-05-01,Terrestre,Resto de América,7695
+2024-05-01,Terrestre,Europa,10340
+2024-05-01,Terrestre,Resto del mundo,2811
+2024-06-01,Aérea,Bolivia,-82
+2024-06-01,Aérea,Brasil,29825
+2024-06-01,Aérea,Chile,-6283
+2024-06-01,Aérea,Paraguay,-335
+2024-06-01,Aérea,Uruguay,329
+2024-06-01,Aérea,EE.UU. y Canadá,-29447
+2024-06-01,Aérea,Resto de América,-38275
+2024-06-01,Aérea,Europa,-52683
+2024-06-01,Aérea,Resto del mundo,-2113
+2024-06-01,Fluvial/Marítima,Bolivia,-703
+2024-06-01,Fluvial/Marítima,Brasil,5755
+2024-06-01,Fluvial/Marítima,Chile,934
+2024-06-01,Fluvial/Marítima,Paraguay,-2092
+2024-06-01,Fluvial/Marítima,Uruguay,-7181
+2024-06-01,Fluvial/Marítima,EE.UU. y Canadá,1974
+2024-06-01,Fluvial/Marítima,Resto de América,5480
+2024-06-01,Fluvial/Marítima,Europa,1610
+2024-06-01,Fluvial/Marítima,Resto del mundo,549
+2024-06-01,Terrestre,Bolivia,-9105
+2024-06-01,Terrestre,Brasil,-939
+2024-06-01,Terrestre,Chile,-30384
+2024-06-01,Terrestre,Paraguay,-35335
+2024-06-01,Terrestre,Uruguay,3369
+2024-06-01,Terrestre,EE.UU. y Canadá,3308
+2024-06-01,Terrestre,Resto de América,5959
+2024-06-01,Terrestre,Europa,4920
+2024-06-01,Terrestre,Resto del mundo,1399
+2024-07-01,Aérea,Bolivia,304
+2024-07-01,Aérea,Brasil,46556
+2024-07-01,Aérea,Chile,-12139
+2024-07-01,Aérea,Paraguay,1919
+2024-07-01,Aérea,Uruguay,4810
+2024-07-01,Aérea,EE.UU. y Canadá,-48311
+2024-07-01,Aérea,Resto de América,-27314
+2024-07-01,Aérea,Europa,-48952
+2024-07-01,Aérea,Resto del mundo,-814
+2024-07-01,Fluvial/Marítima,Bolivia,-1314
+2024-07-01,Fluvial/Marítima,Brasil,12112
+2024-07-01,Fluvial/Marítima,Chile,1192
+2024-07-01,Fluvial/Marítima,Paraguay,-4922
+2024-07-01,Fluvial/Marítima,Uruguay,9365
+2024-07-01,Fluvial/Marítima,EE.UU. y Canadá,2153
+2024-07-01,Fluvial/Marítima,Resto de América,7619
+2024-07-01,Fluvial/Marítima,Europa,2538
+2024-07-01,Fluvial/Marítima,Resto del mundo,687
+2024-07-01,Terrestre,Bolivia,-17623
+2024-07-01,Terrestre,Brasil,-4512
+2024-07-01,Terrestre,Chile,-56568
+2024-07-01,Terrestre,Paraguay,-56332
+2024-07-01,Terrestre,Uruguay,34237
+2024-07-01,Terrestre,EE.UU. y Canadá,3067
+2024-07-01,Terrestre,Resto de América,8094
+2024-07-01,Terrestre,Europa,7481
+2024-07-01,Terrestre,Resto del mundo,1417
+2024-08-01,Aérea,Bolivia,-1033
+2024-08-01,Aérea,Brasil,48334
+2024-08-01,Aérea,Chile,-4268
+2024-08-01,Aérea,Paraguay,413
+2024-08-01,Aérea,Uruguay,252
+2024-08-01,Aérea,EE.UU. y Canadá,-30799
+2024-08-01,Aérea,Resto de América,-15776
+2024-08-01,Aérea,Europa,-45076
+2024-08-01,Aérea,Resto del mundo,1168
+2024-08-01,Fluvial/Marítima,Bolivia,-1355
+2024-08-01,Fluvial/Marítima,Brasil,8001
+2024-08-01,Fluvial/Marítima,Chile,965
+2024-08-01,Fluvial/Marítima,Paraguay,-1994
+2024-08-01,Fluvial/Marítima,Uruguay,6430
+2024-08-01,Fluvial/Marítima,EE.UU. y Canadá,1603
+2024-08-01,Fluvial/Marítima,Resto de América,8618
+2024-08-01,Fluvial/Marítima,Europa,3155
+2024-08-01,Fluvial/Marítima,Resto del mundo,675
+2024-08-01,Terrestre,Bolivia,-16355
+2024-08-01,Terrestre,Brasil,5058
+2024-08-01,Terrestre,Chile,-39997
+2024-08-01,Terrestre,Paraguay,-29652
+2024-08-01,Terrestre,Uruguay,19998
+2024-08-01,Terrestre,EE.UU. y Canadá,2572
+2024-08-01,Terrestre,Resto de América,8064
+2024-08-01,Terrestre,Europa,11152
+2024-08-01,Terrestre,Resto del mundo,1547
+2024-09-01,Aérea,Bolivia,-985
+2024-09-01,Aérea,Brasil,18210
+2024-09-01,Aérea,Chile,3464
+2024-09-01,Aérea,Paraguay,227
+2024-09-01,Aérea,Uruguay,1554
+2024-09-01,Aérea,EE.UU. y Canadá,-36365
+2024-09-01,Aérea,Resto de América,-19216
+2024-09-01,Aérea,Europa,-64471
+2024-09-01,Aérea,Resto del mundo,-2020
+2024-09-01,Fluvial/Marítima,Bolivia,-1475
+2024-09-01,Fluvial/Marítima,Brasil,8165
+2024-09-01,Fluvial/Marítima,Chile,1787
+2024-09-01,Fluvial/Marítima,Paraguay,-2232
+2024-09-01,Fluvial/Marítima,Uruguay,12248
+2024-09-01,Fluvial/Marítima,EE.UU. y Canadá,1771
+2024-09-01,Fluvial/Marítima,Resto de América,8242
+2024-09-01,Fluvial/Marítima,Europa,3007
+2024-09-01,Fluvial/Marítima,Resto del mundo,837
+2024-09-01,Terrestre,Bolivia,-13960
+2024-09-01,Terrestre,Brasil,345
+2024-09-01,Terrestre,Chile,-46332
+2024-09-01,Terrestre,Paraguay,-30595
+2024-09-01,Terrestre,Uruguay,40773
+2024-09-01,Terrestre,EE.UU. y Canadá,2797
+2024-09-01,Terrestre,Resto de América,8339
+2024-09-01,Terrestre,Europa,8554
+2024-09-01,Terrestre,Resto del mundo,2268
+2024-10-01,Aérea,Bolivia,-20
+2024-10-01,Aérea,Brasil,-12517
+2024-10-01,Aérea,Chile,-9034
+2024-10-01,Aérea,Paraguay,-563
+2024-10-01,Aérea,Uruguay,236
+2024-10-01,Aérea,EE.UU. y Canadá,-31647
+2024-10-01,Aérea,Resto de América,-15678
+2024-10-01,Aérea,Europa,-53655
+2024-10-01,Aérea,Resto del mundo,-1419
+2024-10-01,Fluvial/Marítima,Bolivia,-474
+2024-10-01,Fluvial/Marítima,Brasil,4863
+2024-10-01,Fluvial/Marítima,Chile,1112
+2024-10-01,Fluvial/Marítima,Paraguay,-2386
+2024-10-01,Fluvial/Marítima,Uruguay,-10273
+2024-10-01,Fluvial/Marítima,EE.UU. y Canadá,2991
+2024-10-01,Fluvial/Marítima,Resto de América,9711
+2024-10-01,Fluvial/Marítima,Europa,4420
+2024-10-01,Fluvial/Marítima,Resto del mundo,1348
+2024-10-01,Terrestre,Bolivia,-6755
+2024-10-01,Terrestre,Brasil,-12391
+2024-10-01,Terrestre,Chile,-91167
+2024-10-01,Terrestre,Paraguay,-33597
+2024-10-01,Terrestre,Uruguay,8605
+2024-10-01,Terrestre,EE.UU. y Canadá,5983
+2024-10-01,Terrestre,Resto de América,10650
+2024-10-01,Terrestre,Europa,17094
+2024-10-01,Terrestre,Resto del mundo,4461
+2024-11-01,Aérea,Bolivia,733
+2024-11-01,Aérea,Brasil,-10281
+2024-11-01,Aérea,Chile,2129
+2024-11-01,Aérea,Paraguay,-1843
+2024-11-01,Aérea,Uruguay,-1198
+2024-11-01,Aérea,EE.UU. y Canadá,-9773
+2024-11-01,Aérea,Resto de América,-24061
+2024-11-01,Aérea,Europa,-239
+2024-11-01,Aérea,Resto del mundo,3055
+2024-11-01,Fluvial/Marítima,Bolivia,-912
+2024-11-01,Fluvial/Marítima,Brasil,5531
+2024-11-01,Fluvial/Marítima,Chile,1102
+2024-11-01,Fluvial/Marítima,Paraguay,-2684
+2024-11-01,Fluvial/Marítima,Uruguay,-14897
+2024-11-01,Fluvial/Marítima,EE.UU. y Canadá,6207
+2024-11-01,Fluvial/Marítima,Resto de América,8589
+2024-11-01,Fluvial/Marítima,Europa,12478
+2024-11-01,Fluvial/Marítima,Resto del mundo,2083
+2024-11-01,Terrestre,Bolivia,-8638
+2024-11-01,Terrestre,Brasil,-13290
+2024-11-01,Terrestre,Chile,-85435
+2024-11-01,Terrestre,Paraguay,-49353
+2024-11-01,Terrestre,Uruguay,699
+2024-11-01,Terrestre,EE.UU. y Canadá,10636
+2024-11-01,Terrestre,Resto de América,11832
+2024-11-01,Terrestre,Europa,36266
+2024-11-01,Terrestre,Resto del mundo,6209
+2024-12-01,Aérea,Bolivia,1329
+2024-12-01,Aérea,Brasil,-687
+2024-12-01,Aérea,Chile,6406
+2024-12-01,Aérea,Paraguay,-333
+2024-12-01,Aérea,Uruguay,-620
+2024-12-01,Aérea,EE.UU. y Canadá,5640
+2024-12-01,Aérea,Resto de América,-20757
+2024-12-01,Aérea,Europa,31380
+2024-12-01,Aérea,Resto del mundo,10324
+2024-12-01,Fluvial/Marítima,Bolivia,-2076
+2024-12-01,Fluvial/Marítima,Brasil,-6038
+2024-12-01,Fluvial/Marítima,Chile,1090
+2024-12-01,Fluvial/Marítima,Paraguay,-2759
+2024-12-01,Fluvial/Marítima,Uruguay,-34364
+2024-12-01,Fluvial/Marítima,EE.UU. y Canadá,20178
+2024-12-01,Fluvial/Marítima,Resto de América,11183
+2024-12-01,Fluvial/Marítima,Europa,11056
+2024-12-01,Fluvial/Marítima,Resto del mundo,5536
+2024-12-01,Terrestre,Bolivia,-7419
+2024-12-01,Terrestre,Brasil,-13603
+2024-12-01,Terrestre,Chile,-112704
+2024-12-01,Terrestre,Paraguay,-29431
+2024-12-01,Terrestre,Uruguay,-13570
+2024-12-01,Terrestre,EE.UU. y Canadá,13463
+2024-12-01,Terrestre,Resto de América,11527
+2024-12-01,Terrestre,Europa,30375
+2024-12-01,Terrestre,Resto del mundo,10461
+2025-01-01,Aérea,Bolivia,-1090
+2025-01-01,Aérea,Brasil,-129463
+2025-01-01,Aérea,Chile,-7414
+2025-01-01,Aérea,Paraguay,202
+2025-01-01,Aérea,Uruguay,-10205
+2025-01-01,Aérea,EE.UU. y Canadá,2099
+2025-01-01,Aérea,Resto de América,-58404
+2025-01-01,Aérea,Europa,26503
+2025-01-01,Aérea,Resto del mundo,4582
+2025-01-01,Fluvial/Marítima,Bolivia,-4187
+2025-01-01,Fluvial/Marítima,Brasil,-3264
+2025-01-01,Fluvial/Marítima,Chile,1485
+2025-01-01,Fluvial/Marítima,Paraguay,-15361
+2025-01-01,Fluvial/Marítima,Uruguay,-99054
+2025-01-01,Fluvial/Marítima,EE.UU. y Canadá,21950
+2025-01-01,Fluvial/Marítima,Resto de América,8194
+2025-01-01,Fluvial/Marítima,Europa,18216
+2025-01-01,Fluvial/Marítima,Resto del mundo,7335
+2025-01-01,Terrestre,Bolivia,-31967
+2025-01-01,Terrestre,Brasil,-357679
+2025-01-01,Terrestre,Chile,-334822
+2025-01-01,Terrestre,Paraguay,-166061
+2025-01-01,Terrestre,Uruguay,-150557
+2025-01-01,Terrestre,EE.UU. y Canadá,12811
+2025-01-01,Terrestre,Resto de América,11702
+2025-01-01,Terrestre,Europa,35223
+2025-01-01,Terrestre,Resto del mundo,12558
+2025-02-01,Aérea,Bolivia,-1791
+2025-02-01,Aérea,Brasil,-185498
+2025-02-01,Aérea,Chile,-5454
+2025-02-01,Aérea,Paraguay,-1453
+2025-02-01,Aérea,Uruguay,-6862
+2025-02-01,Aérea,EE.UU. y Canadá,-27459
+2025-02-01,Aérea,Resto de América,-84631
+2025-02-01,Aérea,Europa,-4584
+2025-02-01,Aérea,Resto del mundo,403
+2025-02-01,Fluvial/Marítima,Bolivia,-4968
+2025-02-01,Fluvial/Marítima,Brasil,-15669
+2025-02-01,Fluvial/Marítima,Chile,3113
+2025-02-01,Fluvial/Marítima,Paraguay,-5713
+2025-02-01,Fluvial/Marítima,Uruguay,-90328
+2025-02-01,Fluvial/Marítima,EE.UU. y Canadá,22965
+2025-02-01,Fluvial/Marítima,Resto de América,6398
+2025-02-01,Fluvial/Marítima,Europa,19677
+2025-02-01,Fluvial/Marítima,Resto del mundo,5619
+2025-02-01,Terrestre,Bolivia,-37857
+2025-02-01,Terrestre,Brasil,-443400
+2025-02-01,Terrestre,Chile,-247130
+2025-02-01,Terrestre,Paraguay,-97091
+2025-02-01,Terrestre,Uruguay,-155430
+2025-02-01,Terrestre,EE.UU. y Canadá,10936
+2025-02-01,Terrestre,Resto de América,7388
+2025-02-01,Terrestre,Europa,31957
+2025-02-01,Terrestre,Resto del mundo,11369
+2025-03-01,Aérea,Bolivia,-1540
+2025-03-01,Aérea,Brasil,-141119
+2025-03-01,Aérea,Chile,-11285
+2025-03-01,Aérea,Paraguay,-1761
+2025-03-01,Aérea,Uruguay,-2208
+2025-03-01,Aérea,EE.UU. y Canadá,-19108
+2025-03-01,Aérea,Resto de América,-72557
+2025-03-01,Aérea,Europa,13833
+2025-03-01,Aérea,Resto del mundo,303
+2025-03-01,Fluvial/Marítima,Bolivia,-4972
+2025-03-01,Fluvial/Marítima,Brasil,-13873
+2025-03-01,Fluvial/Marítima,Chile,1237
+2025-03-01,Fluvial/Marítima,Paraguay,-3210
+2025-03-01,Fluvial/Marítima,Uruguay,-56930
+2025-03-01,Fluvial/Marítima,EE.UU. y Canadá,18961
+2025-03-01,Fluvial/Marítima,Resto de América,7357
+2025-03-01,Fluvial/Marítima,Europa,13407
+2025-03-01,Fluvial/Marítima,Resto del mundo,4644
+2025-03-01,Terrestre,Bolivia,-39843
+2025-03-01,Terrestre,Brasil,-200668
+2025-03-01,Terrestre,Chile,-219931
+2025-03-01,Terrestre,Paraguay,-64202
+2025-03-01,Terrestre,Uruguay,-73620
+2025-03-01,Terrestre,EE.UU. y Canadá,11612
+2025-03-01,Terrestre,Resto de América,6493
+2025-03-01,Terrestre,Europa,29009
+2025-03-01,Terrestre,Resto del mundo,9357
+2025-04-01,Aérea,Bolivia,-659
+2025-04-01,Aérea,Brasil,-80184
+2025-04-01,Aérea,Chile,-15982
+2025-04-01,Aérea,Paraguay,-388
+2025-04-01,Aérea,Uruguay,-190
+2025-04-01,Aérea,EE.UU. y Canadá,-25204
+2025-04-01,Aérea,Resto de América,-44749
+2025-04-01,Aérea,Europa,-8064
+2025-04-01,Aérea,Resto del mundo,-1918
+2025-04-01,Fluvial/Marítima,Bolivia,-2238
+2025-04-01,Fluvial/Marítima,Brasil,-721
+2025-04-01,Fluvial/Marítima,Chile,800
+2025-04-01,Fluvial/Marítima,Paraguay,-3804
+2025-04-01,Fluvial/Marítima,Uruguay,-12422
+2025-04-01,Fluvial/Marítima,EE.UU. y Canadá,2597
+2025-04-01,Fluvial/Marítima,Resto de América,6709
+2025-04-01,Fluvial/Marítima,Europa,6384
+2025-04-01,Fluvial/Marítima,Resto del mundo,1995
+2025-04-01,Terrestre,Bolivia,-13258
+2025-04-01,Terrestre,Brasil,-73981
+2025-04-01,Terrestre,Chile,-147475
+2025-04-01,Terrestre,Paraguay,-56440
+2025-04-01,Terrestre,Uruguay,-4316
+2025-04-01,Terrestre,EE.UU. y Canadá,5061
+2025-04-01,Terrestre,Resto de América,7261
+2025-04-01,Terrestre,Europa,19725
+2025-04-01,Terrestre,Resto del mundo,5426
+2025-05-01,Aérea,Bolivia,-842
+2025-05-01,Aérea,Brasil,-40447
+2025-05-01,Aérea,Chile,-15500
+2025-05-01,Aérea,Paraguay,-1505
+2025-05-01,Aérea,Uruguay,-675
+2025-05-01,Aérea,EE.UU. y Canadá,-42132
+2025-05-01,Aérea,Resto de América,-56274
+2025-05-01,Aérea,Europa,-57982
+2025-05-01,Aérea,Resto del mundo,-5160
+2025-05-01,Fluvial/Marítima,Bolivia,-3054
+2025-05-01,Fluvial/Marítima,Brasil,1771
+2025-05-01,Fluvial/Marítima,Chile,727
+2025-05-01,Fluvial/Marítima,Paraguay,-3444
+2025-05-01,Fluvial/Marítima,Uruguay,-17351
+2025-05-01,Fluvial/Marítima,EE.UU. y Canadá,2320
+2025-05-01,Fluvial/Marítima,Resto de América,5763
+2025-05-01,Fluvial/Marítima,Europa,2954
+2025-05-01,Fluvial/Marítima,Resto del mundo,1270
+2025-05-01,Terrestre,Bolivia,-14876
+2025-05-01,Terrestre,Brasil,-32329
+2025-05-01,Terrestre,Chile,-107841
+2025-05-01,Terrestre,Paraguay,-50826
+2025-05-01,Terrestre,Uruguay,-5736
+2025-05-01,Terrestre,EE.UU. y Canadá,2864
+2025-05-01,Terrestre,Resto de América,5784
+2025-05-01,Terrestre,Europa,9009
+2025-05-01,Terrestre,Resto del mundo,2587
+2025-06-01,Aérea,Bolivia,-1560
+2025-06-01,Aérea,Brasil,-13897
+2025-06-01,Aérea,Chile,-13364
+2025-06-01,Aérea,Paraguay,-1264
+2025-06-01,Aérea,Uruguay,649
+2025-06-01,Aérea,EE.UU. y Canadá,-49182
+2025-06-01,Aérea,Resto de América,-57590
+2025-06-01,Aérea,Europa,-66530
+2025-06-01,Aérea,Resto del mundo,-121
+2025-06-01,Fluvial/Marítima,Bolivia,-2919
+2025-06-01,Fluvial/Marítima,Brasil,3228
+2025-06-01,Fluvial/Marítima,Chile,694
+2025-06-01,Fluvial/Marítima,Paraguay,-2404
+2025-06-01,Fluvial/Marítima,Uruguay,-9222
+2025-06-01,Fluvial/Marítima,EE.UU. y Canadá,2323
+2025-06-01,Fluvial/Marítima,Resto de América,4640
+2025-06-01,Fluvial/Marítima,Europa,2030
+2025-06-01,Fluvial/Marítima,Resto del mundo,756
+2025-06-01,Terrestre,Bolivia,-13588
+2025-06-01,Terrestre,Brasil,-19493
+2025-06-01,Terrestre,Chile,-56305
+2025-06-01,Terrestre,Paraguay,-46753
+2025-06-01,Terrestre,Uruguay,16821
+2025-06-01,Terrestre,EE.UU. y Canadá,2284
+2025-06-01,Terrestre,Resto de América,5204
+2025-06-01,Terrestre,Europa,4736
+2025-06-01,Terrestre,Resto del mundo,1173
+2025-07-01,Aérea,Bolivia,-606
+2025-07-01,Aérea,Brasil,1758
+2025-07-01,Aérea,Chile,-20700
+2025-07-01,Aérea,Paraguay,-25
+2025-07-01,Aérea,Uruguay,3802
+2025-07-01,Aérea,EE.UU. y Canadá,-39409
+2025-07-01,Aérea,Resto de América,-60341
+2025-07-01,Aérea,Europa,-69626
+2025-07-01,Aérea,Resto del mundo,-225
+2025-07-01,Fluvial/Marítima,Bolivia,-5672
+2025-07-01,Fluvial/Marítima,Brasil,4401
+2025-07-01,Fluvial/Marítima,Chile,772
+2025-07-01,Fluvial/Marítima,Paraguay,-6556
+2025-07-01,Fluvial/Marítima,Uruguay,-186
+2025-07-01,Fluvial/Marítima,EE.UU. y Canadá,2448
+2025-07-01,Fluvial/Marítima,Resto de América,6101
+2025-07-01,Fluvial/Marítima,Europa,3077
+2025-07-01,Fluvial/Marítima,Resto del mundo,732
+2025-07-01,Terrestre,Bolivia,-29383
+2025-07-01,Terrestre,Brasil,-54883
+2025-07-01,Terrestre,Chile,-91602
+2025-07-01,Terrestre,Paraguay,-77567
+2025-07-01,Terrestre,Uruguay,19280
+2025-07-01,Terrestre,EE.UU. y Canadá,2437
+2025-07-01,Terrestre,Resto de América,6558
+2025-07-01,Terrestre,Europa,8118
+2025-07-01,Terrestre,Resto del mundo,1419

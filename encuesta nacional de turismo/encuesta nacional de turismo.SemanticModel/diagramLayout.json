@@ -1,0 +1,112 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 755.06265345396162,
+            "y": 1.4093331472388932
+          },
+          "nodeIndex": "saldo-turistas-serie",
+          "nodeLineageTag": "74b83b5f-496c-4555-bb2f-01ef41380e08",
+          "size": {
+            "height": 360.5,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "turistas-emisivo",
+          "nodeLineageTag": "c961c452-d688-48f5-af35-c5a2c85e7811",
+          "size": {
+            "height": 347,
+            "width": 297
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 346,
+            "y": 0
+          },
+          "nodeIndex": "turistas-receptivo",
+          "size": {
+            "height": 355.5,
+            "width": 259
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 140,
+            "y": 491.25
+          },
+          "nodeIndex": "DimDate",
+          "nodeLineageTag": "3d6a30be-e108-42a2-9fb8-e5c3dd90047c",
+          "size": {
+            "height": 445,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 581,
+            "y": 515.125
+          },
+          "nodeIndex": "DimRegión",
+          "nodeLineageTag": "0f901823-705d-4fbb-85d5-026d00c6634a",
+          "size": {
+            "height": 345.1613141656062,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1714.8572683863745,
+            "y": 416.73180802448979
+          },
+          "nodeIndex": "DimMedioTransporte",
+          "nodeLineageTag": "93f90012-7221-49ce-9cb7-9f9d580e896d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1205.3639648281512,
+            "y": 554.25030690792312
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "de3cb53f-e517-4ffb-8db3-1c183f06d63d",
+          "size": {
+            "height": 411.39997208583429,
+            "width": 234
+          },
+          "zIndex": 7
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 70.955543900968834,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

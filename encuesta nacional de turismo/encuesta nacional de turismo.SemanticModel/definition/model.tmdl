@@ -1,0 +1,28 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.146.1454.0 (25.08)+901d6c338d1dea81ac3e53073ffb10469f0f37b8
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["turistas-emisivo","turistas-receptivo","saldo-turistas-serie","DimMedioTransporte"]
+
+ref table turistas-emisivo
+ref table turistas-receptivo
+ref table saldo-turistas-serie
+ref table DimDate
+ref table Medidas
+ref table DimRegión
+ref table DimMedioTransporte
+ref table DateTableTemplate_0b68dc85-58dd-4ffb-b157-c24e7e56cc9a
+ref table LocalDateTable_9a391f9c-caec-4725-8087-1d6a5f7c1844
+
+ref cultureInfo en-US
+

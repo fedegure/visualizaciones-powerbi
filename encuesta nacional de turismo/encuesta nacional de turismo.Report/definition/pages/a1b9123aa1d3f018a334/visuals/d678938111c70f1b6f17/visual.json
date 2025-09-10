@@ -1,0 +1,616 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "d678938111c70f1b6f17",
+  "position": {
+    "x": 32.647317502198767,
+    "y": 324.221635883905,
+    "z": 3000,
+    "height": 396.27088830255059,
+    "width": 596.65787159190847
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DimDate"
+                            }
+                          },
+                          "Name": "Variación",
+                          "Property": "Date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Year"
+                }
+              },
+              "queryRef": "DimDate.Date.Variación.Date Hierarchy.Year",
+              "nativeQueryRef": "Date Year",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DimDate"
+                            }
+                          },
+                          "Name": "Variación",
+                          "Property": "Date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Quarter"
+                }
+              },
+              "queryRef": "DimDate.Date.Variación.Date Hierarchy.Quarter",
+              "nativeQueryRef": "Date Quarter",
+              "active": false
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DimDate"
+                            }
+                          },
+                          "Name": "Variación",
+                          "Property": "Date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Month"
+                }
+              },
+              "queryRef": "DimDate.Date.Variación.Date Hierarchy.Month",
+              "nativeQueryRef": "Date Month",
+              "active": false
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DimDate"
+                            }
+                          },
+                          "Name": "Variación",
+                          "Property": "Date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Day"
+                }
+              },
+              "queryRef": "DimDate.Date.Variación.Date Hierarchy.Day",
+              "nativeQueryRef": "Date Day",
+              "active": false
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Egreso de Turistas"
+                }
+              },
+              "queryRef": "Medidas.Egreso de Turistas",
+              "nativeQueryRef": "Egresos",
+              "displayName": "Egresos"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Medidas"
+                    }
+                  },
+                  "Property": "Ingreso de Turistas"
+                }
+              },
+              "queryRef": "Medidas.Ingreso de Turistas",
+              "nativeQueryRef": "Ingresos",
+              "displayName": "Ingresos"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "lineStyles": [
+        {
+          "properties": {
+            "areaShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "strokeShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showMarker": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryAxis": [
+        {
+          "properties": {
+            "start": {
+              "expr": {
+                "Literal": {
+                  "Value": "datetime'2016-12-29T00:00:00'"
+                }
+              }
+            },
+            "gridlineShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "invertAxis": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "end": {
+              "expr": {
+                "Literal": {
+                  "Value": "10000000D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "labelPosition": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Above'"
+                }
+              }
+            },
+            "labelDensity": {
+              "expr": {
+                "Literal": {
+                  "Value": "36L"
+                }
+              }
+            },
+            "minimumOffset": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            },
+            "maximumOffset": {
+              "expr": {
+                "Literal": {
+                  "Value": "55D"
+                }
+              }
+            },
+            "optimizeLabelDisplay": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "labelContainerMaxWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "201D"
+                }
+              }
+            },
+            "labelContentLayout": {
+              "expr": {
+                "Literal": {
+                  "Value": "'SingleLine'"
+                }
+              }
+            },
+            "horizontalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "leaderLines": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "leaderLineTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "seriesLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "referenceLine": [
+        {
+          "properties": {
+            "displayName": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Mediana'"
+                }
+              }
+            },
+            "value": {
+              "expr": {
+                "Aggregation": {
+                  "Expression": {
+                    "SelectRef": {
+                      "ExpressionName": "Medidas.Ingreso de Turistas"
+                    }
+                  },
+                  "Function": 6
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Ingreso de Turistas",
+            "id": "1"
+          }
+        },
+        {
+          "properties": {
+            "displayName": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Pandemia COVID 19'"
+                }
+              }
+            },
+            "value": {
+              "expr": {
+                "Aggregation": {
+                  "Expression": {
+                    "SelectRef": {
+                      "ExpressionName": "Medidas.Ingreso de Turistas"
+                    }
+                  },
+                  "Function": 3
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Ingreso de Turistas",
+            "id": "2"
+          }
+        },
+        {
+          "properties": {
+            "displayName": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Línea de promedio 1'"
+                }
+              }
+            },
+            "value": {
+              "expr": {
+                "Aggregation": {
+                  "Expression": {
+                    "SelectRef": {
+                      "ExpressionName": "Medidas.Ingreso de Turistas"
+                    }
+                  },
+                  "Function": 1
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Ingreso de Turistas",
+            "id": "3"
+          }
+        }
+      ],
+      "error": [
+        {
+          "properties": {
+            "enabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "shadeShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Ingreso de Turistas"
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#177E3F'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "36D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Egreso de Turistas"
+          }
+        },
+        {
+          "properties": {
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "39D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Medidas.Ingreso de Turistas"
+          }
+        }
+      ],
+      "zoom": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showOnValueAxis": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "categoryMin": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "categorySize": {
+              "expr": {
+                "Literal": {
+                  "Value": "97049160748.99292D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Resultado Balanza Turística por Año'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Medido en Ingreso y Egreso de personas'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

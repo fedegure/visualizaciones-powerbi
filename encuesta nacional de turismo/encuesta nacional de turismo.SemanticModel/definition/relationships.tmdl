@@ -1,0 +1,41 @@
+relationship AutoDetected_bf0bc363-71e2-4b1c-8d52-eb81acc33abe
+	fromColumn: turistas-emisivo.medio_de_transporte
+	toColumn: DimMedioTransporte.'Medio de Transporte'
+
+relationship AutoDetected_df760cb0-8b91-4a68-ac2e-594b5a486b2c
+	fromColumn: turistas-receptivo.medio_de_transporte
+	toColumn: DimMedioTransporte.'Medio de Transporte'
+
+relationship AutoDetected_4614bf36-d0ec-4223-bf42-eaf4df7ba630
+	fromColumn: saldo-turistas-serie.medio_de_transporte
+	toColumn: DimMedioTransporte.'Medio de Transporte'
+
+relationship a3709c2e-7478-4e4d-a84b-b6e21eb95911
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DimDate.Date
+	toColumn: LocalDateTable_9a391f9c-caec-4725-8087-1d6a5f7c1844.Date
+
+relationship bad01d93-8057-6685-c053-3e5b91980ac4
+	fromColumn: saldo-turistas-serie.indice_tiempo
+	toColumn: DimDate.Date
+
+relationship 361c48fa-1f9f-5870-b178-a49ba127810b
+	fromColumn: turistas-receptivo.indice_tiempo
+	toColumn: DimDate.Date
+
+relationship 68852de0-294f-8ed4-3e7e-bd01cb0fe39d
+	fromColumn: turistas-emisivo.indice_tiempo
+	toColumn: DimDate.Date
+
+relationship dfe88005-52c8-4d30-2ce7-34634760bb1c
+	fromColumn: turistas-receptivo.País
+	toColumn: DimRegión.País
+
+relationship 9d414274-e05f-fb5d-3a96-e3637efbf35e
+	fromColumn: turistas-emisivo.País
+	toColumn: DimRegión.País
+
+relationship 7d332ae8-9076-5e7d-555d-844b65f0e67b
+	fromColumn: saldo-turistas-serie.País
+	toColumn: DimRegión.País
+

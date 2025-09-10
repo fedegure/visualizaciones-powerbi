@@ -1,0 +1,67 @@
+table saldo-turistas-serie
+	lineageTag: 74b83b5f-496c-4555-bb2f-01ef41380e08
+
+	column indice_tiempo
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: bf67a858-2b3a-4481-9939-fa81306cee86
+		summarizeBy: none
+		sourceColumn: indice_tiempo
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column medio_de_transporte
+		dataType: string
+		isHidden
+		lineageTag: e0ea1afb-ecdd-4d37-a0e6-f508f5a8dedd
+		summarizeBy: none
+		sourceColumn: medio_de_transporte
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column País
+		dataType: string
+		isHidden
+		lineageTag: cc3f597e-9c7b-4e24-b967-e93136ef19ea
+		summarizeBy: none
+		sourceColumn: País
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column balanza
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 86675e14-2c18-4fb1-b3c0-9aae145c9e13
+		summarizeBy: sum
+		sourceColumn: balanza
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition saldo-turistas-serie = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("D:\Users\Fede\Documents\__data analisis\datasets\encuesta nacional de turismo\saldo-turistas-serie.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"indice_tiempo", type date}, {"medio_de_transporte", type text}, {"pais", type text}, {"balanza", Int64.Type}}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"pais", "País"}}),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Columnas con nombre cambiado","EE.UU. y Canadá","Estados Unidos y Canadá",Replacer.ReplaceText,{"País"})
+				in
+				    #"Valor reemplazado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

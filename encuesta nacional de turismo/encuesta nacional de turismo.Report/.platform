@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "encuesta nacional de turismo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d9e7739e-1c80-47b8-8aea-82ca4e7c0101"
+  }
+}

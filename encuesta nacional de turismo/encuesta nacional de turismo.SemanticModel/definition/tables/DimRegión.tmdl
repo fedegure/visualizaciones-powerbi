@@ -1,0 +1,75 @@
+table DimRegión
+	lineageTag: 0f901823-705d-4fbb-85d5-026d00c6634a
+
+	column MacroRegión
+		lineageTag: 539a009c-eb09-4146-9dcc-f233cf548ac4
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [MacroRegión]
+
+		annotation SummarizationSetBy = Automatic
+
+	column País
+		lineageTag: 89f025c5-1ec5-4551-9159-c4d86f53ced0
+		dataCategory: Place
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [País]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Latitud
+		lineageTag: e8ed5669-b409-4ef5-9ca4-0a0c05790b7b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Latitud]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Longitud
+		lineageTag: 3d029021-9fec-48cc-a787-784230cef734
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Longitud]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	hierarchy 'MacroRegión Jerarquía'
+		lineageTag: 8f1f5b69-57e8-4320-966d-49233a297209
+
+		level MacroRegión
+			lineageTag: bd45c166-e977-4238-855f-05c15a428726
+			column: MacroRegión
+
+		level País
+			lineageTag: e22aa933-d55f-4215-85e6-4931f527cd77
+			column: País
+
+	partition DimRegión = calculated
+		mode: import
+		source =
+				
+				DATATABLE (
+				    "País", STRING,
+				    "MacroRegión", STRING,
+				    "Latitud", DOUBLE,
+				    "Longitud", DOUBLE,
+				    {
+				        { "Bolivia", "Latinoamérica", -16.2902, -63.5887 },
+				        { "Brasil", "Latinoamérica", -14.2350, -51.9253 },
+				        { "Chile", "Latinoamérica", -35.6751, -71.5430 },
+				        { "Estados Unidos y Canadá", "Norteamérica", 41.871091, -82.742108 },
+				        { "Paraguay", "Latinoamérica", -23.4425, -58.4438 },
+				        { "Uruguay", "Latinoamérica", -32.5228, -55.7658 },
+				        { "Resto de América", "Latinoamérica", -0.131088, -75.404383 },
+				        { "Resto del Mundo", "Resto del Mundo", 35.707564, 39.067145 },
+				        { "Europa", "Europa", 48.6690, 2.5500 }
+				    }
+				)
+
+	annotation PBI_Id = 0ec23a63ba4940b38da3892f9fa960fc
+
